@@ -1,0 +1,18 @@
+# OS 부산물
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# 편집기
+.vscode/
+.idea/
+*.swp
+*~
+
+# 로컬 실행 부산물
+*.log
+
+# 주의: renderer/vendor/ 는 무시하지 않는다.
+# pdf.js·ts-fsrs 공식 빌드를 의도적으로 벤더링해 두었고(README 참고),
+# 빌드 도구·패키지 매니저가 없는 정적 파일 세트라 저장소에 함께 있어야 동작한다.

@@ -1,0 +1,38 @@
+{
+  "id": "science-middle",
+  "label": "중등 과학",
+
+  "tabLabels": {
+    "guide": "공부법",
+    "read": "교과서 읽기",
+    "study": "학습자료",
+    "cards": "카드 암기",
+    "output": "시험 리허설"
+  },
+  "stageTags": ["0단계", "1단계", "2단계", "3단계", "4단계"],
+
+  "assistLabelDefault": "쉬운 말 풀이",
+
+  "cardCategories": [
+    { "id": "concept", "label": "개념",   "color": "blue" },
+    { "id": "term",    "label": "용어",   "color": "blue" },
+    { "id": "number",  "label": "수치",   "color": "orange" },
+    { "id": "exp",     "label": "실험",   "color": "teal" },
+    { "id": "graph",   "label": "그래프", "color": "teal" },
+    { "id": "trap",    "label": "함정",   "color": "red" }
+  ],
+
+  "moduleCategories": [
+    { "id": "concept", "color": "blue" },
+    { "id": "exp",     "color": "teal" },
+    { "id": "graph",   "color": "orange" },
+    { "id": "trap",    "color": "red" }
+  ],
+
+  "notation": [
+    { "pattern": "(?<![A-Za-z<])(H2O|CO2|O2|N2|NaCl|CO)(?![A-Za-z>])", "render": "chemical-subscript" }
+  ],
+
+  "outputMode": "exam",
+  "readingLevel": "middle-2"
+}

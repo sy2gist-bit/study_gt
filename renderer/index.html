@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>스터디 가이드</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="wrap">
+
+  <div class="hero">
+    <span class="eyebrow" id="hero-eyebrow"></span>
+    <h1 id="hero-title"></h1>
+    <p class="sub" id="hero-sub"></p>
+    <div class="meta-row" id="hero-pills"></div>
+  </div>
+
+  <div class="pitch">
+    <div class="label" id="pitch-label">이 내용을 한 문장으로</div>
+    <p id="pitch-text"></p>
+  </div>
+
+  <!-- 취약 지점 집계 (§7.5) — 카드가 1회 이상 풀린 뒤부터 표시 -->
+  <div class="weak-box" id="weak-box" hidden>
+    <div class="progress-label">가장 약한 항목 3개</div>
+    <div id="weak-list"></div>
+  </div>
+
+  <div class="tabbar" role="tablist" aria-label="학습 모드 선택" id="tabbar"></div>
+
+  <div id="panel-guide" class="app-panel" data-panel="guide">
+    <div class="guide-wrap">
+      <div class="guide-intro">
+        <h2 id="guide-headline"></h2>
+        <p id="guide-intro-text"></p>
+        <div class="guide-progress">
+          <span class="progress-label" id="guide-progress-text">0 / 0 단계 완료</span>
+          <div class="progress-bar"><div class="progress-fill" id="guide-progress-fill"></div></div>
+        </div>
+      </div>
+      <div id="guide-steps"></div>
+      <div class="callout blue" id="guide-closing"></div>
+    </div>
+  </div><!-- /panel-guide -->
+
+  <div id="panel-read" class="app-panel" data-panel="read" hidden>
+    <div class="layout">
+      <nav class="toc" aria-label="목차" id="read-toc">
+        <span class="toc-title">목차</span>
+        <div id="read-toc-links"></div>
+        <div class="progress-box">
+          <span class="progress-label" id="read-progress-text">0 / 0 문단 완료</span>
+          <div class="progress-bar"><div class="progress-fill" id="read-progress-fill"></div></div>
+        </div>
+      </nav>
+      <main>
+        <div class="callout blue">원문을 문단 단위로 먼저 직접 읽고, 그 다음 보조 해설로 정확한 의미를 확인한 뒤, 마지막으로 이해 가이드로 맥락과 포인트를 정리하는 순서로 진행하세요.</div>
+        <div class="trans-toggle-row">
+          <button type="button" id="trans-toggle-btn" class="chip" aria-pressed="true"></button>
+          <span class="trans-toggle-hint">원문만 먼저 읽고 스스로 해석해보고 싶다면 숨겨보세요.</span>
+        </div>
+        <div id="read-sections"></div>
+      </main>
+    </div>
+  </div><!-- /panel-read -->
+
+  <div id="panel-study" class="app-panel" data-panel="study" hidden>
+    <main id="study-modules" style="display:flex;flex-direction:column;gap:34px;"></main>
+  </div><!-- /panel-study -->
+
+  <div id="panel-cards" class="app-panel" data-panel="cards" hidden>
+    <div class="card-toolbar">
+      <div class="chip-row" id="card-chip-row"></div>
+      <div class="card-stats" id="card-stats"></div>
+    </div>
+    <div class="flash-stage">
+      <div class="flash-progress-bar"><div class="flash-progress-fill" id="flash-progress-fill"></div></div>
+      <div id="flash-card-mount"></div>
+      <div class="self-explain" id="self-explain-mount"></div>
+      <div class="flash-actions" id="flash-actions" hidden>
+        <button type="button" class="btn-again" id="btn-again">다시 (Again)</button>
+        <button type="button" class="btn-good" id="btn-good">알겠음 (Good)</button>
+      </div>
+      <div class="flash-kbd">스페이스바: 뒤집기 · <kbd>1</kbd> 다시 · <kbd>2</kbd> 알겠음</div>
+    </div>
+  </div><!-- /panel-cards -->
+
+  <div id="panel-output" class="app-panel" data-panel="output" hidden>
+    <div class="tp-toolbar">
+      <div class="tp-timer">
+        <span class="tp-clock" id="tp-clock">00:00</span>
+        <span class="tp-target" id="tp-target"></span>
+      </div>
+      <div class="tp-controls">
+        <button type="button" class="icon-btn" id="tp-startpause">시작</button>
+        <button type="button" class="icon-btn" id="tp-reset">리셋</button>
+        <label class="tp-toggle"><input type="checkbox" id="tp-keyword-toggle"> 키워드만 보기 (암송 모드)</label>
+        <label class="tp-toggle"><input type="checkbox" id="tp-big-toggle"> 큰 글씨</label>
+      </div>
+    </div>
+    <div class="tp-dots" id="tp-dots"></div>
+    <div class="tp-stage" id="tp-stage"></div>
+    <div class="tp-nav">
+      <button type="button" class="icon-btn" id="tp-prev">← 이전</button>
+      <span class="tp-pos" id="tp-pos"></span>
+      <button type="button" class="icon-btn" id="tp-next">다음 →</button>
+    </div>
+  </div><!-- /panel-output -->
+
+  <footer id="app-footer"></footer>
+</div>
+
+<script type="module" src="vendor/pdfjs/pdf-init.mjs"></script>
+<script src="vendor/fsrs.bundle.js"></script>
+<script src="progress.js"></script>
+<script src="blocks.js"></script>
+<script src="flashcard.js"></script>
+<script src="output.js"></script>
+<script src="storage.js"></script>
+<script src="ingest.js"></script>
+<script src="ingest-ui.js"></script>
+<script src="render.js"></script>
+</body>
+</html>

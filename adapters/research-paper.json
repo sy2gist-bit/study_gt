@@ -1,0 +1,40 @@
+{
+  "id": "research-paper",
+  "label": "논문 리뷰",
+
+  "tabLabels": {
+    "guide": "학습법",
+    "read": "원문 읽기",
+    "study": "학습자료",
+    "cards": "카드 암기",
+    "output": "발표 리허설"
+  },
+  "stageTags": ["0단계", "1단계", "2단계", "3단계", "4단계"],
+
+  "assistLabelDefault": "한국어 번역",
+
+  "cardCategories": [
+    { "id": "concept", "label": "원리",       "color": "blue" },
+    { "id": "number",  "label": "숫자",       "color": "orange" },
+    { "id": "field",   "label": "현장·해석",   "color": "teal" },
+    { "id": "limit",   "label": "한계·결론",   "color": "gray" },
+    { "id": "term",    "label": "용어·반응식", "color": "blue" },
+    { "id": "expert",  "label": "전문가 심화", "color": "red" }
+  ],
+
+  "moduleCategories": [
+    { "id": "bg",     "color": "blue" },
+    { "id": "flow",   "color": "teal" },
+    { "id": "num",    "color": "orange" },
+    { "id": "fig",    "color": "blue" },
+    { "id": "qa",     "color": "teal" },
+    { "id": "script", "color": "orange" }
+  ],
+
+  "notation": [
+    { "pattern": "(?<![A-Za-z<])(NO2|NO3|CO2|O3|H2O2|N2O5|SO2)(?![A-Za-z>])", "render": "chemical-subscript" }
+  ],
+
+  "outputMode": "presentation",
+  "readingLevel": "expert"
+}

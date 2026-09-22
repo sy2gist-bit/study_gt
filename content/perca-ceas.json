@@ -1,0 +1,2381 @@
+{
+  "schemaVersion": "1.0",
+  "adapter": "research-paper",
+  "meta": {
+    "id": "perca-ceas",
+    "eyebrow": "저널클럽 발표 준비 · 암기용 스터디 가이드",
+    "title": "PERCA-CEAS 완전정복",
+    "subtitle": "Tang, Zheng, Wang, Liu, Chen &amp; Wang (2026), <i>Atmos. Chem. Phys.</i>, 26, 11909–11921 — “Measurement report: Development of a portable peroxy radical measurement system and application for diagnosing local ozone formation and transport” 를 대기화학 비전공자가 1주일 안에 발표 가능한 수준으로 익히기 위한 자료입니다.",
+    "sourceRef": "Tang, Zheng, Wang, Liu, Chen & Wang (2026), Atmos. Chem. Phys., 26, 11909–11921",
+    "oneLiner": "기존 라디칼 측정기는 크고 비쌌는데, 저자들은 <b>화학증폭(PERCA)</b>과 <b>광학검출(CEAS)</b>을 결합해 <b>가방 크기(5.8&nbsp;kg)</b>의 휴대용 장비를 만들었고, 이걸 중국 주하이 해안에 직접 설치해서 <b>“오존이 늘어난 게 우리 동네 탓인지, 다른 지역에서 넘어온 것인지”</b>를 숫자로 구분해냈다 — 는 이야기입니다.",
+    "pills": [
+      "배경지식 0단계부터",
+      "카드 암기 모드",
+      "발표 리허설 타이머",
+      "예상 질문 20선"
+    ],
+    "estimatedMinutes": 210,
+    "targetDate": null
+  },
+  "guide": {
+    "headline": "원고를 순서대로 읽지 마세요 — 이렇게 뒤집어서 공부하세요",
+    "intro": "텍스트를 위에서 아래로 읽는 방식은 낯선 용어가 나오는 순간 흐름이 끊기고, 끊긴 채로 계속 읽으면 아무것도 남지 않습니다. 그래서 <b>그림으로 구조 파악 → 내 언어로 한 문장 압축 → 안 보고 말해보기(티치백)</b> 순서로 뒤집는 것을 추천드립니다. 아래 6단계를 순서대로 따라가시면 됩니다 — 각 단계의 \"바로가기\" 버튼을 누르면 해당 탭·모듈로 바로 이동합니다.",
+    "steps": [
+      {
+        "n": 1,
+        "title": "그림부터 보고 추측하기",
+        "minutes": 30,
+        "body": "텍스트는 아직 읽지 마세요. \"학습자료\" 탭의 <b>4막 스토리라인</b>과 <b>그림 6개</b>만 먼저 열어서, 장비 구조도와 결과 그래프를 보며 \"이게 무슨 그림 같아 보이는지\"를 소리 내어 추측해보세요. 사람은 글보다 그림에서 구조를 훨씬 빨리 파악합니다.",
+        "links": [
+          {
+            "tab": "study",
+            "anchor": "m3",
+            "label": "→ 4막 스토리라인 보기"
+          },
+          {
+            "tab": "study",
+            "anchor": "m6",
+            "label": "→ 그림 6개 보기"
+          }
+        ]
+      },
+      {
+        "n": 2,
+        "title": "한 문장 압축 읽기",
+        "minutes": 60,
+        "body": "\"왜 필요한가\"와 \"PERCA 원리\" 모듈을 읽되, 문단을 통째로 외우려 하지 말고 <b>\"이 문단을 내 언어로 한 문장으로 바꾸면?\"</b>만 계속 반복하세요. 막히는 용어가 나오면 그때만 원문읽기 탭에서 정확한 의미를 확인하는 \"사전\"으로 잠깐 들르세요 — 처음부터 정독하는 자료가 아닙니다.",
+        "links": [
+          {
+            "tab": "study",
+            "anchor": "m1",
+            "label": "→ 모듈1 · 왜 필요한가"
+          },
+          {
+            "tab": "study",
+            "anchor": "m2",
+            "label": "→ 모듈2 · PERCA 원리"
+          },
+          {
+            "tab": "read",
+            "anchor": "r-i",
+            "label": "→ 원문읽기(용어 사전용)"
+          }
+        ]
+      },
+      {
+        "n": 3,
+        "title": "가리고 맞히기 — 숫자·수식·용어",
+        "minutes": 40,
+        "body": "암기표·수식·용어집 표를 눈으로만 읽지 말고, 값을 손(또는 화면)으로 가리고 <b>\"이 숫자가 뭐였지?\"를 스스로 맞혀본 뒤</b> 확인하세요. 수동으로 읽는 것보다 능동으로 맞혀보는 게 훨씬 오래 남습니다.",
+        "links": [
+          {
+            "tab": "study",
+            "anchor": "m4",
+            "label": "→ 모듈4 · 숫자 암기표"
+          },
+          {
+            "tab": "study",
+            "anchor": "m5",
+            "label": "→ 모듈5 · 핵심 수식"
+          },
+          {
+            "tab": "study",
+            "anchor": "m5b",
+            "label": "→ 모듈5.5 · 반응식·용어사전"
+          }
+        ]
+      },
+      {
+        "n": 4,
+        "title": "카드 암기로 능동회상 반복",
+        "minutes": 30,
+        "body": "\"카드 암기\" 탭에서 방금 본 카테고리만 필터로 켜고 반복하세요. 질문을 보고 <b>답을 먼저 말해본 뒤</b> 뒤집어 확인하는 순서가 핵심입니다 — 틀리거나 헷갈린 카드는 \"다시\"를 눌러 계속 도전하세요.",
+        "links": [
+          {
+            "tab": "cards",
+            "anchor": null,
+            "label": "→ 카드 암기 탭 열기"
+          }
+        ]
+      },
+      {
+        "n": 5,
+        "title": "키워드만 보고 소리 내어 설명(티치백)",
+        "minutes": 30,
+        "body": "\"발표 리허설\" 탭에서 원고를 읽지 말고 <b>\"암송 모드\"(키워드만 표시)</b>로 전환해 스스로 설명해보세요. 막히는 구간이 곧 아직 덜 이해한 부분이니, 그때만 원고를 펼쳐서 확인하고 다시 안 보고 말해보세요.",
+        "links": [
+          {
+            "tab": "script",
+            "anchor": null,
+            "label": "→ 발표 리허설 탭 열기"
+          }
+        ]
+      },
+      {
+        "n": 6,
+        "title": "예상 질문으로 최종 점검",
+        "minutes": 20,
+        "body": "기본 예상질문 20선과 전문가 심화 질문을 스스로 답해본 뒤 확인하세요. 막힘없이 답할 수 있으면 준비가 끝난 것이고, 막히는 질문만 골라 2~5단계로 다시 돌아가 보강하세요.",
+        "links": [
+          {
+            "tab": "study",
+            "anchor": "m9",
+            "label": "→ 예상질문 20선"
+          },
+          {
+            "tab": "study",
+            "anchor": "m9b",
+            "label": "→ 전문가 심화 질문"
+          }
+        ]
+      }
+    ],
+    "closingCallout": "\"읽기 1번\"보다 \"말해보기 5번\"이 훨씬 효과적입니다. 막히면 그때만 원문·모듈로 돌아가 확인하고, 다시 안 보고 말해보는 걸 반복하세요."
+  },
+  "source": {
+    "assistLabel": "한국어 번역",
+    "assistToggleDefault": "shown",
+    "sections": [
+      {
+        "id": "r-abs",
+        "navLabel": "Abstract",
+        "title": "Abstract (초록)",
+        "paragraphs": [
+          {
+            "id": "abs-1",
+            "tag": "Abstract",
+            "original": "Atmospheric total peroxy radicals RO<sub>2</sub>* (RO<sub>2</sub>* = HO<sub>2</sub> + ΣRO<sub>2</sub>) play central roles in tropospheric chemistry, governing the formation of ozone and secondary aerosols. However, due to their extremely low concentrations and high reactivity, direct observation of RO<sub>2</sub>* remains challenging. In this study, a compact instrument for in-situ measurement of RO<sub>2</sub>* was developed by combining the Peroxy Radical Chemical Amplification (PERCA) technique with Cavity-Enhanced Absorption Spectroscopy (CEAS). Using a pure HO<sub>2</sub> standard for calibration, the system can achieve a chemical chain length of 30 and an optimal detection limit of 0.38 pptv (1σ, 3 min), enabling highly sensitive measurements of ambient peroxy radicals. The self-constructed PERCA–CEAS system was successfully deployed in a field campaign during autumn in Zhuhai to observe ambient RO<sub>2</sub>*. During the observation period, the mean daytime RO<sub>2</sub>* was 31.11 ± 18.87 pptv, which resulted in an average P(O<sub>3</sub>) of 14.41 ± 17.04 ppbv h<sup>−1</sup>. The comparison of O<sub>3</sub> variation and derived P(O<sub>3</sub>) indicates that the daytime ozone enhancement in Zhuhai was primarily driven by local photochemical production, while regional transport acted mainly as an export effect. Our results demonstrate that a compact PERCA–CEAS system is capable of ambient RO<sub>2</sub>* measurements and suggest the need of diagnosing O<sub>3</sub> formation pattern with the constraint of high time-resolution RO<sub>2</sub>* concentration.",
+            "assist": "대류권 내 총 과산화라디칼 RO2*(RO2* = HO2 + ΣRO2)는 오존과 2차 에어로졸 생성을 좌우하며 대류권 화학에서 중심적인 역할을 한다. 그러나 극히 낮은 농도와 높은 반응성 때문에 RO2*를 직접 관측하기는 어렵다. 본 연구에서는 과산화라디칼 화학증폭법(PERCA)과 공동증강흡수분광법(CEAS)을 결합하여 RO2*를 현장에서 측정할 수 있는 소형 장비를 개발하였다. 순수 HO2 표준가스로 교정한 결과, 이 시스템은 화학사슬길이(CL) 30, 최적 검출한계 0.38 pptv(1σ, 3분)를 달성하여 대기 중 과산화라디칼을 고감도로 측정할 수 있었다. 자체 제작한 PERCA–CEAS 시스템은 주하이(珠海)의 가을철 현장 캠페인에 성공적으로 투입되어 대기 중 RO2*를 관측하였다. 관측 기간 동안 주간 평균 RO2* 농도는 31.11 ± 18.87 pptv였으며, 이로부터 산출된 평균 오존생성속도 P(O3)는 14.41 ± 17.04 ppbv h⁻¹였다. O3 농도 변화와 산출된 P(O3)를 비교한 결과, 주하이의 주간 오존 증가는 주로 로컬 광화학 생성에 의해 주도되었으며, 지역 수송은 주로 오존을 내보내는(export) 효과로 작용한 것으로 나타났다. 본 연구 결과는 소형 PERCA–CEAS 시스템이 대기 중 RO2* 측정에 활용 가능함을 보여주며, 고시간분해능의 RO2* 농도 제약 조건을 이용해 오존 생성 패턴을 진단할 필요성을 시사한다.",
+            "guide": "초록은 이 논문의 축소판입니다. “측정이 어려운 RO2*를 PERCA+CEAS로 재는 소형 장비를 만들었고(CL=30, LOD=0.38pptv), 주하이에서 관측해 RO2*=31.11pptv, P(O3)=14.41ppbv/h를 얻었으며, 오존 증가가 주로 로컬 생성 때문임을 확인했다” — 이 한 문단이 전부입니다. 뒤의 모든 섹션은 이 문단을 풀어서 증명하는 과정이라 생각하고 읽으면 됩니다.",
+            "sourceSpan": {
+              "page": null,
+              "line": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "r-i",
+        "navLabel": "1 · Introduction",
+        "title": "1 Introduction (서론)",
+        "paragraphs": [
+          {
+            "id": "i-1",
+            "tag": "Intro ①",
+            "original": "In the troposphere, total peroxy radicals RO<sub>2</sub>* (RO<sub>2</sub>* = HO<sub>2</sub> + ΣRO<sub>2</sub>) are key reactive species that drive photochemical reaction chains in the atmosphere (Monks, 2005). The production and recycling of RO<sub>2</sub>* determine both the persistence and efficiency of photochemical reactions. The continual regeneration of NO<sub>2</sub> through radical–NO<sub>x</sub> chain reactions sustains ozone production and leads to its accumulation (Orlando and Tyndall, 2012; Wang et al., 2022). Moreover, the removal of RO<sub>2</sub>* also contributes to the formation of secondary organic aerosols (Chen et al., 2022; Ehn et al., 2014; Zou et al., 2025), which plays a crucial role in regional air quality and climate impacts (Liang et al., 2024). Therefore, understanding the spatiotemporal variations of RO<sub>2</sub>* is essential for elucidating the evolution of regional atmospheric oxidation capacity and assessing pollution formation potential.",
+            "assist": "대류권에서 총 과산화라디칼 RO2*(RO2* = HO2 + ΣRO2)는 대기 중 광화학 반응 사슬을 이끄는 핵심 반응종이다(Monks, 2005). RO2*의 생성과 재순환은 광화학 반응의 지속성과 효율성을 모두 결정한다. 라디칼–NOx 사슬반응을 통한 NO2의 지속적인 재생성은 오존 생성을 유지시켜 오존 축적으로 이어진다(Orlando and Tyndall, 2012; Wang et al., 2022). 또한 RO2*가 제거되는 과정은 2차 유기에어로졸(SOA) 생성에도 기여하며(Chen et al., 2022; Ehn et al., 2014; Zou et al., 2025), 이는 지역 대기질과 기후에 중요한 영향을 미친다(Liang et al., 2024). 따라서 RO2*의 시공간적 변화를 이해하는 것은 지역 대기 산화능력의 변화를 규명하고 오염 생성 잠재력을 평가하는 데 필수적이다.",
+            "guide": "“왜 RO2*가 중요한가”에 대한 배경 설명입니다. 라디칼이 NOx와 반응을 반복하며 오존을 계속 만들어내고(축적), 동시에 라디칼이 사라지는 경로는 2차 유기에어로졸(SOA) 생성으로 이어진다는 두 가지 중요성을 제시합니다. regeneration(재생성)·accumulation(축적)·secondary organic aerosols(2차 유기에어로졸) 정도만 알면 충분합니다.",
+            "sourceSpan": {
+              "page": null,
+              "line": null
+            }
+          },
+          {
+            "id": "i-2",
+            "tag": "Intro ②",
+            "original": "Significant advancements have been made in atmospheric peroxy radical measurement techniques over the past few decades, primarily categorized into two technological pathways: direct and indirect measurements (Gao et al., 2023). The microwave-induced electron spin resonance (MIESR) method identifies radicals through the resonance of unpaired electrons, providing the most direct evidence of their detection. However, MIESR suffers from low sensitivity and complex operation requirements (Mihelcic et al., 1985, 1990). Indirect measurement techniques detect RO<sub>2</sub>* by converting it into measurable species through chemical reactions. For example, the laser-induced fluorescence (LIF) technique determines RO<sub>2</sub>* concentrations by measuring the OH fluorescence signal generated from the reaction between RO<sub>2</sub>* and NO. This method offers high sensitivity and selectivity, whereas it requires a complex setup and is prone to environmental interferences (Lu et al., 2012; Whalley et al., 2013). The peroxy radical chemical ionization mass spectrometry (PerCIMS) method converts RO<sub>2</sub>* into characteristic ions through ion–molecule reactions, enabling highly sensitive and selective quantification of specific radicals (Edwards et al., 2003; Hornbrook et al., 2011). Unlike other approaches, the peroxy radical chemical amplification (PERCA) measures RO<sub>2</sub>* by amplifying its signal into a large amount of NO<sub>2</sub> through a chain reaction. The PERCA system has relatively high sensitivity to atmospheric RO<sub>2</sub> radicals. The simple construction and routine maintenance for this system ensure the stable measurement on the field. As a result, PERCA has been widely employed in atmospheric observations (George et al., 2020; Liu and Zhang, 2014; Wei et al., 2023).",
+            "assist": "지난 수십 년간 대기 과산화라디칼 측정 기술은 크게 발전해왔으며, 직접측정과 간접측정이라는 두 가지 기술적 경로로 주로 분류된다(Gao et al., 2023). 마이크로파 유도 전자스핀공명법(MIESR)은 짝지어지지 않은 전자의 공명을 통해 라디칼을 식별하며, 가장 직접적인 검출 증거를 제공한다. 그러나 MIESR은 감도가 낮고 운용이 복잡하다는 단점이 있다(Mihelcic et al., 1985, 1990). 간접측정법은 RO2*를 화학반응을 통해 측정 가능한 물질로 변환하여 검출한다. 예를 들어 레이저유도형광법(LIF)은 RO2*와 NO의 반응에서 생성되는 OH 형광 신호를 측정하여 RO2* 농도를 구한다. 이 방법은 감도와 선택성이 높지만, 복잡한 장비 구성이 필요하고 환경 간섭에 취약하다(Lu et al., 2012; Whalley et al., 2013). 과산화라디칼 화학이온화질량분석법(PerCIMS)은 이온–분자 반응을 통해 RO2*를 특징적인 이온으로 변환하여, 특정 라디칼을 고감도·고선택적으로 정량한다(Edwards et al., 2003; Hornbrook et al., 2011). 이와 달리 과산화라디칼 화학증폭법(PERCA)은 사슬반응을 통해 신호를 다량의 NO2로 증폭시켜 RO2*를 측정한다. PERCA 시스템은 대기 중 RO2 라디칼에 대해 비교적 높은 감도를 가진다. 구조가 단순하고 유지관리가 용이하여 현장에서 안정적인 측정이 가능하다. 이러한 이유로 PERCA는 대기 관측에 널리 활용되어 왔다(George et al., 2020; Liu and Zhang, 2014; Wei et al., 2023).",
+            "guide": "기존 측정법 4가지(MIESR·LIF·PerCIMS·PERCA)를 순서대로 나열하며 장단점을 제시하는 “선행연구 리뷰” 문단입니다. “직접법(MIESR)은 느리고 둔감, 간접법 3가지 중 PERCA가 구조가 제일 단순하다”로 요약하면 됩니다.",
+            "sourceSpan": {
+              "page": null,
+              "line": null
+            }
+          },
+          {
+            "id": "i-3",
+            "tag": "Intro ③",
+            "original": "In the PERCA system, NO and CO are introduced to drive chain reactions that amplify peroxy radicals into detectable NO<sub>2</sub> signals. When sampled air enters the reactor, RO<sub>2</sub> reacts with NO to produce NO<sub>2</sub> and HO<sub>2</sub> (Reactions R1 and R2). The HO<sub>2</sub> then reacts with excess NO to generate OH and NO<sub>2</sub> (Reaction R3), and the OH reacts with CO to recycle back to HO<sub>2</sub> (Reaction R4). Through this chain reaction cycle, the low-concentration peroxy radical signal is progressively amplified into a high-concentration NO<sub>2</sub> signal (Cantrell et al., 1996). The chemical chain length (CL), defined as the average number of radical propagation cycles occurring within the reactor, serves as a quantitative indicator of the amplification efficiency. The magnitude of CL is governed by the competing rates of radical propagation, termination reactions, and physical losses inside the reactor (Kartal et al., 2010; Reichert et al., 2003). Once the amplified NO<sub>2</sub> concentration (ΔNO<sub>2</sub>) is determined, the concentration of RO<sub>2</sub>* in ambient air can be derived using the calibrated CL value according to Eq. (1).",
+            "assist": "PERCA 시스템에서는 NO와 CO를 주입하여 사슬반응을 일으킴으로써 과산화라디칼을 검출 가능한 NO2 신호로 증폭시킨다. 채취된 공기가 반응기에 들어가면 RO2가 NO와 반응하여 NO2와 HO2를 생성한다(반응 R1, R2). 이어서 HO2는 과량의 NO와 반응하여 OH와 NO2를 생성하고(반응 R3), OH는 CO와 반응하여 다시 HO2로 재순환된다(반응 R4). 이러한 사슬반응 순환을 통해 저농도의 과산화라디칼 신호가 점진적으로 고농도의 NO2 신호로 증폭된다(Cantrell et al., 1996). 화학사슬길이(CL)는 반응기 내에서 일어나는 라디칼 전파(propagation) 주기의 평균 횟수로 정의되며, 증폭 효율을 나타내는 정량적 지표로 사용된다. CL의 크기는 라디칼 전파, 종결반응, 그리고 반응기 내 물리적 손실 간의 경쟁적인 속도에 의해 결정된다(Kartal et al., 2010; Reichert et al., 2003). 증폭된 NO2 농도(ΔNO2)가 결정되면, 식 (1)에 따라 교정된 CL 값을 이용해 대기 중 RO2* 농도를 산출할 수 있다.",
+            "guide": "학습자료 모듈2의 “순환 다이어그램”을 문장으로 설명한 부분입니다. R1~R4 반응식이 처음 등장하는 곳이니, 다이어그램과 1:1 대응시켜 읽으면 이해가 빠릅니다.",
+            "sourceSpan": {
+              "page": null,
+              "line": null
+            }
+          },
+          {
+            "id": "i-4",
+            "tag": "Intro ④",
+            "original": "Significant progress has been made in peroxy radical chemistry observations and modeling studies in China in recent years. However, most field measurements have been conducted in the major city clusters, such as North China Plain (Ma et al., 2019; Tan et al., 2017, 2018b), the Yangtze River Delta (Lou et al., 2022; Ma et al., 2022), and the Pearl River Delta (Lu et al., 2012; Tan et al., 2019; Yang et al., 2022), while other regions remain underexplored. In addition, RO<sub>2</sub>* studies have primarily focused on the urban and inland areas, with limited exploration within the coastal boundary layer (Zhang et al., 2024). The lack of peroxy radical measurements would also constrain direct assessment of photochemical ozone production. In-situ measurements of ambient RO<sub>2</sub>* provide a direct basis for calculating local P(O<sub>3</sub>), as previous studies have demonstrated that observed peroxy radical concentrations enable quantitative assessment of instantaneous ozone production rates and its related chemistry across diverse chemical environments (Sommariva et al., 2011; Thornton et al., 2002). Furthermore, the calculated local P(O<sub>3</sub>) combined with the observed O<sub>3</sub> variation provides a powerful means to quantify the contribution of ozone transport (Tan et al., 2021). Therefore, developing portable and high-time-resolution RO<sub>2</sub>* measurement techniques and applying them to diverse atmospheric environments are crucial for advancing our understanding of complex photochemical processes in the troposphere.",
+            "assist": "최근 몇 년간 중국에서는 과산화라디칼 화학에 대한 관측 및 모델링 연구가 상당한 진전을 이루었다. 그러나 대부분의 현장 측정은 화북평원(North China Plain)(Ma et al., 2019; Tan et al., 2017, 2018b), 창장삼각주(Yangtze River Delta)(Lou et al., 2022; Ma et al., 2022), 주강삼각주(Pearl River Delta)(Lu et al., 2012; Tan et al., 2019; Yang et al., 2022) 등 주요 대도시 밀집 지역에 집중되어 있으며, 그 외 지역은 여전히 충분히 연구되지 않았다. 또한 RO2* 연구는 주로 도심 및 내륙 지역에 집중되어 있으며, 연안 경계층(coastal boundary layer)에 대한 연구는 제한적이다(Zhang et al., 2024). 과산화라디칼 측정의 부족은 광화학적 오존 생성에 대한 직접적인 평가를 제약한다. 대기 중 RO2*의 현장 측정은 로컬 P(O3) 계산의 직접적인 근거를 제공하는데, 선행 연구들은 관측된 과산화라디칼 농도를 통해 다양한 화학적 환경에서 순간 오존 생성속도와 관련 화학을 정량적으로 평가할 수 있음을 보여주었다(Sommariva et al., 2011; Thornton et al., 2002). 나아가 산출된 로컬 P(O3)를 관측된 O3 변화와 결합하면 오존 수송의 기여도를 정량화하는 강력한 수단이 된다(Tan et al., 2021). 따라서 휴대 가능하고 고시간분해능을 가진 RO2* 측정 기술을 개발하고 이를 다양한 대기 환경에 적용하는 것은 대류권의 복잡한 광화학 과정에 대한 이해를 높이는 데 매우 중요하다.",
+            "guide": "“왜 하필 연안(coastal) 지역, 주하이인가”의 답이 이 문단입니다. 기존 중국 관측이 대도시(화북평원·창장삼각주·주강삼각주 내륙)에 몰려있고 연안 경계층은 비어있다는 “공백(gap)”을 지적 — 이게 이 논문이 주하이를 선택한 이유입니다.",
+            "sourceSpan": {
+              "page": null,
+              "line": null
+            }
+          },
+          {
+            "id": "i-5",
+            "tag": "Intro ⑤",
+            "original": "In recent years, optical techniques such as Cavity Enhanced Absorption Spectroscopy (CEAS) have developed rapidly. In our previous work, we constructed a compact and lightweight CEAS instrument with high temporal and spatial resolution for precise NO<sub>2</sub> measurements (Zheng et al., 2024). Building upon this foundation, the current study integrates CEAS with the PERCA system, enabling portable and stable detection of ambient RO<sub>2</sub>*. We utilized this system to conduct observations of RO<sub>2</sub>* concentration levels in a coastal area during the autumn. Based on our measurements, the local photochemical P(O<sub>3</sub>) was derived and subsequently applied to analyze the influence of transport on O<sub>3</sub> under both clean and polluted conditions.",
+            "assist": "최근 몇 년간 공동증강흡수분광법(CEAS)과 같은 광학 기술이 빠르게 발전하고 있다. 우리는 이전 연구에서 정밀한 NO2 측정을 위한 소형·경량의 고시간·고공간분해능 CEAS 장비를 제작한 바 있다(Zheng et al., 2024). 이를 기반으로 본 연구에서는 CEAS를 PERCA 시스템과 결합하여 대기 중 RO2*를 휴대 가능하고 안정적으로 검출할 수 있도록 하였다. 우리는 이 시스템을 이용해 가을철 연안 지역에서 RO2* 농도 수준을 관측하였다. 관측 결과를 바탕으로 로컬 광화학적 P(O3)를 산출하였고, 이를 이용해 청정일(clean)과 오염일(polluted) 조건에서 수송이 O3에 미치는 영향을 분석하였다.",
+            "guide": "서론의 마지막 문단 — “우리는 이전 연구(Zheng et al., 2024)에서 만든 CEAS를 PERCA와 결합했고, 이걸로 주하이 가을철 관측을 했으며, 그 결과로 P(O3)를 구해 청정일/오염일의 수송 영향을 분석했다”는 이 논문 전체의 로드맵을 예고합니다. 학습자료 모듈3의 “4막 구조”가 바로 이 문단에서 나옵니다.",
+            "sourceSpan": {
+              "page": null,
+              "line": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "r-21",
+        "navLabel": "2.1 · 증폭모듈",
+        "title": "2.1 Chemical amplification module (화학증폭 모듈)",
+        "paragraphs": [
+          {
+            "id": "m21-1",
+            "tag": "2.1 ①",
+            "original": "The design of our instrument emphasizes a balance between detection performance (e.g., sensitivity and accuracy) and portability in the field. The PERCA-CEAS system consists of two major components: a chemical amplification module and an NO<sub>2</sub> detection module. The former converts trace radicals into detectable NO<sub>2</sub> signals, while the latter provides precise quantification of the generated NO<sub>2</sub>. The chemical amplification module adopts a single-channel configuration to reduce system complexity and physical size while maintaining measurement accuracy. Although conventional dual-channel PERCA systems can effectively remove background interferences, they require two NO<sub>2</sub> detectors operating in parallel (Chen et al., 2016; Liu and Zhang, 2014), leading to potential discrepancy resulted from optical parameters and flow between two channels. In contrast, the single-channel design offers better structural compactness and operational stability. The produced NO<sub>2</sub> concentration is measured by a self-built CEAS system, which features compact size (40 cm×30 cm×17 cm) and lightweight design (5.80 kg). Detailed information of CEAS is provided in our previous work (Zheng et al., 2024). The overall structure of the PERCA-CEAS system is presented in Fig. 1.",
+            "assist": "본 장비의 설계는 현장에서의 검출 성능(감도·정확도 등)과 휴대성 사이의 균형을 중시하였다. PERCA-CEAS 시스템은 화학증폭 모듈과 NO2 검출 모듈이라는 두 가지 주요 구성요소로 이루어진다. 전자는 미량의 라디칼을 검출 가능한 NO2 신호로 변환하고, 후자는 생성된 NO2를 정밀하게 정량한다. 화학증폭 모듈은 시스템의 복잡성과 부피를 줄이면서도 측정 정확도를 유지하기 위해 단일채널(single-channel) 구성을 채택하였다. 기존의 이중채널(dual-channel) PERCA 시스템은 배경 간섭을 효과적으로 제거할 수 있지만, 두 개의 NO2 검출기를 병렬로 운용해야 하며(Chen et al., 2016; Liu and Zhang, 2014), 이로 인해 두 채널 간 광학적 변수와 유량 차이에서 비롯되는 오차가 발생할 수 있다. 반면 단일채널 설계는 구조적 소형성과 운용 안정성이 더 뛰어나다. 생성된 NO2 농도는 자체 제작한 CEAS 시스템으로 측정하며, 이 장비는 소형(40cm×30cm×17cm)·경량(5.80kg)으로 설계되었다. CEAS에 대한 상세 정보는 이전 연구(Zheng et al., 2024)에 제시되어 있다. PERCA-CEAS 시스템의 전체 구조는 그림 1에 나타나 있다.",
+            "guide": "single-channel을 선택한 “이유”가 명시적으로 나오는 핵심 문단입니다 — dual-channel의 단점(두 검출기 간 광학적 불일치)을 먼저 지적하고, single-channel의 장점(구조 단순·안정성)으로 대비시키는 전형적인 “우리 설계를 정당화하는” 서술입니다.",
+            "sourceSpan": {
+              "page": null,
+              "line": null
+            }
+          },
+          {
+            "id": "m21-2",
+            "tag": "2.1 ②",
+            "original": "The NO and CO gases were injected into the system accompanied by N<sub>2</sub> as a balancing gas. To ensure gas purity, the NO (100 ppmv in N<sub>2</sub>) was passed through a ferrous sulfate heptahydrate (FeSO<sub>4</sub>·7H<sub>2</sub>O) filter to remove trace NO<sub>2</sub> impurities. The flow rate of this NO mixture was regulated at 120 mL min<sup>−1</sup>, achieving a final concentration of 8 ppmv in the reactor. Similarly, high-purity CO gas (99.99 %) was passed through an activated carbon column to eliminate residual carbonyl compounds before entering the reactor at 120 mL min<sup>−1</sup>, corresponding to a constant concentration of 8 % (v/v) during amplification mode. The total system flow was maintained at 1500 mL min<sup>−1</sup> using mass flow controllers, corresponding to a residence time of approximately 3 s in the reaction zone.",
+            "assist": "NO와 CO 가스는 N2를 희석가스(balancing gas)로 함께 주입되었다. 가스 순도를 확보하기 위해, NO(N2 중 100 ppmv)는 황산제일철 7수화물(FeSO4·7H2O) 필터를 통과시켜 미량의 NO2 불순물을 제거하였다. 이 NO 혼합가스의 유량은 120 mL min⁻¹로 조절되어, 반응기 내 최종 농도 8 ppmv를 달성하였다. 마찬가지로 고순도 CO 가스(99.99%)는 활성탄 컬럼을 통과시켜 잔류 카르보닐 화합물을 제거한 뒤 120 mL min⁻¹의 유량으로 반응기에 주입되었으며, 이는 증폭 모드에서 일정한 농도 8%(v/v)에 해당한다. 전체 시스템 유량은 질량유량제어기(mass flow controller)를 이용해 1500 mL min⁻¹로 유지되었으며, 이는 반응구간에서 약 3초의 체류시간에 해당한다.",
+            "guide": "지난 Fig.1 해부의 “① NO 공급 라인”과 “② CO 라인”을 문장으로 확인시켜주는 문단 — 숫자(120mL/min, 8ppmv, 8%, 1500mL/min, 3s)가 전부 여기서 나옵니다. 학습자료 모듈4 숫자표와 대조하며 읽으세요.",
+            "sourceSpan": {
+              "page": null,
+              "line": null
+            }
+          },
+          {
+            "id": "m21-3",
+            "tag": "2.1 ③",
+            "original": "To enable automated switching between amplification and background modes in the single-channel configuration, an automatic valve-switching module driven by a programmable timer was developed. The flow paths of CO and N<sub>2</sub> were controlled using four two-way solenoid valves, with two valves assigned to each gas line. During the amplification mode, the timer directs CO to the front inlet to initiate the chain reaction with NO, while N<sub>2</sub> is routed to the rear inlet. Conversely, in the background mode, the valve states are toggled so that N<sub>2</sub> is introduced at the front and CO is directed to the rear. By synchronizing the switching of these four valves, the system achieves stable and automated mode transitions for real-time detection of peroxy radicals.",
+            "assist": "단일채널 구성에서 증폭모드와 배경모드 간의 자동 전환을 위해, 프로그래머블 타이머로 구동되는 자동 밸브 전환 모듈이 개발되었다. CO와 N2의 유로는 4개의 2방향 솔레노이드 밸브로 제어되며, 각 가스 라인마다 2개의 밸브가 배정된다. 증폭모드 동안에는 타이머가 CO를 전단(front) 입구로 보내 NO와의 사슬반응을 개시시키고, N2는 후단(rear) 입구로 보낸다. 반대로 배경모드에서는 밸브 상태가 전환되어 N2가 전단으로, CO가 후단으로 들어간다. 이 네 개의 밸브를 동기화하여 전환함으로써, 시스템은 과산화라디칼의 실시간 검출을 위한 안정적이고 자동화된 모드 전환을 구현한다.",
+            "guide": "Fig.1 해부의 “② CO⇄N2 스위칭” 부분의 원문 근거입니다. “밸브 4개, 90초 주기”라는 숫자는 뒤 3.3절에서 나오니 여기서는 메커니즘(전/후 입구 전환)만 이해하면 충분합니다.",
+            "sourceSpan": {
+              "page": null,
+              "line": null
+            }
+          },
+          {
+            "id": "m21-4",
+            "tag": "2.1 ④",
+            "original": "Humidity plays a critical role in determining the efficiency of chemical amplification reactions. To control water vapor levels, a Nafion tube dryer (model MD-700-12-F-3, total length 40 cm, effective length 30 cm, ID 1.78 cm) was used to remove water vapor and serve as the chemical amplification reaction chamber in the meantime. To ensure efficient drying and maintain a low-humidity sample stream, a continuous flow of dry purge gas was introduced along the outer side of the Nafion tube. In this work, the dry purge gas was generated by a pump-driven system connected in series with a drying tube filled with indicating silica gel. The gas was first deeply dried through the silica gel column to ensure extremely low moisture content before being circulated from the lower inlet to the upper outlet of the Nafion tube, forming a closed-loop flow. A humidity sensor was installed at the outlet of the sample stream to continuously monitor the relative humidity inside the reaction tube. Through this precise humidity control, the relative humidity during the chemical amplification process was maintained below 20 %, ensuring system stability and improving the reliability of the experimental results.",
+            "assist": "습도는 화학증폭 반응의 효율을 결정하는 데 중요한 역할을 한다. 수증기 농도를 조절하기 위해 나피온(Nafion) 튜브 건조기(모델 MD-700-12-F-3, 전체 길이 40cm, 유효 길이 30cm, 내경 1.78cm)를 사용하여 수증기를 제거함과 동시에 화학증폭 반응 챔버 역할을 겸하도록 하였다. 효율적인 건조와 저습도 시료 흐름을 유지하기 위해, 나피온 튜브 바깥쪽으로 건조한 퍼지 가스(purge gas)를 연속적으로 흘려보냈다. 본 연구에서 이 건조 퍼지 가스는 지시형 실리카겔이 채워진 건조관과 직렬 연결된 펌프 구동 시스템으로 생성되었다. 가스는 먼저 실리카겔 컬럼을 통해 충분히 건조되어 매우 낮은 수분 함량을 확보한 뒤, 나피온 튜브의 하부 입구에서 상부 출구로 순환되어 폐루프(closed-loop) 흐름을 형성하였다. 시료 흐름의 출구에는 습도 센서를 설치하여 반응관 내부의 상대습도를 지속적으로 모니터링하였다. 이러한 정밀한 습도 제어를 통해 화학증폭 과정 동안 상대습도를 20% 이하로 유지하여 시스템 안정성을 확보하고 실험 결과의 신뢰성을 높였다.",
+            "guide": "Fig.1 해부의 “Purge 폐루프” 부분의 원문. 흥미로운 점은 Nafion 튜브가 “건조제”이면서 동시에 “반응관 몸체(reaction chamber)”라는 이중 역할을 한다는 것 — 발표에서 짚으면 좋은 디테일입니다.",
+            "sourceSpan": {
+              "page": null,
+              "line": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "r-22",
+        "navLabel": "2.2 · CL 교정",
+        "title": "2.2 Chain length calibration (사슬길이 교정)",
+        "paragraphs": [
+          {
+            "id": "m22-1",
+            "tag": "2.2 ①",
+            "original": "As described in the principle of the chemical amplification method (Eq. 1), the CL is a key parameter determining the accuracy of peroxy radical measurements. In this work, CL was determined using on-site peroxy radical calibration sources based on water vapor photolysis. A pen-type Hg lamp was used to photolyze H<sub>2</sub>O in an N<sub>2</sub> carrier gas (mixture of dry and humidified N<sub>2</sub>), producing H atoms and OH radicals (Reaction R5). Immediately downstream of the lamp, a mixture of synthetic air and reagent gases (CO/N<sub>2</sub> or CH<sub>4</sub>/N<sub>2</sub>) was introduced to allow rapid mixing with the photolysis products and reduce radical wall losses. In this configuration, H atoms react with O<sub>2</sub> in the synthetic air to form HO<sub>2</sub> (Reaction R6), while the reagent gases control the radical composition. When CO is used as the reagent gas, OH radicals are quantitatively converted to HO<sub>2</sub> (Reaction R4), providing a HO<sub>2</sub> calibration source without interference from OH and RO<sub>2</sub> radicals. When CH<sub>4</sub> (150 ppm in N<sub>2</sub>) is used instead of CO, OH reacts with CH<sub>4</sub> to form CH<sub>3</sub>O<sub>2</sub> (Reaction R7), yielding a mixed peroxy radical source containing approximately 50 % HO<sub>2</sub> and 50 % CH<sub>3</sub>O<sub>2</sub> under typical calibration conditions. In all cases, the relative humidity in the calibration flow was adjusted to ∼10 %, yielding a stable peroxy radical concentration of ∼1–3 ppbv.",
+            "assist": "화학증폭법의 원리(식 1)에서 설명한 바와 같이, CL은 과산화라디칼 측정의 정확도를 결정하는 핵심 변수이다. 본 연구에서는 수증기 광분해에 기반한 현장용 과산화라디칼 교정원(calibration source)을 이용해 CL을 결정하였다. 펜형 수은(Hg) 램프를 이용하여 N2 운반가스(건조 N2와 가습 N2의 혼합물) 중의 H2O를 광분해시켜 H 원자와 OH 라디칼을 생성하였다(반응 R5). 램프 바로 아래쪽에서 합성공기와 반응가스(CO/N2 또는 CH4/N2)의 혼합물을 주입하여 광분해 생성물과 신속히 혼합되도록 하고 라디칼의 벽면 손실을 줄였다. 이 구성에서 H 원자는 합성공기 중의 O2와 반응하여 HO2를 형성하며(반응 R6), 반응가스의 종류에 따라 라디칼 조성이 결정된다. 반응가스로 CO를 사용하면 OH 라디칼이 정량적으로 HO2로 전환되어(반응 R4), OH와 RO2 라디칼의 간섭 없이 순수한 HO2 교정원을 얻을 수 있다. CO 대신 CH4(N2 중 150 ppm)를 사용하면 OH가 CH4와 반응하여 CH3O2를 형성하며(반응 R7), 일반적인 교정 조건에서 약 50% HO2와 50% CH3O2로 구성된 혼합 과산화라디칼원을 얻게 된다. 모든 경우에서 교정용 가스흐름의 상대습도는 약 10%로 조절하여 약 1–3 ppbv의 안정적인 과산화라디칼 농도를 얻었다.",
+            "guide": "Fig.1 해부의 “③ 라디칼 소스 입구”의 원문. R5~R7이 처음 등장 — R4는 재사용(OH+CO→HO2+CO2)됨에 주목하세요. “CO를 쓰면 순수 HO2, CH4를 쓰면 HO2+CH3O2 혼합”이라는 대응이 핵심입니다.",
+            "sourceSpan": {
+              "page": null,
+              "line": null
+            }
+          },
+          {
+            "id": "m22-2",
+            "tag": "2.2 ②",
+            "original": "The CL was determined using four distinct NO<sub>2</sub> signals detected by the CEAS. For the pure HO<sub>2</sub> source, the Hg lamp was switched on and CO was introduced immediately behind the H<sub>2</sub>O photolysis zone, with NO at the inlet of Nafion reactor. Under these conditions, both H atoms and OH from H<sub>2</sub>O photolysis were promptly converted to HO<sub>2</sub>, then titrated by NO to form NO<sub>2</sub>. The resulting NO<sub>2</sub> signal is denoted as S<sub>1</sub> (amplification mode). In the background mode, the lamp remained on while CO was substituted by N<sub>2</sub>. The corresponding NO<sub>2</sub> signal, S<sub>2</sub>, represents the background mode when HO<sub>2</sub> is only produced by H+O<sub>2</sub> pathway. With the lamp off, signal S<sub>3</sub> and S<sub>4</sub> correspond to the amplification and background signals in the absence of radicals, respectively. Thus, (S<sub>2</sub>–S<sub>4</sub>) represents the HO<sub>2</sub> only produced by H+O<sub>2</sub> pathway, whereas (S<sub>1</sub>–S<sub>3</sub>) corresponds to the chain-amplified NO<sub>2</sub> signal from HO<sub>2</sub> produced via both the H+O<sub>2</sub> and OH+CO pathways. The CL is then obtained from these four signals using Eq. (2). The mixed HO<sub>2</sub>–CH<sub>3</sub>O<sub>2</sub> standard was generated by introducing CH<sub>4</sub> only during the S<sub>1</sub> (amplification) measurement and was used to verify the instrument response to organic peroxy radicals relative to HO<sub>2</sub> under otherwise identical conditions.",
+            "assist": "CL은 CEAS로 검출한 4가지의 서로 다른 NO2 신호를 이용해 결정되었다. 순수 HO2원의 경우, Hg 램프를 켜고 H2O 광분해 구간 바로 뒤에 CO를 주입하였으며, NO는 나피온 반응기 입구에 주입하였다. 이 조건에서는 H2O 광분해로 생성된 H 원자와 OH가 모두 신속히 HO2로 전환된 후, NO에 의해 적정(titration)되어 NO2를 형성한다. 이때 생성된 NO2 신호를 S1(증폭모드)이라 한다. 배경모드에서는 램프는 켠 채로 CO를 N2로 대체하였다. 이때의 NO2 신호 S2는 HO2가 오직 H+O2 경로로만 생성되는 배경모드를 나타낸다. 램프를 끈 상태에서는 신호 S3와 S4가 각각 라디칼이 없는 상태의 증폭 신호와 배경 신호에 해당한다. 따라서 (S2–S4)는 H+O2 경로로만 생성된 HO2를 나타내며, (S1–S3)는 H+O2와 OH+CO 두 경로 모두를 통해 생성된 HO2로부터 사슬증폭된 NO2 신호에 해당한다. 이 네 가지 신호로부터 식 (2)를 이용해 CL을 산출한다. HO2–CH3O2 혼합 표준가스는 S1(증폭) 측정 시에만 CH4를 추가로 주입하여 생성하였으며, 이를 통해 동일한 조건에서 HO2 대비 유기 과산화라디칼에 대한 장비의 반응성을 검증하였다.",
+            "guide": "학습자료 모듈5 Eq.(2) 해설의 원문 근거 — 4개 신호(S1~S4)가 “램프 on/off × CO/N2” 2×2 조합이라는 걸 이 문단에서 확인할 수 있습니다. 처음 읽을 땐 헷갈리기 쉬우니 2×2 표를 직접 그려보며 읽는 걸 추천합니다.",
+            "sourceSpan": {
+              "page": null,
+              "line": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "r-31",
+        "navLabel": "3.1 · CL 의존성",
+        "title": "3.1 Dependence of the CL on Reaction Conditions (CL의 조건 의존성)",
+        "paragraphs": [
+          {
+            "id": "r31-1",
+            "tag": "3.1 ①",
+            "original": "The CL is influenced by several factors, including the concentrations of reactive gases, reaction time, relative humidity, and wall losses (Liu and Zhang, 2014). To investigate the response of CL to these parameters in our PERCA-CEAS system, we measured the CL under a series of controlled conditions using a pure HO<sub>2</sub> radical standard source, specifically by varying NO concentrations and RH levels. The CL measurement was repeated at least five times for each condition. For the subsequent experiments, the CO concentration was fixed at 8 %, which is sufficiently high to sustain efficient HO<sub>2</sub> production while remaining within safe limits of CO (explosion range: 12.5 %–74.2 %). To assess how NO concentration influences CL, we conducted a series of experiments under varying NO levels while keeping the relative humidity fixed at 10 %. As shown in Fig. 2a, CL increases steadily with increasing NO concentration and reaches its maximum when NO is 8 ppm. Considering both measurement efficiency and system economy, 8 ppm was chosen as the optimal NO concentration for instrument operation.",
+            "assist": "CL은 반응가스 농도, 반응시간, 상대습도, 벽면 손실 등 여러 요인의 영향을 받는다(Liu and Zhang, 2014). 본 PERCA-CEAS 시스템에서 이러한 변수들에 대한 CL의 반응을 조사하기 위해, 순수 HO2 라디칼 표준원을 이용하여 NO 농도와 상대습도(RH)를 각각 변화시키는 일련의 통제된 조건에서 CL을 측정하였다. 각 조건에서 CL 측정은 최소 5회 반복하였다. 이후 실험에서 CO 농도는 8%로 고정하였는데, 이는 효율적인 HO2 생성을 유지하기에 충분히 높으면서도 CO의 안전 한계(폭발범위: 12.5%–74.2%) 이내에 해당하는 수치이다. NO 농도가 CL에 미치는 영향을 평가하기 위해, 상대습도를 10%로 고정한 채 NO 농도를 달리하며 일련의 실험을 수행하였다. 그림 2a에서 보듯이, CL은 NO 농도가 증가함에 따라 꾸준히 증가하여 NO가 8 ppm일 때 최댓값에 도달한다. 측정 효율과 시스템 경제성을 모두 고려하여, 장비 운용을 위한 최적 NO 농도로 8 ppm을 선택하였다.",
+            "guide": "Fig.2 해부의 NO 관련 원문 근거. “CO 8%는 폭발범위(12.5–74.2%) 훨씬 아래의 안전 마진”이라는 안전 관련 디테일이 여기 처음 나옵니다 — 질문 받으면 좋은 포인트입니다.",
+            "sourceSpan": {
+              "page": null,
+              "line": null
+            }
+          },
+          {
+            "id": "r31-2",
+            "tag": "3.1 ②",
+            "original": "At high RH, water vapor on the reactor walls enhances the heterogeneous uptake of RO<sub>2</sub> and HO<sub>2</sub> and promotes HO<sub>x</sub>-terminating reactions, thereby suppressing chain propagation and shortening the CL (Mihele et al., 1999; Yang et al., 2019). To quantify the effect of RH on the CL, a custom-built humidifier was used to control the flow rate of the humidified gas, thereby generating HO<sub>2</sub> sources at different RH levels (10 %–50 %). The relative humidity of the sample gas was monitored by a temperature-humidity sensor installed downstream of the Nafion reaction tube. The experimental results, presented in Fig. 2b, demonstrate a substantial decrease in CL as the RH increases. Specifically, when the relative humidity (RH) of the sample gas passing through the Nafion dryer reaches 50 %, the chain length drops by more than 50.1 %, a reduction that severely compromises the sensitivity required for accurate field RO<sub>2</sub>* measurements. Consequently, to ensure optimal measurement performance, the RH of the airflow entering the amplification zone is strictly controlled to remain below 20 % during field campaigns, corresponding to 45 % RH in ambient air. The optimal CL for the PERCA-CEAS measurement system was determined to be 30 ± 2 under the conditions of RH = 10 %, NO = 8 ppm, and CO = 8 % based on the pure HO<sub>2</sub> calibration. Calibration using a mixed radical source consisting of 50 % HO<sub>2</sub> and 50 % CH<sub>3</sub>O<sub>2</sub> yielded a CL of 24 ± 1 under the same conditions. As summarized in Table 1, the obtained CL is lower than values reported in most previous PERCA studies, which were typically above 50 and occasionally exceeded 200 (George et al., 2020; Wood and Charest, 2014). The differences in CL are primarily attributed to wall loss of HO<sub>2</sub> radicals due to reactor material, reactor design and working pressure. Although the obtained CL is relatively low compared with these PERCA instruments, the results demonstrate that the developed PERCA-CEAS system provides stable and reliable sensitivity for atmospheric RO<sub>2</sub>* measurements.",
+            "assist": "높은 상대습도(RH)에서는 반응기 벽면의 수증기가 RO2와 HO2의 불균일 흡착(heterogeneous uptake)을 촉진하고 HOx 종결반응을 촉진하여, 사슬전파를 억제하고 CL을 감소시킨다(Mihele et al., 1999; Yang et al., 2019). RH가 CL에 미치는 영향을 정량화하기 위해, 자체 제작한 가습기로 가습된 가스의 유량을 조절하여 서로 다른 RH 수준(10%–50%)에서 HO2원을 생성하였다. 시료 가스의 상대습도는 나피온 반응관 하류에 설치된 온습도 센서로 모니터링하였다. 그림 2b에 제시된 실험 결과는 RH가 증가함에 따라 CL이 크게 감소함을 보여준다. 구체적으로, 나피온 건조기를 통과하는 시료 가스의 상대습도가 50%에 도달하면 사슬길이는 50.1% 이상 감소하는데, 이는 현장에서 정확한 RO2* 측정에 필요한 감도를 심각하게 저하시키는 수준이다. 따라서 최적의 측정 성능을 확보하기 위해, 현장 캠페인 동안 증폭구간으로 유입되는 기류의 RH는 대기 중 습도 45%에 해당하는 20% 미만으로 엄격히 제어되었다. 순수 HO2 교정 결과, RH=10%, NO=8 ppm, CO=8% 조건에서 PERCA-CEAS 측정 시스템의 최적 CL은 30 ± 2로 결정되었다. 50% HO2와 50% CH3O2로 구성된 혼합 라디칼원을 이용한 교정에서는 동일 조건에서 CL이 24 ± 1로 산출되었다. 표 1에 정리된 바와 같이, 산출된 CL은 대부분의 기존 PERCA 연구에서 보고된 값(통상 50 이상, 경우에 따라 200 이상)보다 낮다(George et al., 2020; Wood and Charest, 2014). 이러한 CL 차이는 주로 반응기 재질, 설계, 작동 압력에 따른 HO2 라디칼의 벽면 손실에 기인한다. 다른 PERCA 장비들에 비해 상대적으로 CL이 낮음에도 불구하고, 본 연구 결과는 개발된 PERCA-CEAS 시스템이 대기 중 RO2* 측정에 안정적이고 신뢰할 수 있는 감도를 제공함을 보여준다.",
+            "guide": "Fig.2 해부의 RH 관련 원문 근거이자, CL 최종값(30±2, 24±1)과 Table1 비교(CL이 낮은 이유: 벽면손실)까지 담긴 이 섹션의 결론 문단입니다.",
+            "sourceSpan": {
+              "page": null,
+              "line": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "r-32",
+        "navLabel": "3.2 · LOD·불확도",
+        "title": "3.2 Detection Limit and Measurement Uncertainty (검출한계·불확도)",
+        "paragraphs": [
+          {
+            "id": "r32-1",
+            "tag": "3.2 ①",
+            "original": "In the PERCA–CEAS system, the concentration of RO<sub>2</sub>* is determined by converting it into measurable NO<sub>2</sub> through chain reactions with excess NO. Consequently, the overall detection limit of the system depends on both the detection limit of NO<sub>2</sub> and the CL, as described by Eq. (3). The LOD for the CEAS-NO<sub>2</sub> detector was determined under laboratory conditions by continuously measuring high-purity zero-air for over 5 h and calculating the standard deviation of blank noise (Zheng et al., 2024). At a 3 min time resolution, the LOD of NO<sub>2</sub> was determined to be 11.4 pptv, corresponding to a detection limit of 0.38 pptv (1σ, 3 min) for RO<sub>2</sub>*, based on a CL of 30 derived from the pure HO<sub>2</sub> calibration.",
+            "assist": "PERCA–CEAS 시스템에서 RO2* 농도는 과량의 NO와의 사슬반응을 통해 측정 가능한 NO2로 전환하여 결정한다. 따라서 시스템 전체의 검출한계는 식 (3)에 나타낸 바와 같이 NO2의 검출한계와 CL 모두에 의존한다. CEAS-NO2 검출기의 검출한계(LOD)는 실험실 조건에서 고순도 제로에어(zero-air)를 5시간 이상 연속으로 측정하여 바탕(blank) 잡음의 표준편차를 계산함으로써 결정하였다(Zheng et al., 2024). 3분 시간분해능에서 NO2의 검출한계는 11.4 pptv로 결정되었으며, 순수 HO2 교정으로부터 얻어진 CL 30을 바탕으로 RO2*의 검출한계는 0.38 pptv(1σ, 3분)에 해당한다.",
+            "guide": "Eq.(3)의 원문 근거. “5시간 동안 제로에어(zero-air)를 흘려 바탕 잡음의 표준편차로 LOD를 정의”하는, 분광 계측기의 표준적인 LOD 정의 방식이 나옵니다.",
+            "sourceSpan": {
+              "page": null,
+              "line": null
+            }
+          },
+          {
+            "id": "r32-2",
+            "tag": "3.2 ②",
+            "original": "The overall measurement uncertainty of the system was quantified using the Gaussian error propagation (Eq. 4). Four major sources contribute to the total uncertainty: (1) NO<sub>2</sub> measurement uncertainty (6 %), which includes uncertainties in the absorption cross-section (4 %), mirror reflectivity calibration (5 %), effective cavity length (0.5 %), and pressure measurement (0.1 %). (2) CL calibration uncertainty (6.7 %), derived from repeated calibration results (30 ± 2). (3) Uncertainty in radical partitioning. This arises from variability in the relative contributions of HO<sub>2</sub> and CH<sub>3</sub>O<sub>2</sub> to total peroxy radicals. Based on the reported HO<sub>2</sub>/RO<sub>2</sub> (0.8–1.2) and CH<sub>3</sub>O<sub>2</sub>/RO<sub>2</sub> (0.85–0.95) ratios from Stone et al. (2010), the mole fraction of CH<sub>3</sub>O<sub>2</sub> in total peroxy radicals (f) is estimated to be 0.41–0.54. Under these conditions, the use of an HO<sub>2</sub>-based calibration would introduce a systematic bias of 16 %–22 % in the derived RO<sub>2</sub>* concentration.",
+            "assist": "시스템 전체의 측정 불확도는 가우스 오차전파법(식 4)을 이용해 정량화하였다. 전체 불확도에는 네 가지 주요 요인이 기여한다. (1) NO2 측정 불확도(6%)로, 여기에는 흡수단면적 불확도(4%), 거울 반사율 교정 불확도(5%), 유효 공동길이 불확도(0.5%), 압력 측정 불확도(0.1%)가 포함된다. (2) CL 교정 불확도(6.7%)로, 반복 교정 결과(30 ± 2)로부터 산출되었다. (3) 라디칼 조성비 불확도. 이는 전체 과산화라디칼 중 HO2와 CH3O2의 상대적 기여도의 변동성에서 기인한다. Stone et al.(2010)이 보고한 HO2/RO2(0.8–1.2) 및 CH3O2/RO2(0.85–0.95) 비율을 바탕으로, 전체 과산화라디칼 중 CH3O2의 몰분율(f)은 0.41–0.54로 추정된다. 이러한 조건에서 HO2 기반 교정을 사용하면 산출된 RO2* 농도에 16%–22%의 계통오차(systematic bias)가 발생할 수 있다.",
+            "guide": "학습자료 모듈5 Eq.(4)의 4대 오차원 중 ①②③이 나오는 문단. ①(NO2측정 6%) 자체도 4개의 하위 오차(흡수단면적·거울반사율·유효광경로·압력)로 다시 쪼개진다는 점이 흥미롭습니다 — “오차의 오차”까지 투명하게 밝힌 셈입니다.",
+            "sourceSpan": {
+              "page": null,
+              "line": null
+            }
+          },
+          {
+            "id": "r32-3",
+            "tag": "3.2 ③",
+            "original": "(4) PAN interference. The thermal decomposition of PAN represents a potential source of interference, as it releases NO<sub>2</sub> and peroxy radicals that can trigger additional chemical amplification within the reactor (Liu and Zhang, 2014; Wood and Charest, 2014). Kinetic simulations using the F0AM model (Framework for 0-D Modeling; Wolfe et al., 2016) indicate that 1.0 ppbv PAN results in an equivalent RO<sub>2</sub>* signal of 1.95 pptv under our experimental conditions (26.5 °C and an amplification reaction time of 0.15 s). This accounts for 1.3 %–9.8 % of the typical RO<sub>2</sub>* levels (20–150 pptv) observed during the campaign. Based on these factors, the overall uncertainty in RO<sub>x</sub> measurement was estimated to be 18.4 %–25.7 %, demonstrating the robustness and reliability of the PERCA–CEAS system for RO<sub>2</sub>* measurement.",
+            "assist": "(4) PAN 간섭. PAN의 열분해는 NO2와 과산화라디칼을 방출하여 반응기 내에서 추가적인 화학증폭을 유발할 수 있는 잠재적 간섭원이다(Liu and Zhang, 2014; Wood and Charest, 2014). F0AM 모델(Framework for 0-D Modeling; Wolfe et al., 2016)을 이용한 동역학 시뮬레이션 결과, 본 실험 조건(26.5°C, 증폭 반응시간 0.15초)에서 PAN 1.0 ppbv는 RO2* 신호 1.95 pptv에 상당하는 것으로 나타났다. 이는 캠페인 기간 동안 관측된 전형적인 RO2* 수준(20–150 pptv)의 1.3%–9.8%에 해당한다. 이러한 요인들을 종합하면, ROx 측정의 전체 불확도는 18.4%–25.7%로 추정되며, 이는 PERCA–CEAS 시스템이 RO2* 측정에 있어 견고하고 신뢰할 수 있음을 보여준다.",
+            "guide": "4번째 오차원(PAN)과 최종 합산값(18.4–25.7%)이 나오는 마무리 문단. “F0AM”은 PAN 간섭을 계산하려고 쓴 대기화학 시뮬레이션 도구 이름 정도로만 알면 충분합니다.",
+            "sourceSpan": {
+              "page": null,
+              "line": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "r-33",
+        "navLabel": "3.3 · 현장관측",
+        "title": "3.3 Field Observation of RO<sub>2</sub>* (현장관측)",
+        "paragraphs": [
+          {
+            "id": "r33-1",
+            "tag": "3.3 ①",
+            "original": "The instrument has been deployed in a field campaign to evaluate the performance of instrument under real atmospheric conditions. All instruments are placed on the roof of a six-story building on the campus of Sun Yat-sen University (22°21′06″N, 113°35′42″E), which is located on the western shore of the Pearl River Estuary and approximately 15 km from downtown Zhuhai. The observation site mainly received an airmass mixed with vehicle emissions from a traffic artery (∼300 m) and nearby residential areas. There are no major industrial facilities in the surroundings.",
+            "assist": "본 장비는 실제 대기 조건에서 성능을 평가하기 위해 현장 캠페인에 투입되었다. 모든 장비는 중산대학교(Sun Yat-sen University) 캠퍼스 내 6층 건물 옥상(북위 22°21′06″, 동경 113°35′42″)에 설치되었으며, 이곳은 주강 하구(Pearl River Estuary) 서안에 위치하고 주하이(Zhuhai) 시내로부터 약 15km 떨어져 있다. 관측지점은 주로 인근 간선도로(약 300m)의 차량 배출가스와 주변 주거지역이 혼합된 기단의 영향을 받았다. 주변에 대형 산업시설은 없다.",
+            "guide": "관측지점 묘사. “산업시설 없음, 교통·주거지 영향만”이라는 서술이 뒤에 나오는 “낮은 NOx” 결과와 바로 연결됩니다.",
+            "sourceSpan": {
+              "page": null,
+              "line": null
+            }
+          },
+          {
+            "id": "r33-2",
+            "tag": "3.3 ②",
+            "original": "The field observation campaign was conducted from 26 October to 15 November 2024, producing more than 15 d of valid continuous RO<sub>2</sub>* radical data. For PERCA-CEAS operation, both the chemical amplification mode and the background mode were set to 90 s in this observation, resulting in a time resolution of 3 min. Ambient temperature and relative humidity were continuously monitored using a temperature-humidity probe (HC2A-SH, ROTRONIC, Switzerland). The concentrations of NO and NO<sub>2</sub> were measured by a commercial chemiluminescence analyzer (Model 42i-TL, Thermo, USA), while O<sub>3</sub> concentrations were obtained using a UV photometric analyzer (Model 49i, Thermo, USA). The mirror reflectivity of the CEAS detector was calibrated before and after the campaign, and the results remained consistent.",
+            "assist": "현장 관측 캠페인은 2024년 10월 26일부터 11월 15일까지 진행되었으며, 15일 이상의 유효한 연속 RO2* 라디칼 자료를 획득하였다. PERCA-CEAS 운용 시 화학증폭 모드와 배경 모드는 각각 90초로 설정되어, 시간분해능은 3분이었다. 기온과 상대습도는 온습도 프로브(HC2A-SH, ROTRONIC, 스위스)로 지속적으로 모니터링하였다. NO와 NO2 농도는 상용 화학발광 분석기(모델 42i-TL, Thermo, 미국)로 측정하였고, O3 농도는 자외선 광도법 분석기(모델 49i, Thermo, 미국)로 측정하였다. CEAS 검출기의 거울 반사율은 캠페인 전후로 교정하였으며, 결과는 일관되게 유지되었다.",
+            "guide": "“90초+90초=3분”이라는 시간분해능의 원문 근거가 여기 있습니다. 병행 사용한 상용 장비(NOx·O3 분석기) 모델명도 나오지만, 발표에서 굳이 외울 필요는 없습니다.",
+            "sourceSpan": {
+              "page": null,
+              "line": null
+            }
+          },
+          {
+            "id": "r33-3",
+            "tag": "3.3 ③",
+            "original": "Figure 3a–c presents the time series of meteorological parameters and major pollutants during the observation period. Ambient temperature was consistently above 25 °C, with an average value of 28.44 ± 1.5 °C. Due to the coastal meteorological conditions, the RH was relatively high and showed clear diurnal variations – lower during the day and higher at night – ranging from 25 % to 85 %, with an average of 55.98 % ± 12.53 %. Low NO and NO<sub>2</sub> concentrations were observed with an average of 0.34 ± 0.81 ppbv and 13.21 ± 4.72 ppbv, respectively, indicating generally weak NO<sub>x</sub> emissions from traffic at this site. The daily maximum of O<sub>3</sub> concentrations ranged from 54 to 116 ppbv, while the overall mean concentration was 44.86 ± 25.03 ppbv, suggesting a moderate level of photochemical pollution during the observation period.",
+            "assist": "그림 3a–c는 관측 기간 동안의 기상 변수와 주요 오염물질의 시계열을 나타낸다. 기온은 항상 25°C 이상이었으며 평균 28.44 ± 1.5°C였다. 연안 기상 조건으로 인해 상대습도는 비교적 높았고 뚜렷한 일변화(주간에 낮고 야간에 높음)를 보이며 25%–85% 범위에서 평균 55.98% ± 12.53%를 기록하였다. NO와 NO2 농도는 각각 평균 0.34 ± 0.81 ppbv, 13.21 ± 4.72 ppbv로 낮게 관측되었으며, 이는 이 지점의 교통에 의한 NOx 배출이 전반적으로 약함을 시사한다. O3의 일별 최고농도는 54–116 ppbv 범위였고, 전체 평균농도는 44.86 ± 25.03 ppbv로 관측 기간 동안 중간 수준의 광화학 오염을 시사하였다.",
+            "guide": "Fig.3(a)(b)(c) 패널의 원문 설명. 학습자료 모듈4 숫자표의 “기온/습도/NOx/O3” 행이 전부 이 한 문단에서 나온 숫자입니다.",
+            "sourceSpan": {
+              "page": null,
+              "line": null
+            }
+          },
+          {
+            "id": "r33-4",
+            "tag": "3.3 ④",
+            "original": "Compared to previous observations in PRD region, moderate levels of RO<sub>2</sub>* were observed with the daily peaks ranging from 48 to 87 pptv (Fig. 3d). The RO<sub>2</sub>* exhibited a pronounced daytime peak, with an average of 51.3 pptv at around 13:00 LT, and decreased to around 20 pptv at night (Fig. 4a). The relatively high level of RO<sub>2</sub>* at night indicates the presence of a nighttime peroxy radical source possibly due to NO<sub>3</sub> chemistry oxidation. We found that the average NO<sub>3</sub> production rate (P(NO<sub>3</sub>)) at night during the campaign was approximately 1.4 ppbv h<sup>−1</sup>, higher than the reported warm-season mean of 1.07 ± 0.38 ppbv h<sup>−1</sup> over China (Wang et al., 2023a), indicating active nighttime NO<sub>3</sub> chemistry at this site. The daytime average of RO<sub>2</sub>* (31.11 pptv) was 1–3 times higher than those reported in most suburban areas, while it was lower than those observed in urban areas (Tan et al., 2019; Wang et al., 2023b).",
+            "assist": "주강삼각주(PRD) 지역의 기존 관측치와 비교했을 때, 본 연구에서는 일별 최고치가 48–87 pptv 범위인 중간 수준의 RO2*가 관측되었다(그림 3d). RO2*는 뚜렷한 주간 피크를 보였으며, 약 13:00(현지시각)에 평균 51.3 pptv에 도달한 후 야간에는 약 20 pptv까지 감소하였다(그림 4a). 야간에 비교적 높은 RO2* 수준이 관측된 것은 NO3 화학 산화에 의한 야간 과산화라디칼 생성원이 존재할 가능성을 시사한다. 캠페인 기간 동안 야간 평균 NO3 생성속도(P(NO3))는 약 1.4 ppbv h⁻¹로, 중국 전역의 warm-season 평균값으로 보고된 1.07 ± 0.38 ppbv h⁻¹(Wang et al., 2023a)보다 높아, 이 관측지점에서 야간 NO3 화학이 활발함을 나타낸다. 주간 평균 RO2*(31.11 pptv)는 대부분의 교외(suburban) 지역에서 보고된 값보다 1–3배 높았으나, 도심(urban) 지역에서 관측된 값보다는 낮았다(Tan et al., 2019; Wang et al., 2023b).",
+            "guide": "카드암기의 야간 RO2*·NO3 카드의 원문 근거. 특히 “possibly due to”(~때문일 가능성)라는 헤지 표현에 주목하세요 — 저자들도 100% 확신하지 못하고 조심스럽게 제안하는 수준임을 알 수 있습니다. 발표에서 “저자들도 추정 수준으로 제시했다”고 언급하면 좋은 디테일입니다.",
+            "sourceSpan": {
+              "page": null,
+              "line": null
+            }
+          },
+          {
+            "id": "r33-5",
+            "tag": "3.3 ⑤",
+            "original": "In addition, our observed RO<sub>2</sub>* exhibited nonlinear response to NO variation (Fig. 4b). At low NO levels, RO<sub>2</sub>* increases with NO by promoting the RO<sub>2</sub>*–HO<sub>x</sub> propagation cycle. Once NO exceeds about 1 ppbv, the excess NO rapidly converts peroxy radicals into termination products (e.g., organic nitrates), thus interrupting the radical chain cycle and leading to a decline in RO<sub>2</sub>* concentrations (Thornton et al., 2002). The turning point of NO response is higher than that reported in previous studies (Ma et al., 2022; Wei et al., 2023; Yang et al., 2022). This behavior is consistent with the elevated VOC reactivity inferred for studies conducted near our observation site. Studies at nearby coastal sites (e.g., Da Wan Shan Island) have reported high oxidative capacity associated with strong VOC consumption and enhanced radical cycling (Sun et al., 2024), while the dense vegetation in the Pearl River Delta contributes substantial biogenic VOC emissions (e.g., isoprene) (Situ et al., 2013; Wang et al., 2023c). Collectively, these factors contribute to sustaining propagation cycles of RO<sub>2</sub> radical and shift the turning point of the NO dependence of RO<sub>2</sub>* concentration higher at our site.",
+            "assist": "또한 관측된 RO2*는 NO 변화에 대해 비선형적인 반응을 보였다(그림 4b). 낮은 NO 수준에서는 RO2*–HOx 전파 사이클을 촉진함으로써 RO2*가 NO와 함께 증가한다. NO가 약 1 ppbv를 초과하면, 과량의 NO가 과산화라디칼을 종결생성물(예: 유기질산염)로 빠르게 전환시켜 라디칼 사슬 순환을 중단시키고 RO2* 농도를 감소시킨다(Thornton et al., 2002). NO 반응의 전환점(turning point)은 기존 연구들에서 보고된 값보다 높게 나타났다(Ma et al., 2022; Wei et al., 2023; Yang et al., 2022). 이러한 경향은 본 관측지점 인근에서 수행된 연구들에서 추정된 높은 VOC 반응성과 일치한다. 인근 연안 지점(예: 다완산섬(Da Wan Shan Island))의 연구에서는 강한 VOC 소모와 향상된 라디칼 순환을 동반한 높은 산화능력이 보고되었으며(Sun et al., 2024), 주강삼각주 지역의 울창한 식생은 상당한 생물기원 VOC(예: 이소프렌) 배출에 기여한다(Situ et al., 2013; Wang et al., 2023c). 이러한 요인들이 종합적으로 RO2 라디칼의 전파 사이클을 지속시켜, 본 관측지점에서 RO2* 농도의 NO 의존성 전환점을 더 높은 값으로 이동시킨 것으로 보인다.",
+            "guide": "Fig.4b(산모양)의 원문 근거. “약 1 ppbv”라는 전환점 숫자와 그 이유(높은 VOC 반응성)가 정확히 이 문단에 있습니다.",
+            "sourceSpan": {
+              "page": null,
+              "line": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "r-34",
+        "navLabel": "3.4 · 로컬vs수송",
+        "title": "3.4 Local production and Transport of Ozone (로컬 생성 vs 수송)",
+        "paragraphs": [
+          {
+            "id": "r34-1",
+            "tag": "3.4 ①",
+            "original": "The instantaneous ozone production rate is driven by peroxy radical chain propagation involving the reaction of NO and RO<sub>2</sub>* (Griffith et al., 2016). Therefore, we calculated P(O<sub>3</sub>) based on measured RO<sub>2</sub>* using Eq. (5). Substantial variability in P(O<sub>3</sub>) was observed during the campaign, with daily peak values ranging from 14 to 111 ppbv h<sup>−1</sup> and a daytime average of 14.41 ± 17.04 ppbv h<sup>−1</sup> (Fig. 3e). After sunrise, with increasing solar intensity and NO concentrations, photochemical reactions became more active, leading to a rapid increase in P(O<sub>3</sub>), which peaked around 10:00 (∼27 ppbv h<sup>−1</sup>) (Fig. 5a). Subsequently, P(O<sub>3</sub>) gradually decreased in the afternoon with the weakening solar radiation. We found a sustaining increase of P(O<sub>3</sub>) with NO concentration (Fig. 5b), suggesting that ozone formation fell within the NO<sub>x</sub>-limited regime under typical daytime conditions at this site.",
+            "assist": "순간 오존 생성속도는 NO와 RO2*의 반응을 포함하는 과산화라디칼 사슬전파에 의해 결정된다(Griffith et al., 2016). 따라서 식 (5)를 이용하여 측정된 RO2*를 바탕으로 P(O3)를 산출하였다. 캠페인 기간 동안 P(O3)는 상당한 변동성을 보였으며, 일별 최고값은 14–111 ppbv h⁻¹ 범위였고 주간 평균은 14.41 ± 17.04 ppbv h⁻¹였다(그림 3e). 일출 후 태양복사와 NO 농도가 증가하면서 광화학반응이 활발해져 P(O3)가 빠르게 증가하였고, 약 10:00경(~27 ppbv h⁻¹)에 최고치에 도달하였다(그림 5a). 이후 오후에는 태양복사가 약해지면서 P(O3)가 점차 감소하였다. NO 농도가 증가함에 따라 P(O3)도 지속적으로 증가하는 경향이 확인되었는데(그림 5b), 이는 본 관측지점의 전형적인 주간 조건에서 오존 생성이 NOx-제한(NOx-limited) 영역에 해당함을 시사한다.",
+            "guide": "P(O3) 계산 방법(Eq.5)과 Fig.5 해부의 원문 근거. “NOx-limited regime”은 “NO가 오존 생성의 병목(제한요인)”이라는 뜻으로 이해하면 됩니다.",
+            "sourceSpan": {
+              "page": null,
+              "line": null
+            }
+          },
+          {
+            "id": "r34-2",
+            "tag": "3.4 ②",
+            "original": "The photochemical loss of ozone D(O<sub>3</sub>) is calculated using Eq. (6), including the photolysis, reactions with OH and HO<sub>2</sub>, and the reaction of NO<sub>2</sub> with OH (Tan et al., 2021). Using the typical conditions (j(O<sup>1</sup>D) = 1.0×10<sup>−5</sup> s<sup>−1</sup>, OH = 1.0×10<sup>6</sup> cm<sup>−3</sup>, NO = 10 ppbv, O<sub>3</sub> = 40 ppbv, HO<sub>2</sub> ≈ 15 pptv), D(O<sub>3</sub>) was estimated to be ∼0.70 ppbv h<sup>−1</sup>, accounting for only ∼5 % of P(O<sub>3</sub>). Therefore, P(O<sub>3</sub>) can be approximated as P(O<sub>3</sub>)<sub>net</sub>. Considering uncertainties associated with RO<sub>2</sub>* measurements (18.4 %–25.7 %), the approximation of k<sub>eff</sub> (∼10 %), and upper limit of D(O<sub>3</sub>) level (5 %), the overall uncertainty in P(O<sub>3</sub>)<sub>net</sub> was estimated to be 21.5 %–28.0 %.",
+            "assist": "오존의 광화학적 소실속도 D(O3)는 식 (6)을 이용해 산출하였으며, 여기에는 광분해, OH·HO2와의 반응, NO2와 OH의 반응이 포함된다(Tan et al., 2021). 전형적인 조건(j(O¹D)=1.0×10⁻⁵ s⁻¹, OH=1.0×10⁶ cm⁻³, NO=10 ppbv, O3=40 ppbv, HO2≈15 pptv)을 적용하면 D(O3)는 약 0.70 ppbv h⁻¹로 추정되며, 이는 P(O3)의 약 5%에 불과하다. 따라서 P(O3)는 P(O3)net으로 근사할 수 있다. RO2* 측정의 불확도(18.4%–25.7%), keff 근사의 불확도(약 10%), D(O3) 수준의 상한 불확도(5%)를 고려할 때, P(O3)net의 전체 불확도는 21.5%–28.0%로 추정되었다.",
+            "guide": "Eq.(6)(7)의 원문 근거. D(O3)가 P(O3)의 5%뿐이라 “무시해도 되는 수준”이라 결론짓는 부분 — 왜 P(O3)≈P(O3)net으로 근사했는지의 정당화입니다.",
+            "sourceSpan": {
+              "page": null,
+              "line": null
+            }
+          },
+          {
+            "id": "r34-3",
+            "tag": "3.4 ③",
+            "original": "We summarized previously reported observations of RO<sub>2</sub>*, P(O<sub>3</sub>), and related parameters in Table 2. The P(O<sub>3</sub>) observed in this study was generally higher than those at low-NO sites such as Wangdu (10.44 ppbv h<sup>−1</sup>), San Antonio (4.2 ppbv h<sup>−1</sup>), and Hefei (5.91 ppbv h<sup>−1</sup>) except for a suburban site in northern China (19.5 ppbv h<sup>−1</sup>). Even high-NO sites like Paris (15.8 ppbv h<sup>−1</sup>) and Heshan (18.1 ppbv h<sup>−1</sup>) showed comparable or slightly higher P(O<sub>3</sub>) than our results. This comparison suggests that, despite the moderate RO<sub>2</sub>* levels at our site, the instantaneous photochemical ozone production remained considerably strong, pointing to an efficient RO<sub>2</sub>*–NO<sub>x</sub> catalytic cycle in Zhuhai.",
+            "assist": "표 2에는 기존에 보고된 RO2*, P(O3) 및 관련 변수들의 관측값을 정리하였다. 본 연구에서 관측된 P(O3)는 왕두(Wangdu, 10.44 ppbv h⁻¹), 샌안토니오(San Antonio, 4.2 ppbv h⁻¹), 허페이(Hefei, 5.91 ppbv h⁻¹)와 같은 저(低)NO 지점들보다 전반적으로 높았으며, 화북의 한 교외 지점(19.5 ppbv h⁻¹)만이 예외였다. 파리(Paris, 15.8 ppbv h⁻¹)나 허산(Heshan, 18.1 ppbv h⁻¹)과 같은 고(高)NO 지점들조차 본 연구 결과와 비슷하거나 다소 높은 P(O3)를 보였다. 이러한 비교는 본 관측지점의 RO2* 수준이 중간 정도임에도 불구하고 순간 광화학적 오존 생성은 상당히 강하게 유지되었음을 시사하며, 이는 주하이에서 효율적인 RO2*–NOx 촉매 순환이 일어나고 있음을 의미한다.",
+            "guide": "Table2 해설의 원문 근거 — “RO2*는 중간인데 P(O3)는 도심급”이라는 이 논문의 흥미로운 발견이 이 문단에서 명시적으로 나옵니다.",
+            "sourceSpan": {
+              "page": null,
+              "line": null
+            }
+          },
+          {
+            "id": "r34-4",
+            "tag": "3.4 ④",
+            "original": "Based on our measurements, we can quantitatively distinguish the relative contributions from local photochemical production and regional transport to surface O<sub>3</sub>. Considering the rapid equilibrium between NO<sub>2</sub> and O<sub>3</sub>, the variation of odd oxidants (d[O<sub>x</sub>]/dt, where O<sub>x</sub> = O<sub>3</sub> + NO<sub>2</sub>) is used to reflect the combined influence of local photochemical and transport on surface ozone. Therefore, the transport impact can be expressed by R(O<sub>3</sub>), which is calculated from the difference between d[O<sub>x</sub>]/dt and P(O<sub>3</sub>)<sub>net</sub> as defined in Eq. (8). Here, the sign of R(O<sub>3</sub>) indicates the different influences from transport. When R(O<sub>3</sub>) &gt; 0, regional transport enhances local O<sub>3</sub> concentrations, suggesting that O<sub>3</sub> could be contributed by transport from surrounding regions. Conversely, R(O<sub>3</sub>) &lt; 0 implies that transport acts as a dilution or export role in regulating the surface ozone.",
+            "assist": "본 관측 결과를 바탕으로, 지표 O3에 대한 로컬 광화학 생성과 지역 수송의 상대적 기여도를 정량적으로 구분할 수 있다. NO2와 O3 사이의 빠른 평형을 고려하여, 홀수산화물(odd oxidant, Ox = O3 + NO2)의 변화량(d[Ox]/dt)을 이용해 로컬 광화학과 수송이 지표 오존에 미치는 복합적인 영향을 나타낸다. 따라서 수송의 영향은 식 (8)에 정의된 바와 같이 d[Ox]/dt와 P(O3)net의 차이로 산출되는 R(O3)로 표현할 수 있다. 여기서 R(O3)의 부호는 수송의 서로 다른 영향을 나타낸다. R(O3) &gt; 0이면 지역 수송이 로컬 O3 농도를 증가시키는 것을 의미하며, 이는 주변 지역으로부터 O3가 유입(수송)되었을 가능성을 시사한다. 반대로 R(O3) &lt; 0이면 수송이 지표 오존을 희석하거나 배출(export)시키는 역할을 한 것을 의미한다.",
+            "guide": "Eq.(8)의 원문 근거이자 R(O3) 부호 해석의 “공식 정의” 문단 — 카드암기의 R(O3) 카드와 정확히 대응됩니다.",
+            "sourceSpan": {
+              "page": null,
+              "line": null
+            }
+          },
+          {
+            "id": "r34-5",
+            "tag": "3.4 ⑤",
+            "original": "The contribution from local photochemical production and transport to surface O<sub>3</sub> exhibited distinct patterns under different pollution conditions (Fig. 6). We define the polluted days as the maximum O<sub>3</sub> concentration exceeding the national Class I standard of 160 µg m<sup>−3</sup>, while the clean periods corresponded to days with a maximum hourly O<sub>3</sub> concentration below 120 µg m<sup>−3</sup>. A total of 14 d and 4 d are categorized into polluted and clean periods, respectively. The daytime increase in ozone concentration in Zhuhai was primarily driven by local photochemical production, whereas regional transport generally exhibited an export effect. However, the magnitudes and temporal patterns of their contributions differed significantly between clean and pollution scenarios. The P(O<sub>3</sub>) exhibited similar diurnal variations among both polluted and clean days, while polluted periods showed stronger ozone formation than clean periods. Specifically, the peak P(O<sub>3</sub>) on polluted days reached ∼30 ppbv h<sup>−1</sup>, which was approximately 50 % higher than that on clean days (∼20 ppbv h<sup>−1</sup>).",
+            "assist": "로컬 광화학 생성과 수송이 지표 O3에 기여하는 양상은 오염 조건에 따라 뚜렷하게 다른 패턴을 보였다(그림 6). 본 연구에서는 최고 O3 농도가 국가 1급 기준인 160 µg m⁻³를 초과하는 날을 오염일(polluted day)로, 시간당 최고 O3 농도가 120 µg m⁻³ 미만인 날을 청정일(clean day)로 정의하였다. 오염일과 청정일은 각각 총 14일과 4일로 분류되었다. 주하이의 주간 오존 농도 증가는 주로 로컬 광화학 생성에 의해 주도되었으며, 지역 수송은 대체로 배출(export) 효과를 나타냈다. 다만 이들의 기여 정도와 시간적 패턴은 청정 시나리오와 오염 시나리오 사이에 상당한 차이를 보였다. P(O3)는 오염일과 청정일 모두에서 유사한 일변화 양상을 보였으나, 오염 시기가 청정 시기보다 더 강한 오존 생성을 나타냈다. 구체적으로 오염일의 P(O3) 피크는 약 30 ppbv h⁻¹에 도달하여, 청정일(약 20 ppbv h⁻¹)보다 약 50% 더 높았다.",
+            "guide": "오염일/청정일 정의(160/120 µg/m³ 기준)와 표본수(14/4일)의 원문 근거입니다.",
+            "sourceSpan": {
+              "page": null,
+              "line": null
+            }
+          },
+          {
+            "id": "r34-6",
+            "tag": "3.4 ⑥",
+            "original": "In contrast to P(O<sub>3</sub>), the behavior of R(O<sub>3</sub>) on polluted days diverged significantly from that on clean days. Around midday, R(O<sub>3</sub>) on polluted days rose rapidly from a negative value to zero and became slightly positive, indicating a suppressed airmass dispersion or even slight import from regional O<sub>3</sub>. The distinct transport patterns during polluted days are attributed to frequent coastal wind-field convergence that weakened ventilation. Such weakening export in the midday facilitated the rapid accumulation of locally produced ozone and contributed to the higher O<sub>3</sub> peaks during polluted days compared to clean days. As a result, the elevated surface ozone on polluted days was resulted from the combined effect of stronger photochemical production and reduced O<sub>3</sub> export at midday, whereas the P(O<sub>3</sub>) was almost offset by the transport effect of O<sub>3</sub> on clean days, leading to flat variation of O<sub>3</sub>.",
+            "assist": "P(O3)와 달리, 오염일의 R(O3) 거동은 청정일과 뚜렷하게 갈라졌다. 정오 무렵 오염일의 R(O3)는 음(negative)의 값에서 빠르게 0으로 상승한 뒤 약간 양(positive)의 값을 보였는데, 이는 기단 확산이 억제되거나 심지어 주변 지역으로부터 O3가 약간 유입되었음을 나타낸다. 오염일에 나타난 이러한 독특한 수송 패턴은 잦은 연안 풍향 수렴(wind-field convergence)으로 인해 환기가 약화된 것에 기인한다. 이처럼 정오 무렵 배출(export)이 약화되면서 로컬에서 생성된 오존이 빠르게 축적되었고, 이는 오염일이 청정일보다 더 높은 O3 피크를 나타내는 데 기여하였다. 결과적으로 오염일의 지표 오존 상승은 정오 무렵 더 강한 광화학 생성과 약화된 O3 배출 효과가 결합된 결과인 반면, 청정일에는 P(O3)가 O3의 수송 효과에 의해 거의 상쇄되어 O3 농도가 평탄한 변화를 보였다.",
+            "guide": "Fig.6 해부의 원문 근거이자 이 논문의 최종 결론 문단입니다. 이 문단 하나만 완벽히 이해하면 발표 질의응답의 8할은 방어됩니다.",
+            "sourceSpan": {
+              "page": null,
+              "line": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "r-4",
+        "navLabel": "4 · Conclusion",
+        "title": "4 Conclusions (결론)",
+        "paragraphs": [
+          {
+            "id": "c-1",
+            "tag": "Concl ①",
+            "original": "This study combined the PERCA technique with CEAS to develop a single-channel PERCA–CEAS system. The system enables real-time, online measurements of RO<sub>2</sub>*, providing a robust technical support for evaluating atmospheric oxidation capacity and elucidating tropospheric photochemical mechanisms. Experimental investigations were conducted to determine key parameters affecting measurement performance. The detection limit for RO<sub>2</sub>* was 0.38 pptv (1σ) at a time resolution of 3 min, with an overall measurement uncertainty of 18.4 %–25.7 %, demonstrating high sensitivity and stability that meet the requirements for field observations of ambient RO<sub>2</sub>*. Our PERCA–CEAS system was successfully deployed for ambient measurement and found moderate RO<sub>2</sub>* levels in a coastal area.",
+            "assist": "본 연구는 PERCA 기법과 CEAS를 결합하여 단일채널 PERCA–CEAS 시스템을 개발하였다. 이 시스템은 RO2*의 실시간 온라인 측정을 가능하게 하여, 대기 산화능력 평가 및 대류권 광화학 메커니즘 규명을 위한 견고한 기술적 기반을 제공한다. 측정 성능에 영향을 미치는 주요 변수들을 규명하기 위한 실험적 조사를 수행하였다. RO2*의 검출한계는 3분 시간분해능에서 0.38 pptv(1σ)였으며, 전체 측정 불확도는 18.4%–25.7%로, 대기 중 RO2*의 현장 관측 요건을 충족하는 높은 감도와 안정성을 보여주었다. 본 PERCA–CEAS 시스템은 대기 관측에 성공적으로 투입되었으며, 연안 지역에서 중간 수준의 RO2*를 확인하였다.",
+            "guide": "결론 첫 문단은 “장비 개발” 쪽 성과의 요약입니다(2막·3막 요약).",
+            "sourceSpan": {
+              "page": null,
+              "line": null
+            }
+          },
+          {
+            "id": "c-2",
+            "tag": "Concl ②",
+            "original": "The P(O<sub>3</sub>) derived from measured RO<sub>2</sub>* was further used to evaluate the O<sub>3</sub> formation regime and transport influence on O<sub>3</sub>. The higher O<sub>3</sub> levels observed on polluted days compared to clean days were driven by both stronger photochemical production and reduced export effects during midday in this coastal area. Our study, therefore, provides an important reference for extending the peroxy radical measurement techniques to quantify in-situ formation and transport of O<sub>3</sub>. We also suggest more field observations of peroxy radicals in diverse environments to support the strategy formulation of O<sub>3</sub> pollution.",
+            "assist": "측정된 RO2*로부터 산출한 P(O3)는 O3 생성 체제와 O3에 대한 수송의 영향을 평가하는 데 추가로 활용되었다. 오염일이 청정일보다 높은 O3 수준을 보인 것은 이 연안 지역의 정오 무렵 더 강한 광화학 생성과 약화된 배출 효과가 함께 작용한 결과였다. 따라서 본 연구는 과산화라디칼 측정 기술을 확장하여 O3의 현장 생성과 수송을 정량화하는 데 중요한 참고자료를 제공한다. 또한 O3 오염 대응 전략 수립을 뒷받침하기 위해 다양한 환경에서 과산화라디칼에 대한 더 많은 현장 관측이 필요함을 제안한다.",
+            "guide": "결론 둘째 문단은 “응용” 쪽 성과 요약(4막)과 마지막 제언(“다양한 환경에서 더 많은 관측 필요”)으로 끝납니다. 발표 마지막 슬라이드와 거의 1:1 대응시켜도 됩니다.",
+            "sourceSpan": {
+              "page": null,
+              "line": null
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "modules": [
+    {
+      "id": "m1",
+      "category": "bg",
+      "title": "왜 이 연구가 필요한가 — 대기화학 0단계",
+      "blocks": [
+        {
+          "type": "prose",
+          "text": "물리 전공자 기준으로 옮기면, 이 논문은 “<b>매우 낮은 농도의 반응성 중간체를 어떻게 검출 가능한 신호로 증폭할 것인가</b>”라는 계측 문제와, “<b>그 측정값으로 오존 생성이라는 반응속도론적 결과를 어떻게 역산할 것인가</b>”라는 두 문제를 함께 다룹니다."
+        },
+        {
+          "type": "prose",
+          "text": "<b>1-1. 도시 오존은 왜 생기나 (photochemical smog)</b>"
+        },
+        {
+          "type": "prose",
+          "text": "지표 오존(O3)은 배출되는 오염물질이 아니라, <b>NOx(NO+NO2)</b>와 <b>VOC(휘발성유기화합물)</b>가 햇빛(hv) 아래서 반응해 “2차적으로” 만들어지는 산물입니다. 이 반응을 매개하는 것이 바로 <b>라디칼(radical)</b> — 짝없는 전자를 가진 매우 반응성이 높은 분자들입니다."
+        },
+        {
+          "type": "termGrid",
+          "items": [
+            {
+              "name": "OH 라디칼",
+              "def": "대기의 “세제”. VOC를 공격해 산화 반응 사슬을 시작시키는 개시자."
+            },
+            {
+              "name": "RO2 (유기과산화라디칼)",
+              "def": "OH가 VOC를 공격한 뒤 생기는 유기 라디칼 + O2 결합체."
+            },
+            {
+              "name": "HO2 (수소과산화라디칼)",
+              "def": "RO2보다 더 단순한 형태. RO2의 “막내” 버전이라 생각하면 됨."
+            },
+            {
+              "name": "RO2* = HO2 + ΣRO2",
+              "def": "이 논문이 실제로 측정하는 대상. “총 과산화라디칼”. 개별 종을 구분하지 않고 합으로 봄."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "blue",
+          "text": "<b>핵심 로직 —</b> RO2*가 NO와 반응하면 NO2가 되고, 그 NO2가 햇빛에 다시 쪼개져 O3을 만듭니다. 즉 <b>RO2* 농도를 알면 “오존이 얼마나 빨리 새로 생기고 있는지(P(O3))”를 계산</b>할 수 있습니다. 이게 이 논문 전체의 존재 이유입니다."
+        },
+        {
+          "type": "prose",
+          "text": "<b>1-2. 그런데 왜 측정이 어려운가</b>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<b>농도가 극단적으로 낮음</b> — 대기 중 RO2*는 보통 pptv(1조분의 1) 수준입니다. 비교하면 NO2는 ppbv(10억분의 1) 수준으로, RO2*가 약 1000배 더 희박합니다.",
+            "<b>수명이 매우 짧음</b> — 반응성이 커서 생성되자마자 다른 분자와 반응해 사라집니다(초 단위 수명).",
+            "그래서 기존 대안들은 저마다 단점이 있었습니다: <b>MIESR</b>(전자스핀공명, 가장 직접적이지만 감도가 낮고 장비가 큼), <b>LIF</b>(레이저유도형광, 민감하지만 간섭에 취약), <b>PerCIMS</b>(질량분석, 정밀하지만 고가·대형)."
+          ]
+        },
+        {
+          "type": "prose",
+          "text": "<b>1-3. 이 논문의 해법: “증폭 후 측정”</b>"
+        },
+        {
+          "type": "prose",
+          "text": "직접 세기 어려우면 <b>불려서(증폭해서)</b> 세자는 발상입니다. 이것이 <b>PERCA</b>(Peroxy Radical Chemical Amplification, 과산화라디칼 화학증폭법)이며, 다음 모듈에서 그 메커니즘을 다룹니다."
+        }
+      ]
+    },
+    {
+      "id": "m2",
+      "category": "bg",
+      "title": "PERCA 증폭 원리 — 이 논문의 심장",
+      "blocks": [
+        {
+          "type": "prose",
+          "text": "발표에서 청중이 가장 먼저 “어떻게 되는 건데?”라고 물을 부분입니다. 아래 순환 반응 하나만 그림으로 외우면 나머지는 자연히 따라옵니다."
+        },
+        {
+          "type": "diagram",
+          "svg": "<svg viewBox=\"0 0 680 320\" role=\"img\" aria-label=\"PERCA 화학증폭 순환 반응 다이어그램: RO2가 RO, HO2를 거쳐 HO2-OH 순환 고리에 들어가고, NO와 CO를 공급원으로 매 회전마다 NO2를 한 개씩 방출하며 이 회전이 약 30회 반복되어 NO2가 누적된다.\">\n                <defs>\n                  <marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\">\n                    <path d=\"M0,0 L10,5 L0,10 z\" fill=\"currentColor\"/>\n                  </marker>\n                </defs>\n                <!-- entry chain -->\n                <rect x=\"18\" y=\"150\" width=\"86\" height=\"40\" rx=\"8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/>\n                <text x=\"61\" y=\"175\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"600\">RO2</text>\n                <line x1=\"104\" y1=\"170\" x2=\"176\" y2=\"110\" stroke=\"currentColor\" stroke-width=\"1.4\" marker-end=\"url(#arrow)\"/>\n                <text x=\"108\" y=\"130\" font-size=\"11.5\">+NO</text>\n                <text x=\"108\" y=\"144\" font-size=\"11.5\" opacity=\".75\">→ NO2 (R1)</text>\n\n                <rect x=\"180\" y=\"72\" width=\"70\" height=\"38\" rx=\"8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/>\n                <text x=\"215\" y=\"96\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"600\">RO</text>\n                <line x1=\"250\" y1=\"91\" x2=\"330\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"1.4\" marker-end=\"url(#arrow)\"/>\n                <text x=\"262\" y=\"112\" font-size=\"11.5\">+O2</text>\n                <text x=\"252\" y=\"126\" font-size=\"11.5\" opacity=\".75\">→ HO2+RCHO (R2)</text>\n\n                <!-- loop -->\n                <circle cx=\"480\" cy=\"170\" r=\"95\" fill=\"none\" stroke=\"var(--line)\" stroke-width=\"18\"/>\n                <rect x=\"332\" y=\"150\" width=\"70\" height=\"40\" rx=\"8\" fill=\"var(--teal-soft)\" stroke=\"var(--teal)\" stroke-width=\"1.6\"/>\n                <text x=\"367\" y=\"175\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"700\" fill=\"var(--teal)\">HO2</text>\n\n                <rect x=\"558\" y=\"150\" width=\"60\" height=\"40\" rx=\"8\" fill=\"var(--blue-soft)\" stroke=\"var(--blue)\" stroke-width=\"1.6\"/>\n                <text x=\"588\" y=\"175\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"700\" fill=\"var(--blue)\">OH</text>\n\n                <path d=\"M402,158 C440,95 520,95 558,158\" fill=\"none\" stroke=\"var(--orange)\" stroke-width=\"2.2\" marker-end=\"url(#arrow)\"/>\n                <text x=\"480\" y=\"98\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"600\" fill=\"var(--orange)\">+NO → NO2↑ (R3)</text>\n\n                <path d=\"M558,183 C520,246 440,246 402,183\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" marker-end=\"url(#arrow)\"/>\n                <text x=\"480\" y=\"266\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"600\">+CO → CO2 (R4, HO2 재생)</text>\n\n                <text x=\"480\" y=\"176\" text-anchor=\"middle\" font-size=\"20\" font-weight=\"700\" fill=\"var(--orange)\">×30</text>\n                <text x=\"480\" y=\"194\" text-anchor=\"middle\" font-size=\"11\" opacity=\".7\">(CL, chain length)</text>\n\n                <line x1=\"500\" y1=\"96\" x2=\"500\" y2=\"34\" stroke=\"var(--orange)\" stroke-width=\"1.6\" marker-end=\"url(#arrow)\"/>\n                <rect x=\"440\" y=\"4\" width=\"150\" height=\"32\" rx=\"8\" fill=\"none\" stroke=\"var(--orange)\" stroke-width=\"1.6\"/>\n                <text x=\"515\" y=\"25\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"700\" fill=\"var(--orange)\">ΔNO2 누적 → CEAS 검출</text>\n              </svg>",
+          "caption": "그림 A. RO2* 분자 1개가 HO2 ⇄ OH 순환 고리에 들어가면, NO·CO 공급이 유지되는 한 매 회전마다 NO2가 하나씩 나온다. 이 논문 장비는 이 회전이 평균 30회(CL=30) 일어나게 설계되었다."
+        },
+        {
+          "type": "prose",
+          "text": "<b>2-1. 4단계 반응 (외울 것은 이 4줄뿐)</b>"
+        },
+        {
+          "type": "equation",
+          "num": null,
+          "expr": "R1  RO2 + NO  →  RO + NO2\nR2  RO + O2  →  HO2 + RCHO\nR3  HO2 + NO →  OH + NO2      ← 순환 고리 (매 회전 NO2 1개 생성)\nR4  OH + CO  →  HO2 + CO2     ← 순환 고리 (HO2 재생, 다시 R3로)",
+          "meaning": null
+        },
+        {
+          "type": "prose",
+          "text": "즉, <b>NO는 라디칼을 “먹고” NO2를 뱉는 산화제</b> 역할을, <b>CO는 OH를 다시 HO2로 되돌리는 “재장전” 역할</b>을 합니다. 이 둘을 과량(NO 8&nbsp;ppm, CO 8%) 넣어주면 라디칼 1개가 사라지기 전까지 이 순환을 수십 번 반복하며 NO2를 수십 개 만들어냅니다 — 이것이 “화학적 증폭”입니다."
+        },
+        {
+          "type": "prose",
+          "text": "<b>2-2. 사슬길이(Chain Length, CL)란?</b>"
+        },
+        {
+          "type": "prose",
+          "text": "라디칼 1개당 평균적으로 만들어지는 NO2 개수입니다. CL=30이라는 것은 <b>RO2* 1개 → NO2 30개</b>로 신호가 증폭된다는 뜻이며, 이 배율 덕분에 pptv 수준의 라디칼을 ppbv 수준의 NO2로 “끌어올려서” 상대적으로 쉬운 NO2 측정 기술로 검출할 수 있게 됩니다."
+        },
+        {
+          "type": "callout",
+          "tone": null,
+          "text": "<b>왜 무한정 늘리지 않고 CL=30에서 멈췄나?</b> 사슬이 영원히 도는 게 아니라 벽면 손실·종결 반응으로 점점 꺼지기 때문입니다(뒤에서 CL이 습도에 민감하다는 점을 다룸). 이 논문 CL=30은 선행 연구들(45~260)보다 낮은 편인데, 대신 NO2 검출 자체의 감도(CEAS)가 좋아서 최종 검출한계는 오히려 우수합니다 — 이 트레이드오프는 발표에서 좋은 포인트가 됩니다."
+        },
+        {
+          "type": "prose",
+          "text": "<b>2-3. CEAS는 뭘 더하는 장치인가</b>"
+        },
+        {
+          "type": "prose",
+          "text": "<b>CEAS(Cavity-Enhanced Absorption Spectroscopy, 공동증강흡수분광)</b>는 두 거울 사이에서 빛을 수천 번 왕복시켜 유효 광경로를 늘리는 광학 기법으로, 극미량의 NO2가 흡수하는 빛의 양을 정밀하게 측정합니다. 요약하면 <b>PERCA가 “라디칼 신호를 키우는” 화학적 증폭기</b>라면, <b>CEAS는 그렇게 커진 NO2 신호를 정밀하게 읽어내는 광학적 자</b>입니다."
+        }
+      ]
+    },
+    {
+      "id": "m3",
+      "category": "flow",
+      "title": "논문 스토리라인 — 4막 구조로 통째로 외우기",
+      "blocks": [
+        {
+          "type": "prose",
+          "text": "이 논문은 전형적인 “장비 개발 → 교정 → 현장 검증 → 응용”의 4막 구조입니다. 발표 슬라이드 순서 그대로 써도 됩니다."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<b>1막 · 왜 우리가 새로 만들었나 (Introduction)</b> — 기존 직접/간접 측정법의 한계, PERCA는 있었지만 dual-channel이라 부피가 컸다는 공백을 지적.",
+            "<b>2막 · 무엇을 어떻게 만들었나 (Methods §2)</b> — 단일채널 PERCA + 자체제작 CEAS 결합. 40×30×17&nbsp;cm, 5.8&nbsp;kg. 밸브 자동전환으로 증폭/배경 모드를 90초씩 순환. 현장용 Hg램프 광분해로 HO2·CH3O2 표준 라디칼을 만들어 CL을 자체 교정(NO=8&nbsp;ppm, RH&lt;20%에서 CL=30±2).",
+            "<b>3막 · 성능이 이 정도다 (Results §3.1–3.2)</b> — RO2* 검출한계 0.38&nbsp;pptv(3분), 전체 불확도 18.4–25.7%. 기존 dual-channel 시스템들과 Table 1로 정면 비교.",
+            "<b>4막 · 실제로 써봤더니 (Results §3.3–3.4)</b> — 주하이 연안에서 15일 이상 관측. RO2*로부터 P(O3)를 계산하고, 관측 O3 변화(d[Ox]/dt)와 비교해 “로컬 생성 vs. 지역 수송”을 R(O3) 지표로 분리. 오염일/청정일 비교까지 확장."
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "teal",
+          "text": "<b>발표 한 줄 요약 뼈대 —</b> “측정이 어려운 라디칼을 화학적으로 증폭해서(2막), 성능을 검증한 뒤(3막), 실제 대기 오존 문제(로컬 생성 vs 수송)에 적용해봤다(4막).”"
+        }
+      ]
+    },
+    {
+      "id": "m4",
+      "category": "num",
+      "title": "핵심 숫자 암기표",
+      "blocks": [
+        {
+          "type": "prose",
+          "text": "질문 받을 확률이 가장 높은 숫자만 추렸습니다. 표 전체를 외우기보다, <b>굵게 표시된 6개</b>부터 확실히 잡으세요."
+        },
+        {
+          "type": "table",
+          "columns": [
+            "구분",
+            "항목",
+            "값"
+          ],
+          "rows": [
+            [
+              "장비",
+              "크기 / 무게",
+              "40×30×17&nbsp;cm / 5.8&nbsp;kg"
+            ],
+            [
+              "장비",
+              "총 유량 / 체류시간",
+              "1500&nbsp;mL/min / 약 3&nbsp;s"
+            ],
+            [
+              "교정 조건",
+              "최적 NO 농도",
+              "8&nbsp;ppmv"
+            ],
+            [
+              "교정 조건",
+              "CO 농도",
+              "8&nbsp;% (v/v)"
+            ],
+            [
+              "교정 조건",
+              "증폭 구간 허용 RH",
+              "&lt; 20&nbsp;%"
+            ],
+            [
+              "성능",
+              "사슬길이 CL (순수 HO2)",
+              "30 ± 2"
+            ],
+            [
+              "성능",
+              "CL (HO2:CH3O2 = 50:50)",
+              "24 ± 1"
+            ],
+            [
+              "성능",
+              "RO2* 검출한계 (LOD)",
+              "0.38&nbsp;pptv (1σ, 3분)"
+            ],
+            [
+              "성능",
+              "NO2 검출한계 (CEAS)",
+              "11.4&nbsp;pptv (3분)"
+            ],
+            [
+              "성능",
+              "전체 측정 불확도",
+              "18.4 – 25.7&nbsp;%"
+            ],
+            [
+              "현장",
+              "관측 지점 / 기간",
+              "주하이 연안, 2024.10.26–11.15 (15일+)"
+            ],
+            [
+              "현장",
+              "낮 RO2* 평균 (피크시각)",
+              "31.11 ± 18.87&nbsp;pptv (13시경 51.3&nbsp;pptv)"
+            ],
+            [
+              "현장",
+              "야간 RO2*",
+              "약 20&nbsp;pptv (완전히 0이 아님)"
+            ],
+            [
+              "현장",
+              "낮 P(O3) 평균 (피크)",
+              "14.41 ± 17.04&nbsp;ppbv/h (일 최대 111&nbsp;ppbv/h)"
+            ],
+            [
+              "현장",
+              "O3 전체 평균 (일 최대범위)",
+              "44.86 ± 25.03&nbsp;ppbv (54–116&nbsp;ppbv)"
+            ],
+            [
+              "현장",
+              "오염일 / 청정일 구분",
+              "14일 (O3&gt;160&nbsp;µg/m³) / 4일"
+            ],
+            [
+              "현장",
+              "오염일 vs 청정일 P(O3) 피크",
+              "약 30 vs 약 20&nbsp;ppbv/h (약 50% 차)"
+            ]
+          ],
+          "highlightRows": [
+            0,
+            5,
+            7,
+            9,
+            11,
+            13
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": null,
+          "text": "<b>암기 팁 —</b> “<span class=\"mono\">8-8-20-30</span>”을 하나의 구호처럼 외우세요: NO 8&nbsp;ppm · CO 8% · RH&lt;20% 조건에서 CL=30. 이 네 숫자만 있으면 Methods 섹션 질문의 대부분에 답할 수 있습니다."
+        }
+      ]
+    },
+    {
+      "id": "m5",
+      "category": "num",
+      "title": "핵심 수식 8개 — 수식보다 “의미”를 외우기",
+      "blocks": [
+        {
+          "type": "prose",
+          "text": "각 수식은 “무엇을 무엇으로부터 구하는가”라는 한 문장으로 압축됩니다. 숫자를 대입해서 풀 필요는 없고, 이 대응 관계만 말할 수 있으면 됩니다."
+        },
+        {
+          "type": "equation",
+          "num": "Eq.(1) — RO2* 농도 정의",
+          "expr": "[RO2*] = ΔNO2 / CL",
+          "meaning": "증폭되어 나온 NO2 양을 사슬길이로 나누면 원래 라디칼 농도가 나온다."
+        },
+        {
+          "type": "equation",
+          "num": "Eq.(2) — CL 산출 (4가지 신호로부터)",
+          "expr": "CL = (S1 − S3) / [2 × (S2 − S4)]",
+          "meaning": "S1=램프ON·CO있음(완전증폭) / S2=램프ON·CO없음(증폭無) / S3,S4=램프OFF(라디칼 소스 자체가 없는 바탕값). “증폭된 신호 대 증폭 안 된 신호”의 비율이 곧 CL."
+        },
+        {
+          "type": "equation",
+          "num": "Eq.(3) — RO2* 검출한계",
+          "expr": "LOD(RO2*) = LOD(NO2) / CL",
+          "meaning": "NO2 검출한계를 CL로 나눈 값이 RO2* 검출한계. CL이 클수록 더 낮은(좋은) 검출한계."
+        },
+        {
+          "type": "equation",
+          "num": "Eq.(4) — 전체 오차 전파",
+          "expr": "σ/[RO2*] = √[(σNO2/[NO2])² + (σCL/CL)² + (σPart/Part)² + (σPAN/PAN)²]",
+          "meaning": "4개의 독립 오차원(NO2 측정 6% · CL 교정 6.7% · 라디칼 종분배 불확실성 · PAN 간섭 1.3–9.8%)을 제곱합의 제곱근으로 합산 → 최종 18.4–25.7%."
+        },
+        {
+          "type": "equation",
+          "num": "Eq.(5) — 오존 생성률 P(O3)",
+          "expr": "P(O3) = k_eff × [RO2*] × [NO]",
+          "meaning": "라디칼과 NO가 만나는 “속도”가 곧 오존이 새로 생기는 속도. 이 논문의 관측값을 실제 정책적 의미(오존 생성 속도)로 바꾸는 핵심 변환식."
+        },
+        {
+          "type": "equation",
+          "num": "Eq.(6)–(7) — 오존 손실(D(O3))과 순생성(P(O3)net)",
+          "expr": "P(O3)net = P(O3) − D(O3)      [D(O3) ≈ P(O3)의 5% 수준]",
+          "meaning": "오존도 광분해·OH/HO2와 반응하며 없어진다(D). 생성에서 손실을 뺀 “순생성”이 실질적으로 오존을 늘리는 몫."
+        },
+        {
+          "type": "equation",
+          "num": "Eq.(8) — 수송 기여도 R(O3)",
+          "expr": "R(O3) = d[Ox]/dt − P(O3)net      (Ox = O3 + NO2)",
+          "meaning": "실측된 “총 산화제 변화 속도”에서 “우리가 계산한 로컬 생성분”을 빼고 남는 것 = 외부에서 들어오거나(+) 빠져나간(−) 몫. 이 논문의 최종 결론(수송 vs 로컬)이 나오는 지점."
+        },
+        {
+          "type": "callout",
+          "tone": "blue",
+          "text": "<b>발표 팁 —</b> Eq.(5)→(7)→(8)의 흐름만 화살표로 보여줘도 “측정값(RO2*) → 생성률(P(O3)) → 수송기여(R(O3))”라는 논문의 논리적 도약을 한 슬라이드로 설명할 수 있습니다."
+        }
+      ]
+    },
+    {
+      "id": "m5b",
+      "category": "num",
+      "title": "반응식(R1–R7) · 수식 기호 한영 용어집",
+      "blocks": [
+        {
+          "type": "prose",
+          "text": "논문에 등장하는 화학반응식 R1~R7과, 핵심 수식 Eq.(1)~(8)에 쓰인 기호·전문용어만 따로 뽑아 정리했습니다. 발표 중 “이 기호가 뭐였죠?”라는 질문을 받았을 때 바로 찾아볼 수 있는 참조용입니다."
+        },
+        {
+          "type": "prose",
+          "text": "<b>① 화학반응식 R1–R7</b>"
+        },
+        {
+          "type": "table",
+          "columns": [
+            "번호",
+            "반응식",
+            "한글 명칭 / 역할"
+          ],
+          "rows": [
+            [
+              "R1",
+              "RO2 + NO → RO + NO2",
+              "라디칼 전파 ① — 유기과산화라디칼(RO2)이 NO를 NO2로 산화시키고 자신은 알콕시라디칼(RO)이 됨"
+            ],
+            [
+              "R2",
+              "RO + O2 → HO2 + RCHO",
+              "라디칼 전파 ② — 알콕시라디칼(RO)이 산소(O2)와 반응해 HO2와 카르보닐화합물(RCHO)을 생성"
+            ],
+            [
+              "R3",
+              "HO2 + NO → OH + NO2",
+              "라디칼 전파 ③ — HO2가 NO를 NO2로 산화시키고 OH를 생성 (여기서 NO2가 한 번 더 나옴 = 증폭의 핵심)"
+            ],
+            [
+              "R4",
+              "OH + CO (+M) → HO2 + CO2 (+M)",
+              "사슬 재순환 — OH가 CO와 반응해 다시 HO2로 돌아옴. 이 재순환 덕분에 R1~R4가 반복되며 신호가 증폭됨"
+            ],
+            [
+              "R5",
+              "H2O + hν → OH + H",
+              "교정원 생성 ① — Hg램프 자외선(hν)이 수증기를 광분해해 OH와 H 원자를 생성 (교정용 라디칼의 출발점)"
+            ],
+            [
+              "R6",
+              "H + O2 + M → HO2 + M",
+              "교정원 생성 ② — H 원자가 산소와 결합해 HO2를 생성 (순수 HO2 교정원의 기반 반응)"
+            ],
+            [
+              "R7",
+              "OH + CH4 + O2 + M → CH3O2 + H2O + M",
+              "교정원 생성 ③ — OH가 메탄(CH4)과 반응해 유기과산화라디칼(CH3O2)을 생성 (HO2+CH3O2 혼합 교정원용)"
+            ]
+          ],
+          "highlightRows": []
+        },
+        {
+          "type": "prose",
+          "text": "※ 반응식의 <b>(+M)</b>은 “제3체(third body)”를 뜻합니다 — 반응에서 남는 에너지를 흡수해 생성물을 안정시키는 주변 분자(대개 N2, O2)로, 반응 자체에는 소모되지 않습니다."
+        },
+        {
+          "type": "prose",
+          "text": "<b>② 수식 Eq.(1)–(8) 핵심 기호</b>"
+        },
+        {
+          "type": "table",
+          "columns": [
+            "기호 / 영문",
+            "한글",
+            "의미"
+          ],
+          "rows": [
+            [
+              "RO2* (= HO2 + ΣRO2)",
+              "총 과산화라디칼",
+              "HO2와 모든 유기과산화라디칼(RO2)을 합친 총량 — 이 논문이 측정하는 대상"
+            ],
+            [
+              "CL (Chain Length)",
+              "화학사슬길이",
+              "반응기 안에서 라디칼이 평균 몇 번 전파(R1→R4) 순환을 도는지 — 곧 증폭 배율"
+            ],
+            [
+              "ΔNO2",
+              "증폭된 NO2 농도",
+              "증폭모드 신호에서 배경모드 신호를 뺀, 순수하게 라디칼 때문에 생긴 NO2 양"
+            ],
+            [
+              "LOD",
+              "검출한계",
+              "잡음과 구별 가능한 최소 신호 크기 (여기서는 0.38 pptv)"
+            ],
+            [
+              "S1–S4",
+              "4가지 교정 신호",
+              "램프 on/off × CO/N2 공급 여부의 2×2 조합으로 얻는 NO2 신호 4종 (Eq.2에서 CL 계산에 사용)"
+            ],
+            [
+              "σ",
+              "표준편차 / 불확도",
+              "측정값이 얼마나 흩어져 있는지를 나타내는 오차 크기"
+            ],
+            [
+              "Part (조성비)",
+              "라디칼 조성 불확도",
+              "실제 대기 중 HO2 대 CH3O2 비율이 교정 조건과 달라서 생기는 오차"
+            ],
+            [
+              "PAN",
+              "과산화아세틸질산염",
+              "열분해 시 NO2와 라디칼을 방출해 측정에 간섭을 일으키는 화합물"
+            ],
+            [
+              "P(O3)",
+              "오존 생성속도",
+              "단위시간당 새로 만들어지는 오존의 양 (ppbv h⁻¹)"
+            ],
+            [
+              "k_eff",
+              "유효반응속도상수",
+              "RO2*+NO의 여러 반응들을 대표해서 쓰는 근사 속도상수"
+            ],
+            [
+              "D(O3)",
+              "오존 손실속도",
+              "광분해·OH/HO2와의 반응 등으로 오존이 없어지는 속도"
+            ],
+            [
+              "P(O3)net",
+              "순 오존생성속도",
+              "P(O3) − D(O3). 생성에서 손실을 뺀, 실질적으로 오존을 늘리는 몫"
+            ],
+            [
+              "Ox (odd oxidants)",
+              "홀수산화물",
+              "O3 + NO2를 하나로 묶은 값 — 둘이 빠르게 평형을 이루기 때문에 합쳐서 다룸"
+            ],
+            [
+              "R(O3)",
+              "수송 기여도",
+              "실측 Ox 변화율에서 로컬 순생성분(P(O3)net)을 뺀 나머지. 양수=수송으로 오존 유입, 음수=수송으로 오존 배출"
+            ],
+            [
+              "j(O¹D)",
+              "오존 광분해 속도상수",
+              "자외선이 O3를 O(¹D)+O2로 분해시키는 속도를 나타내는 상수"
+            ],
+            [
+              "M (제3체)",
+              "충돌 파트너 분자",
+              "반응에서 남는 에너지를 흡수해 생성물을 안정화하는 주변 분자(N2, O2 등)"
+            ]
+          ],
+          "highlightRows": []
+        },
+        {
+          "type": "callout",
+          "tone": "teal",
+          "text": "<b>암기 팁 —</b> R1~R4(측정 사이클)와 R5~R7(교정원 생성)을 먼저 “두 그룹”으로 나눠서 외우고, 수식은 Eq.(1)→(3)→(5)→(7)→(8)의 “측정→검출한계→오존생성→순생성→수송기여” 5단 흐름만 순서대로 말할 수 있으면 나머지(Eq.2,4,6)는 그 사이를 채우는 세부 계산으로 이해하면 됩니다."
+        }
+      ]
+    },
+    {
+      "id": "m6",
+      "category": "fig",
+      "title": "그림(Figure) 6개 — 한 줄 해설 카드",
+      "blocks": [
+        {
+          "type": "prose",
+          "text": "발표 중 “이 그림이 무슨 뜻이냐”는 질문에 즉답할 수 있도록, 각 그림을 한 문장으로 압축했습니다. Fig.1은 배관이 많아 가장 겁먹기 쉬운 그림이라 아래에 따로 상세 해부를 붙였습니다."
+        },
+        {
+          "type": "prose",
+          "text": "<b>Fig. 1 정밀 해부 — “반응관으로 들어가는 입구 3개, 나가는 출구 2개”</b>"
+        },
+        {
+          "type": "prose",
+          "text": "배관이 많아 보이지만, 논리적으로는 <b>반응관(Nafion 튜브) 하나에 입구 3개·출구 2개가 연결된 구조</b>일 뿐입니다. 아래 단순화된 흐름도로 먼저 뼈대를 잡고, 그 아래 5개 항목으로 각 배관을 원문 그림과 대조하세요."
+        },
+        {
+          "type": "diagram",
+          "svg": "<svg viewBox=\"0 0 720 400\" role=\"img\" aria-label=\"Figure 1 단순화 흐름도: NO 상시 공급, CO와 N2가 스위칭되는 라인, Hg램프 표준소스 또는 대기시료가 선택되는 입구라는 세 입력이 Nafion 반응관으로 모이고, 반응관 바깥을 실리카겔 건조 퍼지 루프가 감싸 습도를 낮춘다. 반응관을 나온 흐름은 RH 센서를 거쳐 배기와 CEAS-NO2 검출기 두 갈래로 나뉜다.\">\n                <defs>\n                  <marker id=\"arrow2\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\">\n                    <path d=\"M0,0 L10,5 L0,10 z\" fill=\"currentColor\"/>\n                  </marker>\n                </defs>\n\n                <!-- input boxes -->\n                <rect x=\"14\" y=\"22\" width=\"200\" height=\"54\" rx=\"8\" fill=\"var(--blue-soft)\" stroke=\"var(--blue)\" stroke-width=\"1.4\"/>\n                <text x=\"114\" y=\"44\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"var(--blue)\">① NO 100ppm 표준</text>\n                <text x=\"114\" y=\"61\" text-anchor=\"middle\" font-size=\"11\" opacity=\".75\">FeSO4·7H2O → MFC (상시, 8ppmv)</text>\n\n                <rect x=\"14\" y=\"97\" width=\"200\" height=\"54\" rx=\"8\" fill=\"var(--orange-soft)\" stroke=\"var(--orange)\" stroke-width=\"1.4\"/>\n                <text x=\"114\" y=\"119\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"var(--orange)\">② CO ⇄ N2 스위칭</text>\n                <text x=\"114\" y=\"136\" text-anchor=\"middle\" font-size=\"11\" opacity=\".75\">4개 솔레노이드 밸브, 90s 주기</text>\n\n                <rect x=\"14\" y=\"172\" width=\"200\" height=\"60\" rx=\"8\" fill=\"var(--teal-soft)\" stroke=\"var(--teal)\" stroke-width=\"1.4\"/>\n                <text x=\"114\" y=\"194\" text-anchor=\"middle\" font-size=\"12.5\" font-weight=\"700\" fill=\"var(--teal)\">③ Hg램프 표준소스</text>\n                <text x=\"114\" y=\"209\" text-anchor=\"middle\" font-size=\"11\" opacity=\".75\">/ 대기시료 (Bypass로 선택)</text>\n                <text x=\"114\" y=\"223\" text-anchor=\"middle\" font-size=\"11\" opacity=\".75\">RH Control Module에서 습도 조절</text>\n\n                <!-- arrows to reactor -->\n                <line x1=\"214\" y1=\"49\" x2=\"300\" y2=\"150\" stroke=\"currentColor\" stroke-width=\"1.4\" marker-end=\"url(#arrow2)\"/>\n                <line x1=\"214\" y1=\"124\" x2=\"300\" y2=\"160\" stroke=\"currentColor\" stroke-width=\"1.4\" marker-end=\"url(#arrow2)\"/>\n                <line x1=\"214\" y1=\"202\" x2=\"300\" y2=\"185\" stroke=\"currentColor\" stroke-width=\"1.4\" marker-end=\"url(#arrow2)\"/>\n\n                <!-- reactor -->\n                <rect x=\"302\" y=\"130\" width=\"150\" height=\"66\" rx=\"10\" fill=\"var(--surface)\" stroke=\"currentColor\" stroke-width=\"2\"/>\n                <text x=\"377\" y=\"158\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"700\">반응관</text>\n                <text x=\"377\" y=\"174\" text-anchor=\"middle\" font-size=\"10.5\" opacity=\".7\">Nafion, 체류 ~3s</text>\n\n                <!-- purge loop -->\n                <rect x=\"284\" y=\"112\" width=\"186\" height=\"102\" rx=\"16\" fill=\"none\" stroke=\"var(--teal)\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/>\n                <text x=\"377\" y=\"230\" text-anchor=\"middle\" font-size=\"11\" fill=\"var(--teal)\" font-weight=\"600\">Purge 폐루프(실리카겔) → RH&lt;20% 유지</text>\n\n                <!-- output -->\n                <line x1=\"452\" y1=\"163\" x2=\"524\" y2=\"163\" stroke=\"currentColor\" stroke-width=\"1.4\" marker-end=\"url(#arrow2)\"/>\n                <rect x=\"526\" y=\"140\" width=\"86\" height=\"46\" rx=\"8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/>\n                <text x=\"569\" y=\"167\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"600\">RH 센서</text>\n\n                <line x1=\"612\" y1=\"150\" x2=\"672\" y2=\"100\" stroke=\"currentColor\" stroke-width=\"1.4\" marker-end=\"url(#arrow2)\"/>\n                <rect x=\"600\" y=\"60\" width=\"112\" height=\"42\" rx=\"8\" fill=\"var(--surface-soft)\" stroke=\"currentColor\" stroke-width=\"1.2\"/>\n                <text x=\"656\" y=\"86\" text-anchor=\"middle\" font-size=\"11.5\">④ Exhaust (1&nbsp;L/min)</text>\n\n                <line x1=\"612\" y1=\"176\" x2=\"672\" y2=\"230\" stroke=\"currentColor\" stroke-width=\"1.4\" marker-end=\"url(#arrow2)\"/>\n                <rect x=\"596\" y=\"228\" width=\"118\" height=\"46\" rx=\"8\" fill=\"var(--blue-soft)\" stroke=\"var(--blue)\" stroke-width=\"1.4\"/>\n                <text x=\"655\" y=\"248\" text-anchor=\"middle\" font-size=\"11.5\" font-weight=\"700\" fill=\"var(--blue)\">⑤ CEAS-NO2</text>\n                <text x=\"655\" y=\"263\" text-anchor=\"middle\" font-size=\"10.5\" opacity=\".75\">검출 (0.5 L/min)</text>\n              </svg>",
+          "caption": "그림 B. 원문 Fig.1을 논리 구조로 단순화한 흐름도 — 입구 3개(①②③) → 반응관(퍼지 루프로 저습 유지) → 출구 2개(④⑤)."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<b>① NO 공급 라인 (그림 왼쪽 아래, 상시 흐름)</b> — NO 100&nbsp;ppm 표준가스가 FeSO4·7H2O 필터(불순물 NO2 제거) → MFC(120&nbsp;mL/min) → Flow Restrictor를 거쳐 반응관으로 <b>항상</b> 들어갑니다. 반응관 내 최종 농도 8&nbsp;ppmv. 증폭·배경 모드 어느 쪽이든 꺼지지 않는 이유는, HO2/RO2를 NO2로 바꿔주는 R1·R3의 상대역이 항상 준비돼 있어야 하기 때문입니다.",
+            "<b>② CO⇄N2 스위칭 라인 (그림 위쪽, 밸브 4개)</b> — CO(활성탄 정제, 120&nbsp;mL/min)와 N2(균형가스, 120&nbsp;mL/min)가 반응관의 앞/뒤 입구로 번갈아 배정됩니다. 증폭모드=CO→앞·N2→뒤(R4 재생경로 ON, 사슬 반복), 배경모드=N2→앞·CO→뒤(R4 OFF, 단발성 신호). 이 전환이 90초마다 자동 반복되며 S1/S2 신호를 만듭니다.",
+            "<b>③ 라디칼 소스 입구 (그림 왼쪽 끝, Mercury Lamp + Bypass)</b> — 교정모드에서는 램프가 RH Control Module이 조절한 가습 N2 속 수증기를 광분해(R5)하고, synthetic air(R6)와 CO 또는 CH4 시약(R4/R7)이 차례로 합류해 순수 HO2 또는 HO2+CH3O2 표준을 만듭니다. 현장측정모드에서는 램프를 끄고 <b>Bypass</b>로 전환해 실제 대기 시료가 같은 입구로 들어갑니다 — 즉 교정과 실측이 같은 반응관을 공유합니다.",
+            "<b>반응관을 감싸는 Purge 폐루프</b> — Drying Tube(실리카겔)+Pump로 만든 별도의 닫힌 순환 공기가 Nafion 튜브 바깥을 흐르며, 막을 통해 반응관 내부 수분을 빼내 RH를 20% 이하로 유지합니다(Fig.2b의 CL-RH 관계 때문에 필수).",
+            "<b>④⑤ 검출 및 배기 (그림 오른쪽)</b> — 반응관을 나온 흐름은 RH 센서를 지나 둘로 나뉩니다: 대부분(1&nbsp;L/min)은 그대로 Exhaust로, 일부(0.5&nbsp;L/min)만 CEAS-NO2 검출기로 들어가 증폭된 NO2를 광학적으로 정량한 뒤 배출됩니다."
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": null,
+          "text": "<b>한 문장 암기 —</b> “<span class=\"mono\">입구 3개(NO 상시·CO⇄N2 스위칭·라디칼 소스), 출구 2개(배기·CEAS 검출)</span>, 그 사이에 저습 유지용 퍼지 루프.” 이 한 문장이면 Fig.1에 대한 어떤 질문에도 뼈대로 답할 수 있습니다."
+        },
+        {
+          "type": "prose",
+          "text": "<b>Fig. 2 정밀 해부 — “왜 NO 8ppm·RH 20%를 골랐는가”의 증거 그래프</b>"
+        },
+        {
+          "type": "prose",
+          "text": "이 그림은 모듈 4의 “8-8-20-30” 구호가 어디서 나온 숫자인지 직접 보여주는 실험 데이터입니다. 순수 HO2 표준 소스를 이용해 조건을 하나씩 바꿔가며 CL을 5회씩 반복 측정한 결과입니다."
+        },
+        {
+          "type": "diagram",
+          "svg": "<svg viewBox=\"0 0 700 280\" role=\"img\" aria-label=\"Figure 2 재구성: (a) NO 농도가 2ppm에서 8ppm으로 늘수록 CL이 약 14에서 30까지 증가하다 8ppm에서 포화된다. (b) RH가 10%에서 50%로 늘수록 CL이 약 30에서 15까지 지수적으로 감소하며, 필드 운영 상한인 RH 20% 지점이 점선으로 표시되어 있다.\">\n                <!-- panel A -->\n                <line x1=\"60\" y1=\"230\" x2=\"320\" y2=\"230\" stroke=\"currentColor\" stroke-width=\"1.2\"/>\n                <line x1=\"60\" y1=\"40\" x2=\"60\" y2=\"230\" stroke=\"currentColor\" stroke-width=\"1.2\"/>\n                <text x=\"190\" y=\"256\" text-anchor=\"middle\" font-size=\"12\">NO 농도 (ppm)</text>\n                <text x=\"26\" y=\"135\" text-anchor=\"middle\" font-size=\"12\" transform=\"rotate(-90 26 135)\">CL</text>\n                <text x=\"60\" y=\"244\" text-anchor=\"middle\" font-size=\"10.5\" opacity=\".75\">2</text>\n                <text x=\"140\" y=\"244\" text-anchor=\"middle\" font-size=\"10.5\" opacity=\".75\">4</text>\n                <text x=\"220\" y=\"244\" text-anchor=\"middle\" font-size=\"10.5\" opacity=\".75\">6</text>\n                <text x=\"300\" y=\"244\" text-anchor=\"middle\" font-size=\"10.5\" opacity=\".75\">8</text>\n                <text x=\"50\" y=\"234\" text-anchor=\"end\" font-size=\"10.5\" opacity=\".75\">10</text>\n                <text x=\"50\" y=\"152\" text-anchor=\"end\" font-size=\"10.5\" opacity=\".75\">20</text>\n                <text x=\"50\" y=\"70\" text-anchor=\"end\" font-size=\"10.5\" opacity=\".75\">30</text>\n                <path d=\"M60,193 L100,150 L140,115 L180,88 L220,69 L260,57 L300,54\" fill=\"none\" stroke=\"var(--teal)\" stroke-width=\"2.2\"/>\n                <circle cx=\"300\" cy=\"54\" r=\"4.5\" fill=\"var(--orange)\"/>\n                <text x=\"300\" y=\"42\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"var(--orange)\">8ppm→CL≈30 (포화)</text>\n\n                <!-- panel B -->\n                <line x1=\"400\" y1=\"230\" x2=\"680\" y2=\"230\" stroke=\"currentColor\" stroke-width=\"1.2\"/>\n                <line x1=\"400\" y1=\"40\" x2=\"400\" y2=\"230\" stroke=\"currentColor\" stroke-width=\"1.2\"/>\n                <text x=\"540\" y=\"256\" text-anchor=\"middle\" font-size=\"12\">상대습도 RH (%)</text>\n                <text x=\"400\" y=\"244\" text-anchor=\"middle\" font-size=\"10.5\" opacity=\".75\">10</text>\n                <text x=\"540\" y=\"244\" text-anchor=\"middle\" font-size=\"10.5\" opacity=\".75\">30</text>\n                <text x=\"680\" y=\"244\" text-anchor=\"middle\" font-size=\"10.5\" opacity=\".75\">50</text>\n                <line x1=\"470\" y1=\"40\" x2=\"470\" y2=\"230\" stroke=\"var(--orange)\" stroke-width=\"1.4\" stroke-dasharray=\"4 4\"/>\n                <text x=\"470\" y=\"252\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"700\" fill=\"var(--orange)\">20 (필드 상한)</text>\n                <path d=\"M400,69 L470,107 L540,139 L610,166 L680,189\" fill=\"none\" stroke=\"var(--teal)\" stroke-width=\"2.2\"/>\n                <circle cx=\"680\" cy=\"189\" r=\"4.5\" fill=\"var(--orange)\"/>\n                <text x=\"620\" y=\"205\" text-anchor=\"middle\" font-size=\"11\" opacity=\".8\">RH50%→CL 50%+↓</text>\n              </svg>",
+          "caption": "그림 C. Fig.2 데이터 재구성 — (a) NO 증가 시 CL 포화 곡선, (b) RH 증가 시 CL 지수 감소 곡선."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<b>(a) NO 농도 의존성</b> — RH=10%, CO=8%로 고정하고 NO만 2~8&nbsp;ppm으로 변화. NO가 부족하면 R3(HO2+NO)가 느려 사슬이 조기에 끊기지만, NO가 충분하면 사슬이 끝까지 진행됩니다. 다항식 피팅(y=−0.48x²+7.64x+1.13, R²=0.996)으로 8&nbsp;ppm 부근에서 CL이 포화됨을 확인 → “측정 효율과 가스 경제성”을 함께 고려해 8&nbsp;ppm을 최종 운영값으로 채택.",
+            "<b>(b) 상대습도(RH) 의존성</b> — 이번엔 NO=8&nbsp;ppm으로 고정하고 자체 제작 가습기로 RH를 10~50%까지 변화. 지수함수 피팅(y=35.145e<sup>−0.017x</sup>, R²=0.991)으로 RH가 오를수록 CL이 급격히 감소함을 확인. 벽면에 흡착된 수분이 라디칼의 불균일 종결 반응을 촉진하기 때문으로 설명합니다.",
+            "<b>정량적 임팩트</b> — RH가 50%까지 오르면 CL이 50.1% 넘게 감소 — 감도가 절반 이하로 떨어지는 셈. 그래서 현장에서는 증폭구역 RH를 <b>20% 이하</b>로 강제 제어했고, 이는 대기 중 습도 약 45%까지는 대응 가능함을 의미합니다.",
+            "<b>최종 값 두 개가 다른 이유</b> — 같은 RH=10%·NO=8ppm·CO=8% 조건에서 순수 HO2로 교정하면 CL=30±2, HO2:CH3O2=50:50 혼합 라디칼로 교정하면 CL=24±1. CH3O2(유기 라디칼)가 HO2보다 사슬 전파 효율이 낮기 때문 — 실제 대기는 두 라디칼이 섞여 있으므로 이 차이가 곧 4장의 “종분배 불확실성(16–22%)”으로 이어집니다."
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "teal",
+          "text": "<b>한 문장 암기 —</b> “NO는 많을수록 좋지만 8ppm에서 이미 충분, 습도는 적을수록 좋고 20%가 현장 마지노선.”"
+        },
+        {
+          "type": "prose",
+          "text": "<b>Fig. 3 정밀 해부 — 15일 시계열을 “인과 순서”로 읽기</b>"
+        },
+        {
+          "type": "prose",
+          "text": "5단 그래프이지만 순서 자체가 논리입니다: <b>기상(원인) → NOx(전구물질) → O3(최종 산물) → RO2*(그 산물을 만드는 라디칼) → P(O3)(그 라디칼의 순간 생성 속도)</b> 순으로 쌓아, 위에서 아래로 읽으면 “왜 오존이 저렇게 변했는가”를 원인부터 속도까지 추적할 수 있게 설계되어 있습니다."
+        },
+        {
+          "type": "diagram",
+          "svg": "<svg viewBox=\"0 0 700 300\" role=\"img\" aria-label=\"Figure 3 개념 모식도(실제 파형 아님): 기온은 완만하게 높고 습도는 반대 위상으로 야간에 높다. NOx는 낮고 평탄하다. O3, RO2*, P(O3)는 모두 같은 위상으로 매일 낮에 뚜렷한 피크를 반복하며, RO2*는 야간에도 0으로 완전히 떨어지지 않는다.\">\n                <text x=\"12\" y=\"46\" font-size=\"12\" font-weight=\"600\">기온·습도</text>\n                <line x1=\"90\" y1=\"46\" x2=\"90\" y2=\"46\" stroke=\"currentColor\"/>\n                <polyline points=\"90,46 160,28 230,46 300,28 370,46 440,28 510,46 580,28 650,46\" fill=\"none\" stroke=\"var(--orange)\" stroke-width=\"2\"/>\n                <polyline points=\"90,36 160,54 230,36 300,54 370,36 440,54 510,36 580,54 650,36\" fill=\"none\" stroke=\"var(--blue)\" stroke-width=\"2\"/>\n                <text x=\"655\" y=\"30\" font-size=\"10\" fill=\"var(--orange)\">T</text>\n                <text x=\"655\" y=\"60\" font-size=\"10\" fill=\"var(--blue)\">RH</text>\n\n                <text x=\"12\" y=\"96\" font-size=\"12\" font-weight=\"600\">NO·NO2</text>\n                <polyline points=\"90,104 160,100 230,105 300,98 370,103 440,101 510,104 580,99 650,103\" fill=\"none\" stroke=\"var(--ink-faint)\" stroke-width=\"2\"/>\n                <text x=\"655\" y=\"94\" font-size=\"10\" opacity=\".7\">약함·평탄</text>\n\n                <text x=\"12\" y=\"148\" font-size=\"12\" font-weight=\"600\">O3</text>\n                <polyline points=\"90,158 160,130 230,158 300,130 370,158 440,130 510,158 580,130 650,158\" fill=\"none\" stroke=\"var(--teal)\" stroke-width=\"2.4\"/>\n\n                <text x=\"12\" y=\"200\" font-size=\"12\" font-weight=\"600\">RO2*</text>\n                <polyline points=\"90,204 160,182 230,204 300,182 370,204 440,182 510,204 580,182 650,204\" fill=\"none\" stroke=\"var(--blue)\" stroke-width=\"2.4\"/>\n                <text x=\"655\" y=\"200\" font-size=\"9.5\" opacity=\".75\">야간에도&gt;0</text>\n\n                <text x=\"12\" y=\"252\" font-size=\"12\" font-weight=\"600\">P(O3)</text>\n                <polyline points=\"90,264 160,236 230,264 300,232 370,264 440,226 510,264 580,234 650,264\" fill=\"none\" stroke=\"var(--orange)\" stroke-width=\"2.6\"/>\n\n                <line x1=\"90\" y1=\"278\" x2=\"90\" y2=\"284\" stroke=\"currentColor\" stroke-width=\"1\"/>\n                <line x1=\"160\" y1=\"278\" x2=\"160\" y2=\"284\" stroke=\"currentColor\" stroke-width=\"1\"/>\n                <text x=\"90\" y=\"296\" text-anchor=\"middle\" font-size=\"9.5\" opacity=\".7\">야간</text>\n                <text x=\"160\" y=\"296\" text-anchor=\"middle\" font-size=\"9.5\" opacity=\".7\">낮 피크(13시경)</text>\n                <text x=\"440\" y=\"296\" text-anchor=\"middle\" font-size=\"9.5\" opacity=\".6\">2024-10-26 ~ 11-16, 1h 분해능</text>\n              </svg>",
+          "caption": "그림 D. Fig.3 개념 모식도 — 실제 파형이 아닌 “위상·경향”만 재현한 그림. 정확한 수치는 원문 그래프 참고."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<b>기온·습도 (a)</b> — 항상 25°C 이상(평균 28.44±1.5°C), 전형적 해안 일변화로 습도는 낮에 낮고 밤에 높음(25–85%, 평균 55.98±12.53%).",
+            "<b>NOx (b)</b> — NO 0.34±0.81, NO2 13.21±4.72&nbsp;ppbv로 둘 다 낮음 → “이 지점은 교통 배출 영향이 약하다”는 근거로 뒤에서 계속 인용됩니다.",
+            "<b>O3 (c)</b> — 매일 낮 뚜렷한 피크 반복, 일 최댓값 54–116&nbsp;ppbv, 전체 평균 44.86±25.03&nbsp;ppbv (중간 정도의 광화학 오염).",
+            "<b>RO2* (d)</b> — O3·NOx와 유사하게 낮 피크 반복이지만, <b>야간에도 완전히 0으로 떨어지지 않는다</b>는 점이 이 패널의 숨은 포인트 — 뒤에 나오는 Fig.4a·NO3 화학 논의로 이어집니다.",
+            "<b>P(O3) (e)</b> — 가장 뾰족한 피크(일 최대 14~111&nbsp;ppbv/h)를 보이는데, 이는 P(O3)=RO2*×NO 곱셈 관계 때문에 두 변수의 변동이 함께 증폭되어 나타나는 결과입니다."
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "blue",
+          "text": "이 5단 그림은 “현장 데이터가 이만큼 있다”는 신뢰성 증거인 동시에, 다음 그림들(Fig.4~6)에서 뜯어볼 개별 관계들의 <b>원본 데이터</b>이기도 합니다 — 발표에서는 “이 시계열에서 낮 피크와 NO 의존성을 따로 뜯어본 게 다음 그림들”이라고 연결하면 자연스럽습니다."
+        },
+        {
+          "type": "prose",
+          "text": "<b>Fig. 4 정밀 해부 — RO2*의 “산 모양(inverted-U)” 이중 증거</b>"
+        },
+        {
+          "type": "diagram",
+          "svg": "<svg viewBox=\"0 0 700 260\" role=\"img\" aria-label=\"Figure 4 재구성: (a) RO2*의 일변화는 야간 약 20pptv에서 낮 13시경 약 51pptv까지 상승했다가 다시 감소하는 종 모양이다. (b) NO 농도 구간별 RO2* 분포는 NO 1ppbv 부근까지 증가하다가 그 이후 감소하는 산 모양(inverted-U)을 보인다.\">\n                <rect x=\"60\" y=\"40\" width=\"65\" height=\"190\" fill=\"var(--surface)\" opacity=\".5\"/>\n                <rect x=\"256\" y=\"40\" width=\"64\" height=\"190\" fill=\"var(--surface)\" opacity=\".5\"/>\n                <line x1=\"60\" y1=\"230\" x2=\"320\" y2=\"230\" stroke=\"currentColor\" stroke-width=\"1.2\"/>\n                <line x1=\"60\" y1=\"40\" x2=\"60\" y2=\"230\" stroke=\"currentColor\" stroke-width=\"1.2\"/>\n                <text x=\"190\" y=\"250\" text-anchor=\"middle\" font-size=\"12\">시각 (0–24시, 회색=야간)</text>\n                <text x=\"26\" y=\"135\" text-anchor=\"middle\" font-size=\"12\" transform=\"rotate(-90 26 135)\">RO2*(pptv)</text>\n                <polyline points=\"60,207 125,210 158,140 201,68 233,154 256,203 320,207\" fill=\"none\" stroke=\"var(--blue)\" stroke-width=\"2.4\"/>\n                <circle cx=\"201\" cy=\"68\" r=\"4.5\" fill=\"var(--orange)\"/>\n                <text x=\"201\" y=\"56\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"var(--orange)\">13시, ~51pptv</text>\n                <text x=\"93\" y=\"222\" text-anchor=\"middle\" font-size=\"10\" opacity=\".7\">~20</text>\n\n                <line x1=\"400\" y1=\"230\" x2=\"680\" y2=\"230\" stroke=\"currentColor\" stroke-width=\"1.2\"/>\n                <line x1=\"400\" y1=\"40\" x2=\"400\" y2=\"230\" stroke=\"currentColor\" stroke-width=\"1.2\"/>\n                <text x=\"540\" y=\"250\" text-anchor=\"middle\" font-size=\"12\">NO 농도 구간 (낮음 → 높음)</text>\n                <text x=\"366\" y=\"135\" text-anchor=\"middle\" font-size=\"12\" transform=\"rotate(-90 366 135)\">RO2*(pptv)</text>\n                <line x1=\"540\" y1=\"40\" x2=\"540\" y2=\"230\" stroke=\"var(--ink-faint)\" stroke-width=\"1.2\" stroke-dasharray=\"3 4\"/>\n                <text x=\"540\" y=\"252\" text-anchor=\"middle\" font-size=\"10\" opacity=\".75\">~1 ppbv 전환점</text>\n                <g stroke=\"var(--line)\" fill=\"var(--surface)\">\n                  <rect x=\"410\" y=\"188\" width=\"20\" height=\"21\" /><rect x=\"450\" y=\"152\" width=\"20\" height=\"21\"/>\n                  <rect x=\"490\" y=\"143\" width=\"20\" height=\"21\"/><rect x=\"530\" y=\"152\" width=\"20\" height=\"21\"/>\n                  <rect x=\"570\" y=\"179\" width=\"20\" height=\"21\"/><rect x=\"610\" y=\"188\" width=\"20\" height=\"21\"/>\n                  <rect x=\"650\" y=\"215\" width=\"20\" height=\"21\"/>\n                </g>\n                <polyline points=\"420,198.5 460,162.5 500,153.5 540,162.5 580,189.5 620,198.5 660,225.5\" fill=\"none\" stroke=\"var(--teal)\" stroke-width=\"2.2\"/>\n                <circle cx=\"500\" cy=\"153.5\" r=\"4\" fill=\"var(--orange)\"/>\n              </svg>",
+          "caption": "그림 E. Fig.4 재구성 — (a) 일변화(13시 피크), (b) NO 구간별 분포(inverted-U, 박스는 사분위 개념만 단순화)."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<b>(a) 일변화</b> — 회색 음영(18~06시)에서 낮고, 해가 뜬 뒤 상승해 <b>13시경 51.3&nbsp;pptv</b>로 최고점, 이후 감소. 태양이 가장 강한 시각과 거의 일치 — 광화학 생성이 직접적 원인임을 시사.",
+            "<b>(b) NO 구간별 분포</b> — x축은 NO 농도를 7구간(0–0.1 ~ &gt;2&nbsp;ppbv)으로 나눈 것, 박스는 사분위 범위, 검은선=중앙값, 빨간 삼각형=평균. <b>NO가 늘수록 처음엔 RO2*도 증가하지만 약 1&nbsp;ppbv를 넘으면 감소</b>로 전환 — “산 모양(inverted-U)”.",
+            "<b>왜 감소로 돌아서는가</b> — 과잉 NO가 라디칼을 유기질산염 같은 종결 생성물로 빠르게 전환시켜 사슬 순환(R1–R4)을 끊어버리기 때문.",
+            "<b>왜 이 지점의 전환점(~1ppbv)이 다른 연구보다 높은가</b> — 주강삼각주 특유의 높은 VOC 반응성(식생의 생물기원 VOC 등)이 사슬 전파를 더 오래 지탱해주기 때문이라고 저자들은 추정합니다."
+          ]
+        },
+        {
+          "type": "prose",
+          "text": "<b>Fig. 5 정밀 해부 — P(O3)는 왜 “계속 증가”하는 다른 모양인가</b>"
+        },
+        {
+          "type": "diagram",
+          "svg": "<svg viewBox=\"0 0 700 260\" role=\"img\" aria-label=\"Figure 5 재구성: (a) P(O3)의 일변화는 오전 10시경 약 27ppbv/h로 RO2*보다 이르게 피크를 찍고 오후에 감소한다. (b) NO 농도 구간별 P(O3)는 낮은 구간부터 높은 구간까지 꾸준히 증가하는 단조증가 형태를 보인다.\">\n                <rect x=\"60\" y=\"40\" width=\"65\" height=\"190\" fill=\"var(--surface)\" opacity=\".5\"/>\n                <rect x=\"256\" y=\"40\" width=\"64\" height=\"190\" fill=\"var(--surface)\" opacity=\".5\"/>\n                <line x1=\"60\" y1=\"230\" x2=\"320\" y2=\"230\" stroke=\"currentColor\" stroke-width=\"1.2\"/>\n                <line x1=\"60\" y1=\"40\" x2=\"60\" y2=\"230\" stroke=\"currentColor\" stroke-width=\"1.2\"/>\n                <text x=\"190\" y=\"250\" text-anchor=\"middle\" font-size=\"12\">시각 (0–24시, 회색=야간)</text>\n                <text x=\"26\" y=\"135\" text-anchor=\"middle\" font-size=\"12\" transform=\"rotate(-90 26 135)\">P(O3) (ppbv/h)</text>\n                <polyline points=\"60,224 125,221 158,110 168,68 201,122 233,182 256,221 320,224\" fill=\"none\" stroke=\"var(--orange)\" stroke-width=\"2.4\"/>\n                <circle cx=\"168\" cy=\"68\" r=\"4.5\" fill=\"var(--orange)\"/>\n                <text x=\"168\" y=\"56\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"var(--orange)\">10시, ~27ppbv/h</text>\n                <text x=\"201\" y=\"112\" text-anchor=\"middle\" font-size=\"9.5\" opacity=\".7\">13시(RO2* 피크)엔 이미 하강중</text>\n\n                <line x1=\"400\" y1=\"230\" x2=\"680\" y2=\"230\" stroke=\"currentColor\" stroke-width=\"1.2\"/>\n                <line x1=\"400\" y1=\"40\" x2=\"400\" y2=\"230\" stroke=\"currentColor\" stroke-width=\"1.2\"/>\n                <text x=\"540\" y=\"250\" text-anchor=\"middle\" font-size=\"12\">NO 농도 구간 (낮음 → 높음)</text>\n                <text x=\"366\" y=\"135\" text-anchor=\"middle\" font-size=\"12\" transform=\"rotate(-90 366 135)\">P(O3) (ppbv/h)</text>\n                <g stroke=\"var(--line)\" fill=\"var(--surface)\">\n                  <rect x=\"410\" y=\"204\" width=\"20\" height=\"21\"/><rect x=\"450\" y=\"189\" width=\"20\" height=\"21\"/>\n                  <rect x=\"490\" y=\"168\" width=\"20\" height=\"21\"/><rect x=\"530\" y=\"143\" width=\"20\" height=\"21\"/>\n                  <rect x=\"570\" y=\"117\" width=\"20\" height=\"21\"/><rect x=\"610\" y=\"86\" width=\"20\" height=\"21\"/>\n                  <rect x=\"650\" y=\"55\" width=\"20\" height=\"21\"/>\n                </g>\n                <polyline points=\"420,214.6 460,199.1 500,178.6 540,152.9 580,127.1 620,96.3 660,65.4\" fill=\"none\" stroke=\"var(--teal)\" stroke-width=\"2.2\"/>\n                <text x=\"540\" y=\"30\" text-anchor=\"middle\" font-size=\"10.5\" opacity=\".75\">계속 우상향 (Fig.4b와 반대 모양)</text>\n              </svg>",
+          "caption": "그림 F. Fig.5 재구성 — (a) 일변화(10시 피크, RO2*보다 이름), (b) NO 구간별 단조증가."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<b>(a) 왜 피크가 RO2*(13시)보다 이른 10시인가</b> — P(O3)=k×[RO2*]×[NO]이기 때문에, 아침엔 아직 NO가 남아있는 상태에서 광화학이 막 활성화되어 두 요인이 겹쳐 이른 피크가 나타나고, 오후엔 NO가 더 소진되며 P(O3)가 먼저 꺾입니다.",
+            "<b>(b) NO 구간별 P(O3)는 왜 계속 증가하는가</b> — RO2*는 NO가 많아지면 오히려 줄어들지만(Fig.4b), <b>곱셈 관계</b>인 P(O3)는 NO 자체가 늘어나는 효과가 더 커서 전체적으로 계속 증가 — 이 지역 오존 생성이 <b>NOx-limited</b> 체제에 있다는 증거로 해석됩니다.",
+            "<b>Fig.4b와의 대조가 이 논문의 숨은 하이라이트</b> — “라디칼 농도(원인 물질)는 산모양, 반응 속도(결과)는 계단모양”이라는 대비는 라디칼 화학을 이해한다는 걸 보여주는 좋은 발표 포인트입니다."
+          ]
+        },
+        {
+          "type": "prose",
+          "text": "<b>Fig. 6 정밀 해부 — “왜 오염일에 오존이 더 쌓이는가”를 세 선으로 증명</b>"
+        },
+        {
+          "type": "diagram",
+          "svg": "<svg viewBox=\"0 0 700 300\" role=\"img\" aria-label=\"Figure 6 재구성: 오염일에는 정오 무렵 R(O3)이 음수에서 0 근처로 상승해 수송에 의한 오존 배출이 약해짐을 보이고, P(O3)는 약 30ppbv/h까지 오른다. 청정일에는 R(O3)이 하루 종일 음수로 유지되어 지속적으로 오존이 빠져나가며, P(O3)는 약 20ppbv/h로 더 낮다.\">\n                <line x1=\"60\" y1=\"158\" x2=\"670\" y2=\"158\" stroke=\"var(--ink-faint)\" stroke-width=\"1\" stroke-dasharray=\"3 4\"/>\n                <text x=\"30\" y=\"162\" font-size=\"10\" opacity=\".7\">0</text>\n\n                <text x=\"195\" y=\"26\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"700\">(a) 오염일 (14일)</text>\n                <line x1=\"60\" y1=\"260\" x2=\"330\" y2=\"260\" stroke=\"currentColor\" stroke-width=\"1.2\"/>\n                <line x1=\"60\" y1=\"40\" x2=\"60\" y2=\"260\" stroke=\"currentColor\" stroke-width=\"1.2\"/>\n                <text x=\"195\" y=\"280\" text-anchor=\"middle\" font-size=\"11\">시각 (6–18시)</text>\n                <polyline points=\"60,158.5 127.5,63.7 150,56.9 217.5,107.7 285,141.5 330,155.1\" fill=\"none\" stroke=\"var(--orange)\" stroke-width=\"2.4\"/>\n                <polyline points=\"60,158.5 127.5,124.6 150,107.7 217.5,100.9 285,124.6 330,158.5\" fill=\"none\" stroke=\"var(--blue)\" stroke-width=\"2\"/>\n                <polyline points=\"60,192.3 127.5,219.4 150,209.2 217.5,151.7 285,185.5 330,199.1\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\"/>\n                <circle cx=\"217.5\" cy=\"151.7\" r=\"4\" fill=\"var(--ink)\"/>\n                <text x=\"217.5\" y=\"140\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\">정오: R(O3)≈0</text>\n\n                <text x=\"535\" y=\"26\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"700\">(b) 청정일 (4일)</text>\n                <line x1=\"400\" y1=\"260\" x2=\"670\" y2=\"260\" stroke=\"currentColor\" stroke-width=\"1.2\"/>\n                <line x1=\"400\" y1=\"40\" x2=\"400\" y2=\"260\" stroke=\"currentColor\" stroke-width=\"1.2\"/>\n                <text x=\"535\" y=\"280\" text-anchor=\"middle\" font-size=\"11\">시각 (6–18시)</text>\n                <polyline points=\"400,158.5 467.5,97.5 490,90.8 557.5,117.8 625,144.9 670,155.1\" fill=\"none\" stroke=\"var(--orange)\" stroke-width=\"2.4\"/>\n                <polyline points=\"400,165.2 467.5,141.5 490,131.4 557.5,138.2 625,165.2 670,175.4\" fill=\"none\" stroke=\"var(--blue)\" stroke-width=\"2\"/>\n                <polyline points=\"400,185.5 467.5,202.5 490,199.1 557.5,178.8 625,178.8 670,178.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\"/>\n                <text x=\"535\" y=\"215\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\">R(O3) 계속 음수 (수출 지속)</text>\n\n                <g font-size=\"11\">\n                  <line x1=\"60\" y1=\"292\" x2=\"80\" y2=\"292\" stroke=\"var(--orange)\" stroke-width=\"2.4\"/><text x=\"86\" y=\"296\">P(O3) (로컬 생성)</text>\n                  <line x1=\"230\" y1=\"292\" x2=\"250\" y2=\"292\" stroke=\"var(--blue)\" stroke-width=\"2\"/><text x=\"256\" y=\"296\">d[Ox]/dt (실측 변화)</text>\n                  <line x1=\"440\" y1=\"292\" x2=\"460\" y2=\"292\" stroke=\"currentColor\" stroke-width=\"2.4\"/><text x=\"466\" y=\"296\">R(O3) (수송 기여)</text>\n                </g>\n              </svg>",
+          "caption": "그림 G. Fig.6 재구성 — 오염일은 정오에 R(O3)이 0 근처까지 상승(환기 약화), 청정일은 하루 종일 음수(수출 지속)."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<b>세 선의 의미</b> — 주황(P(O3), Eq.5로 계산한 로컬 생성), 파랑(d[Ox]/dt, 실측된 총 산화제 변화), 검정(R(O3)=파랑−주황, Eq.8의 수송 기여).",
+            "<b>(a) 오염일(14일, O3&gt;160&nbsp;µg/m³)</b> — 정오 무렵 R(O3)이 음수에서 0 근처(살짝 양수)까지 상승 → “빠져나가던 오존이 덜 빠져나감”을 의미. 연안 풍계 수렴으로 환기가 약해졌기 때문. 그 결과 P(O3) 피크가 <b>~30&nbsp;ppbv/h</b>까지 높게 유지되고 오존이 축적됩니다.",
+            "<b>(b) 청정일(4일, 최대 시간 O3&lt;120&nbsp;µg/m³)</b> — R(O3)이 하루 종일 음수를 유지 → 로컬 생성(P(O3)~20&nbsp;ppbv/h)이 지속적인 수출로 거의 상쇄되어 O3 변동이 평탄하게 나타남.",
+            "<b>결론 한 문장</b> — “오염일 = 강한 생성 + 약해진 배출, 청정일 = 보통 생성 + 꾸준한 배출.” 즉 이 지역 오존 오염은 새로운 생성원이 아니라 <b>기존 생성물이 못 빠져나가는 기상조건</b>이 겹칠 때 심해집니다."
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": null,
+          "text": "<b>발표 마무리 멘트로 좋은 문장 —</b> “결국 이 논문은 라디칼 하나 잘 재는 기술이, 오존 오염이 우리 동네 문제인지 남의 동네에서 온 문제인지까지 구분해줄 수 있다는 걸 보여준 사례입니다.”"
+        },
+        {
+          "type": "figureCard",
+          "items": [
+            {
+              "tag": "Fig. 1",
+              "caption": "장비 전체 배관도. 보라색 점선(표준가스 발생부)이 CL 교정용, 파란색 점선(측정부)이 실제 대기 샘플링용.",
+              "imageUri": null,
+              "takeaway": "→ 위 “정밀 해부” 참고"
+            },
+            {
+              "tag": "Fig. 2",
+              "caption": "(a) CL은 NO 8&nbsp;ppm까지 증가 후 포화. (b) CL은 RH가 오를수록 지수적으로 감소.",
+              "imageUri": null,
+              "takeaway": "→ “그래서 운영조건을 NO 8ppm·RH&lt;20%로 고정했다”"
+            },
+            {
+              "tag": "Fig. 3",
+              "caption": "15일간 기상(온습도)·NOx·O3·RO2*·P(O3) 시계열 5단 그래프. 낮에 피크, 밤에 저점이 반복.",
+              "imageUri": null,
+              "takeaway": "→ “관측 기간 전체를 보여주는 요약 그림”"
+            },
+            {
+              "tag": "Fig. 4",
+              "caption": "(a) RO2* 일변화(13시 피크). (b) RO2*는 NO 농도가 오를수록 처음엔 증가하다 ~1&nbsp;ppbv부터 감소(비선형).",
+              "imageUri": null,
+              "takeaway": "→ “RO2*-NO는 산과 같은 모양(증가 후 감소)”"
+            },
+            {
+              "tag": "Fig. 5",
+              "caption": "(a) P(O3)는 오전 10시경 피크. (b) P(O3)는 NO가 오를수록 계속 증가(RO2*와 달리 단조증가).",
+              "imageUri": null,
+              "takeaway": "→ “P(O3)-NO는 계속 오르는 모양 (NOx-limited 체제)”"
+            },
+            {
+              "tag": "Fig. 6",
+              "caption": "오염일 vs 청정일의 P(O3)·d[Ox]/dt·R(O3) 일변화 비교. 오염일은 정오에 R(O3)이 0 근처까지 상승(수출 약화), 청정일은 계속 음수(수출 유지).",
+              "imageUri": null,
+              "takeaway": "→ “오염일=환기 안 됨, 청정일=계속 빠져나감”"
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": null,
+          "text": "<b>기억 규칙 —</b> Fig.4b(RO2*-NO)는 산 모양, Fig.5b(P(O3)-NO)는 오름 계단. 이 둘의 모양이 <b>다르다는 것 자체가 이 논문의 흥미로운 발견</b>입니다 — 라디칼 자체는 고농도 NO에서 줄어들어도, NO가 워낙 많아지면 반응 “속도”(P(O3)=RO2*×NO)는 계속 올라가기 때문입니다."
+        }
+      ]
+    },
+    {
+      "id": "m7",
+      "category": "num",
+      "title": "비교표(Table 1 · 2) 해설",
+      "blocks": [
+        {
+          "type": "prose",
+          "text": "<b>Table 1 — 기존 PERCA 장비들과의 스펙 비교</b>"
+        },
+        {
+          "type": "prose",
+          "text": "11개 선행 시스템 중 대부분이 <b>dual-channel</b>(측정+배경을 동시에 두 채널로), 이 논문만 <b>single-channel</b>입니다. CL은 이 논문(30)이 최하위권이지만, LOD(0.38&nbsp;pptv)는 최상위권입니다."
+        },
+        {
+          "type": "callout",
+          "tone": "teal",
+          "text": "<b>이 표에서 던질 수 있는 한 마디 —</b> “사슬을 덜 돌려도(CL 낮음), 신호를 더 정밀하게 읽으면(CEAS) 결과적으로 더 낮은 농도까지 잴 수 있다.” CL과 LOD는 비례하지 않을 수 있다는 걸 보여주는 좋은 예시입니다."
+        },
+        {
+          "type": "prose",
+          "text": "<b>Table 2 — 다른 지역 관측값과의 비교</b>"
+        },
+        {
+          "type": "prose",
+          "text": "주하이는 NO 농도가 매우 낮은(0.84&nbsp;ppbv) 연안·교외 지역인데도, P(O3)(14.41&nbsp;ppbv/h)는 Wangdu(10.44)·San Antonio(4.2)·Hefei(5.91) 같은 저-NO 지역보다 높고, 심지어 고-NO 도심 지역인 Paris(15.8)·Heshan(18.1)과 비슷한 수준입니다."
+        },
+        {
+          "type": "callout",
+          "tone": null,
+          "text": "<b>이게 왜 중요한가 —</b> “NO가 적은데도 오존 생성이 활발하다”는 것은, 이 지역 라디칼-NOx 반응 사이클이 유난히 효율적이거나(식생 기원 VOC가 풍부해서 라디칼 공급이 많음) — 저자들이 논문에서 강조하는 지점입니다."
+        }
+      ]
+    },
+    {
+      "id": "m8",
+      "category": "qa",
+      "title": "강점 · 한계 — 30초 요약",
+      "blocks": [
+        {
+          "type": "prose",
+          "text": "<b>강점 (3가지만 말한다면)</b>"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<b>소형·경량화</b> — 5.8&nbsp;kg, 단일채널로 기존 대형 장비의 현장 배치 제약을 해소.",
+            "<b>낮은 검출한계</b> — CL은 낮지만 CEAS 덕분에 0.38&nbsp;pptv로 비교군 중 최상위.",
+            "<b>측정을 정책적 통찰로 연결</b> — 단순 관측에 그치지 않고 P(O3)→R(O3)까지 이어 “로컬 대 수송” 기여를 분리, 오존 저감 정책에 실질적 함의 제공."
+          ]
+        },
+        {
+          "type": "prose",
+          "text": "<b>한계 (3가지만 말한다면)</b>"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<b>HO2/RO2 구분 불가</b> — 총량(RO2*)만 측정하며, 종 분배 비율은 문헌값을 가정(16–22% 편향 가능성 스스로 인정).",
+            "<b>단일 계절·단일 지점, 짧은 기간</b> — 가을 15일 데이터로, 계절 대표성·청정일 표본(4일)이 매우 작음.",
+            "<b>독립 기법과의 현장 상호비교 부재</b> — LIF나 dual-channel PERCA 등과 나란히 검증한 적은 없어 절대 정확도는 자체 교정에만 의존."
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "blue",
+          "text": "질문 세션에서 “한계가 뭐라고 생각하냐”는 질문이 오면 이 3가지 중 하나를 골라 <i>“~로 보입니다”</i> 식으로 답하면 자연스럽습니다 (단정적 표현보다 헤지 표현이 안전)."
+        }
+      ]
+    },
+    {
+      "id": "m9",
+      "category": "qa",
+      "title": "예상 질문 20선 (클릭해서 답 확인)",
+      "blocks": [
+        {
+          "type": "prose",
+          "text": "답을 먼저 가리고 스스로 말해본 뒤 클릭해서 확인하는 방식(active recall)으로 반복하면 암기 효율이 가장 높습니다."
+        },
+        {
+          "type": "qaList",
+          "items": [
+            {
+              "q": "RO2*는 정확히 무엇의 합인가?",
+              "a": "HO2 + ΣRO2 (모든 유기과산화라디칼의 합). 개별 종을 구분하지 않은 총량."
+            },
+            {
+              "q": "왜 dual-channel이 아니라 single-channel로 설계했나?",
+              "a": "dual-channel은 두 개의 NO2 검출기를 병렬 운용해야 해서 광학 특성·유량 차이로 인한 채널 간 불일치(discrepancy) 위험이 있고, 부피·복잡도도 커짐. 단일채널은 구조가 단순해지는 대신 증폭/배경 모드를 시간차(90초씩)로 번갈아 측정."
+            },
+            {
+              "q": "CL을 어떻게 실측했나?",
+              "a": "Hg 램프로 수증기를 광분해해 OH/H를 만들고, 이를 이용해 순수 HO2 또는 HO2+CH3O2 혼합 표준 라디칼 소스를 현장에서 직접 생성. 램프 on/off, CO/N2 전환 조합으로 4개 신호(S1~S4)를 얻어 CL=(S1-S3)/2(S2-S4)로 계산."
+            },
+            {
+              "q": "NO와 CO는 각각 어떤 역할을 하는가?",
+              "a": "NO는 라디칼(HO2)을 산화시켜 OH+NO2를 만드는 “증폭 트리거”, CO는 그 OH를 다시 HO2로 되돌려 사슬을 재개시키는 “재생 시약” 역할."
+            },
+            {
+              "q": "습도(RH)가 CL에 왜 영향을 주는가?",
+              "a": "반응기 벽면에 수분이 흡착되면 라디칼의 불균일 흡착·종결 반응이 촉진되어 사슬 전파가 조기에 끊기기 때문. RH 50%에서는 CL이 50% 이상 감소."
+            },
+            {
+              "q": "이 장비의 최종 검출한계와 그 의미는?",
+              "a": "0.38 pptv (1σ, 3분 평균). 이는 비교 대상 PERCA 시스템 중 최상위권으로, CL은 낮지만 CEAS의 우수한 NO2 감도 덕분."
+            },
+            {
+              "q": "전체 측정 불확도(18.4–25.7%)는 어디서 오는가?",
+              "a": "① NO2 측정 자체 오차(6%) ② CL 교정 반복오차(6.7%) ③ HO2/RO2 종분배 가정에서 오는 불확실성(16–22% 잠재 편향) ④ PAN 열분해 간섭(1.3–9.8%, 모델 추정). 이 네 가지를 제곱합으로 더함."
+            },
+            {
+              "q": "PAN 간섭이 왜 문제가 되는가?",
+              "a": "PAN이 열분해되면 NO2와 라디칼을 방출해 반응기 안에서 추가 증폭을 일으켜, 실제보다 RO2*를 과대추정하게 만들 수 있음. 이 논문은 F0AM 박스모델로 그 영향을 추정해 불확도에 반영."
+            },
+            {
+              "q": "관측 지점과 기간은?",
+              "a": "중산대(Sun Yat-sen University) 캠퍼스 6층 건물 옥상, 주하이 서쪽 연안(주강 하구), 2024년 10월 26일~11월 15일, 3분 시간분해능으로 15일 이상 유효 데이터."
+            },
+            {
+              "q": "낮 시간 RO2*는 어떤 패턴을 보였나?",
+              "a": "평균 31.11±18.87 pptv, 13시경 51.3 pptv로 최고. 일몰 후 급감하지만 야간에도 완전히 0이 되지 않고 약 20 pptv 유지."
+            },
+            {
+              "q": "야간에도 RO2*가 남아있는 이유는 뭐라고 설명하는가?",
+              "a": "저자들은 NO3 라디칼에 의한 야간 화학(NO3+VOC 산화)이 야간 RO2* 소스일 가능성을 제시. 관측된 야간 NO3 생성률(~1.4 ppbv/h)이 기존 문헌의 계절 평균(1.07±0.38 ppbv/h)보다 높음을 근거로 듦."
+            },
+            {
+              "q": "RO2*와 NO의 관계가 비선형인 이유는?",
+              "a": "NO가 적을 땐 HOx-RO2 순환을 촉진해 RO2*가 증가하지만, NO가 약 1 ppbv를 넘으면 과잉 NO가 라디칼을 유기질산염 같은 종결 생성물로 빠르게 전환시켜 사슬이 끊기고 RO2*가 감소."
+            },
+            {
+              "q": "이 사이트의 NO 전환점(~1 ppbv)이 다른 연구보다 높은 이유는?",
+              "a": "주변의 높은 VOC 반응성(주강삼각주 식생의 생물기원 VOC 배출 등)으로 라디칼 전파 사이클이 더 오래 유지되기 때문이라고 추정."
+            },
+            {
+              "q": "P(O3)는 어떻게 계산했나?",
+              "a": "P(O3) = k_eff × [RO2*] × [NO] (Eq.5). 측정된 RO2*와 동시 관측된 NO 농도를 반응속도상수와 곱해 산출."
+            },
+            {
+              "q": "P(O3)net과 D(O3)는 왜 구분하는가?",
+              "a": "오존도 광분해·OH/HO2와의 반응으로 소실되므로(D(O3)), 순수 생성만 반영하려면 P(O3)에서 D(O3)를 빼야 함. 이 연구에서 D(O3)는 P(O3)의 약 5% 수준으로 작아 P(O3)≈P(O3)net으로 근사."
+            },
+            {
+              "q": "R(O3)이 의미하는 바는? 부호는 어떻게 해석하나?",
+              "a": "관측된 총 산화제 변화율(d[Ox]/dt)에서 계산된 로컬 순생성(P(O3)net)을 뺀 나머지. R(O3)&gt;0이면 외부에서 오존(전구물질)이 유입(수입), R(O3)&lt;0이면 로컬에서 만들어진 오존이 빠져나가는(수출) 것으로 해석."
+            },
+            {
+              "q": "오염일과 청정일은 어떻게 정의했나?",
+              "a": "오염일: 일 최대 O3가 중국 1급 기준(160 µg/m³)을 초과한 날(14일). 청정일: 일 최대 시간 O3가 120 µg/m³ 미만인 날(4일)."
+            },
+            {
+              "q": "오염일과 청정일의 수송 패턴 차이는?",
+              "a": "오염일은 정오 무렵 연안 풍계 수렴으로 환기가 약해지며 R(O3)이 음수에서 0 근처까지 상승(수출 약화) → 오존이 축적되어 P(O3) 피크가 더 높음(~30 vs ~20 ppbv/h). 청정일은 R(O3)이 계속 음수를 유지(수출 지속)해 P(O3)와 상쇄되며 O3 변동이 평탄."
+            },
+            {
+              "q": "이 논문의 결론을 한 문장으로 요약하면?",
+              "a": "단일채널 PERCA-CEAS로 휴대성과 고감도(0.38 pptv)를 모두 달성했고, 이를 연안 지역에 적용해 오존 오염이 지역 수송보다 로컬 광화학 생성에 더 크게 좌우됨을 정량적으로 보여주었다."
+            },
+            {
+              "q": "후속 연구로 무엇을 제안할 수 있는가?",
+              "a": "① 독립 기법(LIF 등)과의 현장 상호비교로 정확도 검증 ② 다계절·다지점 장기관측으로 대표성 확보 ③ HO2/RO2 종분리 기법 추가 ④ VOC 실측 병행으로 NOx-VOC 민감도 직접 검증 ⑤ NO3/N2O5 동시관측으로 야간 라디칼원 가설 검증."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m9b",
+      "category": "qa",
+      "title": "전문가 심화 질문 — 대기화학 전공자가 던질 법한 날카로운 질문",
+      "blocks": [
+        {
+          "type": "prose",
+          "text": "동료 물리학자 대상 발표와 달리, <b>대기화학 전문가 앞</b>에서는 방법론의 빈틈을 더 깊이 파고드는 질문이 나올 가능성이 높습니다. 아래는 모듈 8의 “한계 3가지”를 출발점 삼아, 논문 본문에 근거해 한 단계 더 파고든 질문들입니다. 일부는 논문에 명시적 답이 없어 “~로 보입니다/추정됩니다” 식으로 솔직하게 답하는 연습이 중요합니다."
+        },
+        {
+          "type": "qaList",
+          "items": [
+            {
+              "q": "[방법론] 90초씩 시간차로 증폭/배경 모드를 전환하는데, 그 사이 대기 조성이 바뀌면 배경 차감(subtraction)이 부정확해지지 않나?",
+              "a": "논문은 이 이슈를 명시적으로 정량화하지는 않습니다. single-channel의 근본적 한계로 보이며, dual-channel(두 채널 동시 측정) 대비 “시간 mismatch”에 취약할 수 있습니다. 다만 저자들은 이 대신 두 채널 간 광학적 불일치 문제를 없앤 것을 트레이드오프로 제시하고 있습니다 — “어느 쪽 오차가 더 큰가”는 이 논문만으로는 답하기 어렵고, dual-channel과의 직접 비교 실험이 필요해 보입니다."
+            },
+            {
+              "q": "[CL] CL=30은 기존 연구(50~200) 대비 낮은데, 단순히 “벽면 손실” 때문이라는 설명이 충분한 근거로 보이는가?",
+              "a": "논문은 반응기 재질·설계·작동압력을 원인으로 지목하지만, 정량적으로 “얼마나 기여하는지”는 분해해서 제시하지 않습니다. CL이 낮아도 CEAS의 높은 NO2 감도로 LOD 자체는 우수하다는 것이 저자들의 방어 논리이며, 이 논문 안에서는 합리적으로 보이나 CL 저하의 근본 원인을 별도 실험(예: 반응기 재질을 바꿔가며 비교)으로 검증하지는 않았습니다."
+            },
+            {
+              "q": "[종분배] HO2/CH3O2 비율을 Stone et al.(2010)의 문헌값(0.8–1.2 / 0.85–0.95)에서 가져왔는데, 주하이라는 특정 지역·계절에도 그대로 적용 가능한가?",
+              "a": "저자들 스스로도 이 가정에서 오는 불확도(16–22%)를 “종분배 불확실성”으로 명시하고 있어, 완전히 확신하고 있지는 않은 것으로 보입니다. VOC 조성이 다른 지역(연안·식생 영향)에서는 HO2/RO2 비율이 문헌값과 다를 가능성이 있으며, 이는 저자들이 인정한 한계이자 후속 연구에서 현장 VOC 실측과 병행 검증이 필요한 지점입니다."
+            },
+            {
+              "q": "[PAN 간섭] PAN 간섭 보정치(1.95 pptv @ 1 ppbv PAN)는 실측이 아니라 F0AM 박스모델 시뮬레이션 결과인데, 실제 현장에서도 이 값이 유효한가?",
+              "a": "본문에서도 “kinetic simulation”이라고 명시하고 있어 모델 기반 추정치임을 인정하고 있습니다. 실제 현장의 PAN 농도·온도·반응시간이 시뮬레이션 조건(26.5°C, 0.15초)과 다르면 오차가 커질 수 있어, 현장에서 PAN을 직접 동시관측해 검증하지는 않은 것으로 보입니다 — 이는 이 논문이 명시한 불확도 범위(18.4–25.7%)에 내재된 한계로 이해하는 것이 안전합니다."
+            },
+            {
+              "q": "[통계적 대표성] 청정일이 단 4일뿐인데, 이 표본 크기로 “로컬 생성 vs 수송”이라는 결론을 일반화할 수 있는가?",
+              "a": "표본 수(14일 대 4일)의 비대칭은 이 논문의 명백한 한계로 보입니다. 청정일 4일의 결과가 우연히 특정 기상 패턴에 편중되었을 가능성을 배제하기 어렵고, 저자들도 이를 “가을철 15일”이라는 단일 계절·단기간 관측으로 한정하고 있습니다. 발표에서는 이 부분을 스스로 먼저 짚어주는 것이 좋은 인상을 줄 수 있습니다."
+            },
+            {
+              "q": "[야간 라디칼원] 야간 RO2*가 NO3 화학 때문이라는 설명은 어느 정도로 확실한가?",
+              "a": "논문 원문 자체가 “possibly due to NO3 chemistry oxidation”이라는 헤지 표현을 쓰고 있어, 저자들도 이를 직접 증명한 것이 아니라 정황 근거(야간 P(NO3) 추정치가 문헌 평균보다 높음)로 추정만 하고 있습니다. NO3나 N2O5를 직접 동시관측하지 않았기 때문에, 이는 확정된 결론이 아니라 “가장 그럴듯한 가설” 수준으로 이해하고 답하는 것이 정확합니다."
+            },
+            {
+              "q": "[속도상수 근사] k_eff를 k(NO+HO2)로 근사했는데, 실제 RO2* 중 유기라디칼 비중이 커지면 이 근사가 깨지지 않는가?",
+              "a": "논문은 “k(NO+HO2)와 여러 RO2 반응들의 속도상수 차이가 10% 미만”이라는 선행연구(Orlando and Tyndall, 2012)를 근거로 근사를 정당화하고 있습니다. 이 10%는 P(O3)net 불확도(21.5–28.0%) 계산에 이미 포함되어 있어, 완전히 무시된 것은 아니지만 “대체로 균질한 RO2 혼합물”이라는 전제가 깔려 있다는 점은 짚어볼 만합니다."
+            },
+            {
+              "q": "[비교 타당성] Table 1·2의 다른 PERCA 시스템들과 CL·LOD·P(O3)를 직접 비교하는 것이 방법론적으로 타당한가?",
+              "a": "반응기 설계·재질·운용 압력·교정 방식이 시스템마다 다르기 때문에, 표에 나열된 수치들은 “동일 조건에서의 성능 비교”라기보다는 “각 시스템이 보고한 최종 성능 지표의 나열”에 가깝습니다. 저자들도 CL 차이의 원인으로 이런 시스템 간 구조적 차이를 언급하고 있어, 절대적 우열 비교보다는 “이 정도 범위 안에 든다”는 맥락으로 이해하는 것이 안전해 보입니다."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "blue",
+          "text": "<b>발표 전략 —</b> 이런 질문들에는 “논문이 이렇게 방어하고 있습니다”와 “다만 이 부분은 논문만으로는 완전히 검증되지 않은 것으로 보입니다”를 함께 말하는 것이 가장 안전합니다. 모른다고 얼버무리기보다, 저자들이 스스로 인정한 한계(불확도 항목들)를 정확히 짚어주는 것이 전문가 청중에게 신뢰를 줍니다."
+        }
+      ]
+    },
+    {
+      "id": "m10",
+      "category": "script",
+      "title": "10분 발표 대본 (슬라이드 흐름)",
+      "blocks": [
+        {
+          "type": "prose",
+          "text": "실제 발표 시간(약 11분30초)에 맞춰 배분한 흐름입니다. 각 구간은 학습자료 모듈 4·5·5.5의 정확한 숫자·수식·용어를 그대로 인용하도록 작성했습니다 — “한 문장 멘트”를 그대로 입으로 연습하면 암기 속도가 빨라집니다."
+        },
+        {
+          "type": "prose",
+          "text": "<b>[0:00] 도입 — 왜 이 논문인가</b><br>“대류권 오존은 NOx와 휘발성유기화합물(VOC)이 햇빛 아래에서 반응해 생기는 2차 오염물질인데, 이 반응을 실제로 매개하는 것이 바로 과산화라디칼 RO2*(=HO2+ΣRO2)입니다. 문제는 이 라디칼의 대기 중 농도가 수십 pptv 수준으로 극히 낮고 수명도 초 단위로 짧아서, 직접 측정이 매우 어렵다는 점입니다. 오늘 소개할 논문은 이 라디칼을 화학반응으로 증폭시키는 PERCA와, 증폭된 신호를 광학적으로 정밀하게 읽어내는 CEAS를 결합해 5.8&nbsp;kg짜리 휴대용 장비를 만든 이야기입니다.”"
+        },
+        {
+          "type": "prose",
+          "text": "<b>[1:30] 원리 — PERCA 순환 다이어그램 (R1–R4)</b><br>“PERCA의 핵심은 네 개의 반응(R1~R4)이 도는 순환 고리입니다. RO2가 NO와 반응해 NO2와 HO2를 만들고(R1, R2), HO2가 다시 NO와 반응해 OH와 NO2를 만들며(R3), 이 OH가 CO와 반응해 다시 HO2로 되돌아갑니다(R4). 이 순환이 평균 몇 번 도는지를 나타내는 지표가 화학사슬길이 CL이고, 저희 장비는 CL=30±2를 확보했습니다 — 라디칼 1개가 들어오면 NO2 30개로 증폭되어 나온다는 뜻입니다. 식으로 쓰면 [RO2*] = ΔNO2 / CL, 이게 Eq.(1)입니다.”"
+        },
+        {
+          "type": "prose",
+          "text": "<b>[3:30] 장비 구조 &amp; 현장 교정</b><br>“설계에서 가장 중요한 선택은 단일채널 구조였습니다. 기존 dual-channel은 검출기 2대를 동시에 써서 배경을 빼는데, 두 채널 간 광학적 차이 때문에 오차가 생길 수 있습니다. 저희는 검출기 1대로 증폭모드·배경모드를 90초씩 번갈아 측정해(시간분해능 3분) 이 문제를 피했고, 결과적으로 40×30×17&nbsp;cm, 5.8&nbsp;kg까지 소형화했습니다. CL 교정은 현장에서 직접 했는데, Hg램프로 수증기를 광분해해(R5) 표준 HO2 라디칼을 만들고, NO 8&nbsp;ppm·CO 8%·RH 10%라는 최적 조건을 찾아 CL=30±2를 얻었습니다. 습도가 중요한 이유는 RH가 50%까지 오르면 CL이 50% 넘게 떨어지기 때문이고, 그래서 현장에서는 증폭구간 RH를 20% 밑으로 철저히 관리했습니다.”"
+        },
+        {
+          "type": "prose",
+          "text": "<b>[5:30] 성능 비교 (Table 1 · Eq.3–4)</b><br>“Table 1에서 기존 PERCA 장비들과 비교하면, 저희 CL=30은 선행 연구들(대개 45~260)보다 낮은 편입니다. 반응기 벽면 손실이 주된 원인으로 추정됩니다. 하지만 CEAS가 NO2를 매우 정밀하게 읽어내기 때문에(NO2 검출한계 11.4&nbsp;pptv, 3분) 최종 RO2* 검출한계는 0.38&nbsp;pptv(1σ, 3분)로 비교군 중 최상위권입니다. CL은 낮아도 최종 감도는 오히려 좋다는, 좋은 트레이드오프 사례입니다. 전체 측정 불확도는 18.4~25.7%인데, NO2 측정 오차(6%)·CL 교정 오차(6.7%)·라디칼 조성비 불확실성·PAN 간섭(1.3~9.8%)을 Eq.(4)의 제곱합으로 더한 값입니다.”"
+        },
+        {
+          "type": "prose",
+          "text": "<b>[7:00] 현장관측 결과</b><br>“이 장비를 2024년 10월 26일부터 11월 15일까지, 주하이 연안 중산대 캠퍼스 옥상에서 15일 이상 운용했습니다. 낮 시간 RO2* 평균은 31.11±18.87&nbsp;pptv였고 13시경 51.3&nbsp;pptv로 최고치를 찍었습니다. 흥미로운 점은 야간에도 RO2*가 완전히 0으로 떨어지지 않고 약 20&nbsp;pptv를 유지했다는 건데, 저자들은 이를 NO3 라디칼에 의한 야간 화학 때문일 가능성이 있다고 조심스럽게 설명합니다. 또 RO2*는 NO가 약 1&nbsp;ppbv를 넘어서면 오히려 줄어드는 산 모양(비선형) 반응을 보였는데, 과량의 NO가 라디칼을 종결시키기 때문입니다.”"
+        },
+        {
+          "type": "prose",
+          "text": "<b>[8:30] 로컬 생성 vs 지역 수송 (Eq.5·8)</b><br>“측정된 RO2*로부터 Eq.(5) P(O3)=k_eff×[RO2*]×[NO]를 이용해 오존 생성률을 계산했습니다. 낮 평균 P(O3)는 14.41±17.04&nbsp;ppbv/h였습니다. 여기서 이 논문의 핵심 아이디어가 나오는데, 실제 관측된 산화제(Ox=O3+NO2) 변화율에서 저희가 계산한 로컬 생성분을 빼면 남는 것이 수송 기여도 R(O3)입니다(Eq.8) — 양수면 외부에서 오존이 들어온 것이고, 음수면 로컬에서 만든 오존이 빠져나간 것입니다. 오염일(14일)과 청정일(4일)을 비교하면, 오염일은 정오 무렵 R(O3)가 0 근처까지 올라가면서(환기 약화) 오존이 축적돼 P(O3) 피크가 청정일보다 약 50% 더 높았습니다(약 30 대 20&nbsp;ppbv/h).”"
+        },
+        {
+          "type": "prose",
+          "text": "<b>[10:00] 예상 질문 선제 방어</b><br>“질문이 들어올 만한 지점을 먼저 짚겠습니다. 첫째, HO2와 유기라디칼(RO2)을 구분하지 못하고 문헌값으로 종분배를 가정한 점(16~22% 편향 가능), 둘째 청정일 표본이 4일뿐이라 통계적 대표성이 제한적인 점, 셋째 PAN 간섭 보정치가 실측이 아니라 F0AM 모델 시뮬레이션이라는 점입니다. 이 세 가지는 저자들도 논문에서 스스로 인정한 한계입니다.”"
+        },
+        {
+          "type": "prose",
+          "text": "<b>[10:45] 마무리 — 결론 &amp; 후속연구</b><br>“정리하면, 이 연구는 단일채널 PERCA와 자체 제작 CEAS를 결합해 휴대성과 고감도(0.38&nbsp;pptv)를 동시에 달성했고, 실제 연안 지역에 적용해 오존 오염이 지역 수송보다 로컬 광화학 생성에 더 크게 좌우된다는 것을 정량적으로 보여줬습니다. 후속 연구로는 독립 기법과의 상호비교, 다계절·다지점 장기관측, HO2/RO2 종분리 기법 추가 등이 필요해 보입니다. 이상입니다, 감사합니다.”"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "id": "c1",
+      "category": "concept",
+      "priority": "core",
+      "q": "RO2*는 정확히 무엇의 합인가?",
+      "a": "HO2 + ΣRO2 (모든 유기과산화라디칼의 합). 개별 종을 구분하지 않은 총량.",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "c2",
+      "category": "concept",
+      "priority": "normal",
+      "q": "왜 dual-channel이 아니라 single-channel로 설계했나?",
+      "a": "dual-channel은 NO2 검출기 두 대를 병렬 운용해야 해서 광학 특성·유량 차이로 채널 간 불일치가 생길 수 있고 부피도 커짐. 단일채널은 구조가 단순해지는 대신 증폭·배경 모드를 90초씩 시간차로 번갈아 측정.",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "c3",
+      "category": "concept",
+      "priority": "core",
+      "q": "CL을 어떻게 실측했나?",
+      "a": "Hg램프로 수증기를 광분해해 OH/H를 만들고, 순수 HO2 또는 HO2+CH3O2 혼합 표준 라디칼을 현장에서 직접 생성. 램프 on/off·CO/N2 전환 조합으로 4개 신호(S1~S4)를 얻어 CL=(S1−S3)/2(S2−S4)로 계산.",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "c4",
+      "category": "concept",
+      "priority": "normal",
+      "q": "NO와 CO는 각각 어떤 역할을 하는가?",
+      "a": "NO는 라디칼(HO2)을 산화시켜 OH+NO2를 만드는 “증폭 트리거”, CO는 그 OH를 다시 HO2로 되돌려 사슬을 재개시키는 “재생 시약”.",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "c5",
+      "category": "concept",
+      "priority": "normal",
+      "q": "습도(RH)가 CL에 왜 영향을 주는가?",
+      "a": "반응기 벽면에 흡착된 수분이 라디칼의 불균일 흡착·종결 반응을 촉진해 사슬 전파가 조기에 끊기기 때문. RH 50%에서는 CL이 50% 이상 감소.",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "c6",
+      "category": "number",
+      "priority": "core",
+      "q": "이 장비의 최종 검출한계와 그 의미는?",
+      "a": "0.38 pptv (1σ, 3분 평균). CL은 낮지만 CEAS의 우수한 NO2 감도 덕분에 비교 대상 PERCA 시스템 중 최상위권.",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "c7",
+      "category": "number",
+      "priority": "core",
+      "q": "전체 측정 불확도(18.4–25.7%)는 어디서 오는가?",
+      "a": "① NO2 측정 오차(6%) ② CL 교정 반복오차(6.7%) ③ HO2/RO2 종분배 가정 불확실성(16–22%) ④ PAN 열분해 간섭(1.3–9.8%). 이 네 가지를 제곱합의 제곱근으로 합산.",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "c8",
+      "category": "concept",
+      "priority": "normal",
+      "q": "PAN 간섭이 왜 문제가 되는가?",
+      "a": "PAN이 열분해되면 NO2와 라디칼을 방출해 반응기 안에서 추가 증폭을 일으켜 RO2*를 과대추정하게 만들 수 있음. F0AM 박스모델로 그 영향을 추정해 불확도에 반영.",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "c9",
+      "category": "field",
+      "priority": "core",
+      "q": "관측 지점과 기간은?",
+      "a": "중산대 캠퍼스 6층 건물 옥상, 주하이 서쪽 연안(주강 하구), 2024년 10월 26일~11월 15일, 3분 시간분해능으로 15일 이상 유효 데이터.",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "c10",
+      "category": "field",
+      "priority": "normal",
+      "q": "낮 시간 RO2*는 어떤 패턴을 보였나?",
+      "a": "평균 31.11±18.87 pptv, 13시경 51.3 pptv로 최고. 일몰 후 급감하지만 야간에도 완전히 0이 되지 않고 약 20 pptv 유지.",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "c11",
+      "category": "field",
+      "priority": "normal",
+      "q": "야간에도 RO2*가 남아있는 이유는?",
+      "a": "NO3 라디칼에 의한 야간 화학(NO3+VOC 산화)이 야간 RO2* 소스일 가능성. 관측된 야간 NO3 생성률(~1.4 ppbv/h)이 문헌의 계절 평균(1.07±0.38)보다 높음.",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "c12",
+      "category": "concept",
+      "priority": "normal",
+      "q": "RO2*와 NO의 관계가 비선형(산모양)인 이유는?",
+      "a": "NO가 적을 땐 HOx-RO2 순환을 촉진해 RO2*가 증가하지만, NO가 약 1 ppbv를 넘으면 과잉 NO가 라디칼을 유기질산염 등 종결 생성물로 전환시켜 사슬이 끊기고 감소.",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "c13",
+      "category": "field",
+      "priority": "normal",
+      "q": "이 사이트의 NO 전환점(~1 ppbv)이 다른 연구보다 높은 이유는?",
+      "a": "주강삼각주 특유의 높은 VOC 반응성(식생의 생물기원 VOC 등)이 사슬 전파를 더 오래 지탱해주기 때문으로 추정.",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "c14",
+      "category": "concept",
+      "priority": "core",
+      "q": "P(O3)는 어떻게 계산했나?",
+      "a": "P(O3) = k_eff × [RO2*] × [NO] (Eq.5). 측정된 RO2*와 동시 관측된 NO 농도를 반응속도상수와 곱해 산출.",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "c15",
+      "category": "concept",
+      "priority": "normal",
+      "q": "P(O3)net과 D(O3)는 왜 구분하는가?",
+      "a": "오존도 광분해·OH/HO2와 반응해 소실되므로(D(O3)), 순수 생성만 보려면 P(O3)에서 D(O3)를 빼야 함. 이 연구에서 D(O3)는 P(O3)의 약 5%로 작아 P(O3)≈P(O3)net으로 근사.",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "c16",
+      "category": "concept",
+      "priority": "core",
+      "q": "R(O3)이 의미하는 바는? 부호는?",
+      "a": "실측 총 산화제 변화율(d[Ox]/dt)에서 로컬 순생성(P(O3)net)을 뺀 나머지. R(O3)>0=외부 유입(수입), R(O3)<0=로컬 생성분이 빠져나감(수출).",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "c17",
+      "category": "field",
+      "priority": "normal",
+      "q": "오염일과 청정일은 어떻게 정의했나?",
+      "a": "오염일: 일 최대 O3가 중국 1급 기준(160 µg/m³) 초과(14일). 청정일: 일 최대 시간 O3가 120 µg/m³ 미만(4일).",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "c18",
+      "category": "field",
+      "priority": "normal",
+      "q": "오염일과 청정일의 수송 패턴 차이는?",
+      "a": "오염일은 정오 무렵 연안 풍계 수렴으로 환기가 약해지며 R(O3)이 음수→0 근처로 상승(수출 약화), P(O3) 피크도 더 높음(~30 vs ~20 ppbv/h). 청정일은 R(O3)이 하루 종일 음수 유지(수출 지속)해 O3 변동이 평탄.",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "c19",
+      "category": "limit",
+      "priority": "normal",
+      "q": "이 논문의 결론을 한 문장으로?",
+      "a": "단일채널 PERCA-CEAS로 휴대성과 고감도(0.38 pptv)를 모두 달성했고, 연안 지역 적용을 통해 오존 오염이 지역 수송보다 로컬 광화학 생성에 더 크게 좌우됨을 정량적으로 보여줌.",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "c20",
+      "category": "limit",
+      "priority": "normal",
+      "q": "후속 연구로 무엇을 제안할 수 있는가?",
+      "a": "① 독립 기법(LIF 등)과 현장 상호비교 ② 다계절·다지점 장기관측 ③ HO2/RO2 종분리 기법 추가 ④ VOC 실측 병행 ⑤ NO3/N2O5 동시관측으로 야간 라디칼원 검증.",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "n1",
+      "category": "number",
+      "priority": "core",
+      "q": "최적 NO 농도는?",
+      "a": "8 ppm (v/v 기준 CO는 8%)",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "n2",
+      "category": "number",
+      "priority": "normal",
+      "q": "증폭구역 RH 상한은?",
+      "a": "20% 이하 (대기 습도 약 45%에 해당)",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "n3",
+      "category": "number",
+      "priority": "core",
+      "q": "순수 HO2 기준 CL은?",
+      "a": "30 ± 2",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "n4",
+      "category": "number",
+      "priority": "normal",
+      "q": "HO2:CH3O2=50:50 혼합 기준 CL은?",
+      "a": "24 ± 1",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "n5",
+      "category": "number",
+      "priority": "core",
+      "q": "RO2* 검출한계(LOD)는?",
+      "a": "0.38 pptv (1σ, 3분)",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "n6",
+      "category": "number",
+      "priority": "normal",
+      "q": "NO2 검출한계(CEAS)는?",
+      "a": "11.4 pptv (3분)",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "n7",
+      "category": "number",
+      "priority": "normal",
+      "q": "장비 무게·크기는?",
+      "a": "5.8 kg, 40×30×17 cm",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "n8",
+      "category": "number",
+      "priority": "normal",
+      "q": "현장관측 기간·장소는?",
+      "a": "2024.10.26–11.15, 주하이 연안 (15일 이상)",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "n9",
+      "category": "number",
+      "priority": "normal",
+      "q": "낮 RO2* 평균과 피크는?",
+      "a": "평균 31.11 pptv, 13시경 51.3 pptv",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "n10",
+      "category": "number",
+      "priority": "normal",
+      "q": "낮 P(O3) 평균과 피크는?",
+      "a": "평균 14.41 ppbv/h, 일 최대 111 ppbv/h",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "n11",
+      "category": "number",
+      "priority": "normal",
+      "q": "오염일 vs 청정일 P(O3) 피크는?",
+      "a": "약 30 vs 약 20 ppbv/h (약 50% 차이)",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "n12",
+      "category": "number",
+      "priority": "normal",
+      "q": "오염일/청정일 표본 수는?",
+      "a": "14일 / 4일",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "n13",
+      "category": "number",
+      "priority": "normal",
+      "q": "RO2*-NO 관계의 전환점은?",
+      "a": "약 1 ppbv",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "n14",
+      "category": "number",
+      "priority": "normal",
+      "q": "이 장비의 총 유량과 체류시간은?",
+      "a": "1500 mL/min, 약 3초",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "r1",
+      "category": "term",
+      "priority": "normal",
+      "q": "반응식 R1은?",
+      "a": "RO2 + NO → RO + NO2 (라디칼 전파①)",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "r2",
+      "category": "term",
+      "priority": "normal",
+      "q": "반응식 R2는?",
+      "a": "RO + O2 → HO2 + RCHO (라디칼 전파②)",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "r3",
+      "category": "term",
+      "priority": "core",
+      "q": "반응식 R3은?",
+      "a": "HO2 + NO → OH + NO2 (라디칼 전파③, 증폭의 핵심)",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "r4",
+      "category": "term",
+      "priority": "core",
+      "q": "반응식 R4는? (사슬 재순환의 핵심)",
+      "a": "OH + CO (+M) → HO2 + CO2 (+M)",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "r5",
+      "category": "term",
+      "priority": "normal",
+      "q": "반응식 R5는? (교정원 생성 시작)",
+      "a": "H2O + hν → OH + H (Hg램프 광분해)",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "r6",
+      "category": "term",
+      "priority": "normal",
+      "q": "반응식 R6은?",
+      "a": "H + O2 + M → HO2 + M (순수 HO2 교정원의 기반)",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "r7",
+      "category": "term",
+      "priority": "normal",
+      "q": "반응식 R7은?",
+      "a": "OH + CH4 + O2 + M → CH3O2 + H2O + M (혼합 라디칼 교정원용)",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "t1",
+      "category": "term",
+      "priority": "core",
+      "q": "RO2*는 무엇의 약자·정의인가?",
+      "a": "총 과산화라디칼 = HO2 + ΣRO2",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "t2",
+      "category": "term",
+      "priority": "core",
+      "q": "CL(Chain Length)의 정의는?",
+      "a": "화학사슬길이 — 반응기 안에서 라디칼이 평균 몇 번 전파 순환을 도는지, 곧 증폭 배율",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "t3",
+      "category": "term",
+      "priority": "normal",
+      "q": "ΔNO2는 무엇을 뜻하는가?",
+      "a": "증폭모드 신호에서 배경모드 신호를 뺀, 순수하게 라디칼 때문에 생긴 NO2 농도",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "t4",
+      "category": "term",
+      "priority": "normal",
+      "q": "S1~S4는 각각 무엇인가?",
+      "a": "램프 on/off × CO/N2 공급 여부의 2×2 조합으로 얻는 NO2 신호 4종 (Eq.2에서 CL 계산에 사용)",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "t5",
+      "category": "term",
+      "priority": "normal",
+      "q": "Part(조성비 불확도)는 무엇에서 오는가?",
+      "a": "실제 대기 중 HO2 대 CH3O2 비율이 교정 조건(문헌값 가정)과 달라서 생기는 오차",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "t6",
+      "category": "term",
+      "priority": "normal",
+      "q": "PAN은 무엇의 약자이며 왜 문제인가?",
+      "a": "과산화아세틸질산염. 열분해 시 NO2와 라디칼을 방출해 측정에 간섭을 일으킴",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "t7",
+      "category": "term",
+      "priority": "normal",
+      "q": "k_eff는 무엇을 근사한 값인가?",
+      "a": "RO2*+NO의 여러 반응들을 대표하는 유효반응속도상수 (≈k(NO+HO2))",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "t8",
+      "category": "term",
+      "priority": "normal",
+      "q": "D(O3)는 무엇인가?",
+      "a": "오존 손실속도 — 광분해·OH/HO2와의 반응 등으로 오존이 없어지는 속도",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "t9",
+      "category": "term",
+      "priority": "normal",
+      "q": "P(O3)net의 정의는?",
+      "a": "P(O3) − D(O3), 생성에서 손실을 뺀 순 오존생성속도",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "t10",
+      "category": "term",
+      "priority": "normal",
+      "q": "Ox(odd oxidants)는 무엇을 합친 값인가?",
+      "a": "O3 + NO2 — 둘이 빠르게 평형을 이루기 때문에 합쳐서 다룸",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "t11",
+      "category": "term",
+      "priority": "normal",
+      "q": "R(O3)의 정의와 부호 해석은?",
+      "a": "d[Ox]/dt − P(O3)net. 양수=수송으로 오존 유입, 음수=수송으로 오존 배출",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "t12",
+      "category": "term",
+      "priority": "normal",
+      "q": "j(O¹D)는 무엇을 나타내는 상수인가?",
+      "a": "자외선이 O3를 O(¹D)+O2로 분해시키는 오존 광분해 속도상수",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "t13",
+      "category": "term",
+      "priority": "normal",
+      "q": "반응식의 (+M)은 무엇을 뜻하는가?",
+      "a": "제3체(third body) — 반응의 남는 에너지를 흡수해 생성물을 안정화하는 주변 분자(N2, O2 등), 반응에 소모되지 않음",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "t14",
+      "category": "term",
+      "priority": "normal",
+      "q": "Eq.(1)은 무엇을 구하는 식인가?",
+      "a": "[RO2*] = ΔNO2 / CL — 증폭된 NO2를 CL로 나눠 원래 라디칼 농도를 구함",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "t15",
+      "category": "term",
+      "priority": "normal",
+      "q": "Eq.(3)은 무엇을 구하는 식인가?",
+      "a": "LOD(RO2*) = LOD(NO2) / CL — NO2 검출한계를 CL로 나눈 값",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "t16",
+      "category": "term",
+      "priority": "normal",
+      "q": "Eq.(5)는 무엇을 구하는 식인가?",
+      "a": "P(O3) = k_eff × [RO2*] × [NO] — 라디칼과 NO가 만나는 속도 = 오존 생성속도",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "t17",
+      "category": "term",
+      "priority": "normal",
+      "q": "Eq.(8)은 무엇을 구하는 식인가?",
+      "a": "R(O3) = d[Ox]/dt − P(O3)net — 수송 기여도(로컬 순생성분을 뺀 나머지)",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "e1",
+      "category": "expert",
+      "priority": "normal",
+      "q": "[전문가] 90초 시간차 증폭/배경 전환의 약점은?",
+      "a": "그 사이 대기 조성이 바뀌면 배경 차감이 부정확해질 수 있음 — 논문이 정량화하지 않은 single-channel의 근본적 한계로 보임",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "e2",
+      "category": "expert",
+      "priority": "normal",
+      "q": "[전문가] CL=30이 유독 낮은 이유의 설명은 충분한가?",
+      "a": "반응기 재질·설계·압력 때문이라고 하나 정량 분해는 없음. CEAS 감도로 상쇄된다는 것이 방어 논리",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "e3",
+      "category": "expert",
+      "priority": "normal",
+      "q": "[전문가] HO2/CH3O2 종분배 가정(Stone et al. 2010)의 한계는?",
+      "a": "주하이라는 특정 지역·계절에 그대로 적용 가능한지 불확실 — 16–22% 불확도로 반영은 되어 있음",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "e4",
+      "category": "expert",
+      "priority": "normal",
+      "q": "[전문가] PAN 간섭 보정치의 신뢰성은?",
+      "a": "F0AM 모델 시뮬레이션 값이며 실측이 아님 — 현장 조건이 다르면 오차가 커질 수 있음",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "e5",
+      "category": "expert",
+      "priority": "normal",
+      "q": "[전문가] 청정일 표본(4일)의 통계적 문제는?",
+      "a": "14일 대 4일의 비대칭 — 특정 기상 패턴에 편중되었을 가능성을 배제하기 어려움",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "e6",
+      "category": "expert",
+      "priority": "normal",
+      "q": "[전문가] 야간 NO3 가설은 얼마나 확실한가?",
+      "a": "논문 자체가 \"possibly due to\"라는 헤지 표현 사용 — 직접 관측 없이 정황 근거로만 추정한 가설 수준",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "e7",
+      "category": "expert",
+      "priority": "normal",
+      "q": "[전문가] k_eff 근사(k(NO+HO2)로 대체)의 전제는?",
+      "a": "속도상수 차이가 10% 미만이라는 선행연구 근거 — \"대체로 균질한 RO2 혼합물\"이라는 전제가 깔려 있음",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    },
+    {
+      "id": "e8",
+      "category": "expert",
+      "priority": "normal",
+      "q": "[전문가] Table 1·2의 타 시스템 비교가 갖는 한계는?",
+      "a": "반응기 설계·재질·교정 방식이 시스템마다 달라 \"동일 조건 비교\"라기보다 \"각 시스템 최종 성능의 나열\"에 가까움",
+      "conceptId": null,
+      "sourceSpan": {
+        "page": null,
+        "line": null
+      }
+    }
+  ],
+  "output": {
+    "mode": "presentation",
+    "title": "발표 리허설",
+    "targetMinutes": 10,
+    "segments": [
+      {
+        "time": "0:00",
+        "title": "도입 — 왜 이 논문인가",
+        "keywords": [
+          "대류권 오존 = NOx+VOC+햇빛의 2차 산물",
+          "실제 매개자는 라디칼 RO2*(=HO2+ΣRO2)",
+          "농도 pptv 수준·수명 초 단위 → 직접 측정 곤란",
+          "PERCA(화학증폭)+CEAS(광학검출) 결합",
+          "결과물: 5.8kg 휴대용 장비"
+        ],
+        "script": "대류권 오존은 NOx와 휘발성유기화합물(VOC)이 햇빛 아래에서 반응해 생기는 2차 오염물질인데, 이 반응을 실제로 매개하는 것이 바로 과산화라디칼 RO2*(=HO2+ΣRO2)입니다. 문제는 이 라디칼의 대기 중 농도가 수십 pptv 수준으로 극히 낮고 수명도 초 단위로 짧아서, 직접 측정이 매우 어렵다는 점입니다. 오늘 소개할 논문은 이 라디칼을 화학반응으로 증폭시키는 PERCA와, 증폭된 신호를 광학적으로 정밀하게 읽어내는 CEAS를 결합해 5.8kg짜리 휴대용 장비를 만든 이야기입니다."
+      },
+      {
+        "time": "1:30",
+        "title": "원리 — PERCA 순환 (R1–R4)",
+        "keywords": [
+          "R1: RO2+NO→RO+NO2",
+          "R2: RO+O2→HO2+RCHO",
+          "R3: HO2+NO→OH+NO2",
+          "R4: OH+CO→HO2+CO2 (재순환)",
+          "CL=30±2 → 라디칼 1개→NO2 30개",
+          "Eq.(1): [RO2*]=ΔNO2/CL"
+        ],
+        "script": "PERCA의 핵심은 네 개의 반응(R1~R4)이 도는 순환 고리입니다. RO2가 NO와 반응해 NO2와 HO2를 만들고(R1,R2), HO2가 다시 NO와 반응해 OH와 NO2를 만들며(R3), 이 OH가 CO와 반응해 다시 HO2로 되돌아갑니다(R4). 이 순환이 평균 몇 번 도는지를 나타내는 지표가 화학사슬길이 CL이고, 저희 장비는 CL=30±2를 확보했습니다 — 라디칼 1개가 들어오면 NO2 30개로 증폭되어 나온다는 뜻입니다. 식으로 쓰면 [RO2*] = ΔNO2 / CL, 이게 Eq.(1)입니다."
+      },
+      {
+        "time": "3:30",
+        "title": "장비 구조 & 현장 교정",
+        "keywords": [
+          "단일채널 vs dual-channel: 채널간 광학 불일치 회피",
+          "증폭/배경 모드 90초씩 전환 (시간분해능 3분)",
+          "40×30×17cm, 5.8kg",
+          "현장 자가교정: Hg램프 광분해(R5)→HO2 표준원",
+          "최적조건 NO 8ppm·CO 8%·RH 10%→CL=30±2",
+          "RH 50%에서 CL 50%+ 감소 → 현장 RH<20% 유지"
+        ],
+        "script": "설계에서 가장 중요한 선택은 단일채널 구조였습니다. 기존 dual-channel은 검출기 2대를 동시에 써서 배경을 빼는데, 두 채널 간 광학적 차이 때문에 오차가 생길 수 있습니다. 저희는 검출기 1대로 증폭모드·배경모드를 90초씩 번갈아 측정해(시간분해능 3분) 이 문제를 피했고, 결과적으로 40×30×17cm, 5.8kg까지 소형화했습니다. CL 교정은 현장에서 직접 했는데, Hg램프로 수증기를 광분해해(R5) 표준 HO2 라디칼을 만들고, NO 8ppm·CO 8%·RH 10%라는 최적 조건을 찾아 CL=30±2를 얻었습니다. 습도가 중요한 이유는 RH가 50%까지 오르면 CL이 50% 넘게 떨어지기 때문이고, 그래서 현장에서는 증폭구간 RH를 20% 밑으로 철저히 관리했습니다."
+      },
+      {
+        "time": "5:30",
+        "title": "성능 비교 (Table 1·Eq.3–4)",
+        "keywords": [
+          "CL=30, 선행연구(45~260)보다 낮음 → 벽면손실 추정",
+          "LOD(NO2)=11.4pptv(3분) → LOD(RO2*)=0.38pptv(1σ,3분)",
+          "CL 낮아도 LOD는 최상위권 (좋은 트레이드오프)",
+          "전체 불확도 18.4–25.7% = 4개 오차원 제곱합(Eq.4)"
+        ],
+        "script": "Table 1에서 기존 PERCA 장비들과 비교하면, 저희 CL=30은 선행 연구들(대개 45~260)보다 낮은 편입니다. 반응기 벽면 손실이 주된 원인으로 추정됩니다. 하지만 CEAS가 NO2를 매우 정밀하게 읽어내기 때문에(NO2 검출한계 11.4pptv, 3분) 최종 RO2* 검출한계는 0.38pptv(1σ, 3분)로 비교군 중 최상위권입니다. CL은 낮아도 최종 감도는 오히려 좋다는, 좋은 트레이드오프 사례입니다. 전체 측정 불확도는 18.4~25.7%인데, NO2 측정 오차(6%)·CL 교정 오차(6.7%)·라디칼 조성비 불확실성·PAN 간섭(1.3~9.8%)을 Eq.(4)의 제곱합으로 더한 값입니다."
+      },
+      {
+        "time": "7:00",
+        "title": "현장관측 결과",
+        "keywords": [
+          "관측: 2024.10.26–11.15, 주하이 연안, 15일+",
+          "낮 RO2* 평균 31.11±18.87pptv, 13시 피크 51.3pptv",
+          "야간 RO2* ~20pptv 유지 → NO3 화학 가능성(헤지)",
+          "RO2*-NO: NO~1ppbv 이후 감소(비선형, 산모양)"
+        ],
+        "script": "이 장비를 2024년 10월 26일부터 11월 15일까지, 주하이 연안 중산대 캠퍼스 옥상에서 15일 이상 운용했습니다. 낮 시간 RO2* 평균은 31.11±18.87pptv였고 13시경 51.3pptv로 최고치를 찍었습니다. 흥미로운 점은 야간에도 RO2*가 완전히 0으로 떨어지지 않고 약 20pptv를 유지했다는 건데, 저자들은 이를 NO3 라디칼에 의한 야간 화학 때문일 가능성이 있다고 조심스럽게 설명합니다. 또 RO2*는 NO가 약 1ppbv를 넘어서면 오히려 줄어드는 산 모양(비선형) 반응을 보였는데, 과량의 NO가 라디칼을 종결시키기 때문입니다."
+      },
+      {
+        "time": "8:30",
+        "title": "로컬 생성 vs 지역 수송 (Eq.5·8)",
+        "keywords": [
+          "Eq.(5): P(O3)=k_eff×[RO2*]×[NO]",
+          "낮 P(O3) 평균 14.41±17.04 ppbv/h",
+          "Eq.(8): R(O3)=d[Ox]/dt−P(O3)net, Ox=O3+NO2",
+          "R(O3)>0: 수송 유입 / R(O3)<0: 수송 배출",
+          "오염일(14일) vs 청정일(4일): P(O3) 피크 약 30 vs 20 ppbv/h"
+        ],
+        "script": "측정된 RO2*로부터 Eq.(5) P(O3)=k_eff×[RO2*]×[NO]를 이용해 오존 생성률을 계산했습니다. 낮 평균 P(O3)는 14.41±17.04ppbv/h였습니다. 여기서 이 논문의 핵심 아이디어가 나오는데, 실제 관측된 산화제(Ox=O3+NO2) 변화율에서 저희가 계산한 로컬 생성분을 빼면 남는 것이 수송 기여도 R(O3)입니다(Eq.8) — 양수면 외부에서 오존이 들어온 것이고, 음수면 로컬에서 만든 오존이 빠져나간 것입니다. 오염일(14일)과 청정일(4일)을 비교하면, 오염일은 정오 무렵 R(O3)가 0 근처까지 올라가면서(환기 약화) 오존이 축적돼 P(O3) 피크가 청정일보다 약 50% 더 높았습니다(약 30 대 20ppbv/h)."
+      },
+      {
+        "time": "10:00",
+        "title": "예상 질문 선제 방어",
+        "keywords": [
+          "HO2/RO2 종분배 = 문헌값 가정 (16–22% 편향 가능)",
+          "청정일 표본 4일 → 통계적 대표성 제한",
+          "PAN 간섭 보정치 = F0AM 모델 추정 (실측 아님)"
+        ],
+        "script": "질문이 들어올 만한 지점을 먼저 짚겠습니다. 첫째, HO2와 유기라디칼(RO2)을 구분하지 못하고 문헌값으로 종분배를 가정한 점(16~22% 편향 가능), 둘째 청정일 표본이 4일뿐이라 통계적 대표성이 제한적인 점, 셋째 PAN 간섭 보정치가 실측이 아니라 F0AM 모델 시뮬레이션이라는 점입니다. 이 세 가지는 저자들도 논문에서 스스로 인정한 한계입니다."
+      },
+      {
+        "time": "10:45",
+        "title": "마무리 — 결론 & 후속연구",
+        "keywords": [
+          "결론: 단일채널 PERCA-CEAS = 휴대성+고감도(0.38pptv) 동시 달성",
+          "적용: 주하이 연안 → 오존 증가는 로컬 생성이 주도, 수송은 배출 역할",
+          "후속연구: 독립기법 상호비교·다계절관측·HO2/RO2 종분리"
+        ],
+        "script": "정리하면, 이 연구는 단일채널 PERCA와 자체 제작 CEAS를 결합해 휴대성과 고감도(0.38pptv)를 동시에 달성했고, 실제 연안 지역에 적용해 오존 오염이 지역 수송보다 로컬 광화학 생성에 더 크게 좌우된다는 것을 정량적으로 보여줬습니다. 후속 연구로는 독립 기법과의 상호비교, 다계절·다지점 장기관측, HO2/RO2 종분리 기법 추가 등이 필요해 보입니다. 이상입니다, 감사합니다."
+      }
+    ]
+  }
+}
