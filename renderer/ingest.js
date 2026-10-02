@@ -183,6 +183,7 @@
   }
 
   var TOO_LONG_MSG = "자료가 길어서 응답이 한 번에 다 안 나왔습니다. 파일을 나눠서(예: PDF를 앞부분만) 다시 시도해보세요.";
+  var BAD_JSON_MSG = "모델이 돌려준 응답을 읽지 못했습니다(JSON 형식이 아님). 다시 시도하거나, 자료를 줄여서 해보세요.";
 
   function appendJsonFixNote(content) {
     var note = "\n\n(이전 응답이 유효한 JSON이 아니었습니다. 설명 없이 JSON 객체 하나만 다시 출력하세요.)";
@@ -209,7 +210,14 @@
         try {
           return parseJsonLoose(res.text);
         } catch (e) {
-          if (triedJsonFix) throw e;
+          // 두 번째도 실패하면 포기한다. 이때 e(SyntaxError)를 그대로 올리면
+          // "Unexpected token 'J' …" 같은 영문 JS 오류가 모달에 그대로 노출된다 —
+          // 다른 실패 경로(TOO_LONG_MSG 등)와 톤을 맞춰 사람이 읽을 메시지로 바꾸고,
+          // 원인 파악용 원문은 콘솔에만 남긴다.
+          if (triedJsonFix) {
+            console.warn("[ingest.js] JSON 파싱 재시도 실패:", e, (res.text || "").slice(0, 500));
+            throw new Error(BAD_JSON_MSG);
+          }
           if (onNote) onNote("응답이 JSON으로 안 읽혀서 한 번 더 요청 중…");
           return attempt(Object.assign({}, innerOpts, { content: appendJsonFixNote(innerOpts.content) }), true);
         }
@@ -322,7 +330,19 @@
         if (!adapterResolved) throw new Error("모델이 존재하지 않는 어댑터 id를 골랐습니다: " + adapterChoice.id);
         adapterResolved._isNew = false;
       } else {
+        // 여기는 choice 가 "new" 일 때만이 아니라, choice 가 없거나 오타여도 들어오는
+        // 기본 분기다. 모델이 스키마를 벗어난 응답을 주면 adapter 가 undefined/문자열이
+        // 되어 "Cannot set properties of undefined" 같은 날것의 TypeError 가 그대로
+        // 사용자에게 보였다 — existing 쪽처럼 무엇이 잘못됐는지 알려준다.
         adapterResolved = adapterChoice.adapter;
+        if (!adapterResolved || typeof adapterResolved !== "object") {
+          throw new Error('모델이 과목 어댑터를 형식에 맞게 돌려주지 않았습니다 (choice="' +
+            adapterChoice.choice + '"). 다시 시도해보세요.');
+        }
+        // id 는 IndexedDB 의 keyPath 이자 콘텐츠가 어댑터를 찾는 열쇠라 없으면 저장도 조회도 안 된다.
+        if (!adapterResolved.id || typeof adapterResolved.id !== "string") {
+          throw new Error("모델이 만든 과목 어댑터에 id가 없습니다. 다시 시도해보세요.");
+        }
         adapterResolved._isNew = true;
       }
       progress("학습 모듈 작성 중… (3/5)");
