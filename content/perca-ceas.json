@@ -105,7 +105,7 @@
         "body": "\"발표 리허설\" 탭에서 원고를 읽지 말고 <b>\"암송 모드\"(키워드만 표시)</b>로 전환해 스스로 설명해보세요. 막히는 구간이 곧 아직 덜 이해한 부분이니, 그때만 원고를 펼쳐서 확인하고 다시 안 보고 말해보세요.",
         "links": [
           {
-            "tab": "script",
+            "tab": "output",
             "anchor": null,
             "label": "→ 발표 리허설 탭 열기"
           }
@@ -618,9 +618,9 @@
         },
         {
           "type": "equation",
-          "num": null,
+          "num": "R1–R4",
           "expr": "R1  RO2 + NO  →  RO + NO2\nR2  RO + O2  →  HO2 + RCHO\nR3  HO2 + NO →  OH + NO2      ← 순환 고리 (매 회전 NO2 1개 생성)\nR4  OH + CO  →  HO2 + CO2     ← 순환 고리 (HO2 재생, 다시 R3로)",
-          "meaning": null
+          "meaning": "R3와 R4가 서로를 되먹이는 순환 고리이고, 한 바퀴 돌 때마다 NO2가 하나씩 나온다 — 이것이 화학적 증폭의 정체다."
         },
         {
           "type": "prose",
@@ -1492,7 +1492,7 @@
       "priority": "core",
       "q": "RO2*는 정확히 무엇의 합인가?",
       "a": "HO2 + ΣRO2 (모든 유기과산화라디칼의 합). 개별 종을 구분하지 않은 총량.",
-      "conceptId": null,
+      "conceptId": "m1",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -1504,7 +1504,7 @@
       "priority": "normal",
       "q": "왜 dual-channel이 아니라 single-channel로 설계했나?",
       "a": "dual-channel은 NO2 검출기 두 대를 병렬 운용해야 해서 광학 특성·유량 차이로 채널 간 불일치가 생길 수 있고 부피도 커짐. 단일채널은 구조가 단순해지는 대신 증폭·배경 모드를 90초씩 시간차로 번갈아 측정.",
-      "conceptId": null,
+      "conceptId": "m7",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -1516,7 +1516,7 @@
       "priority": "core",
       "q": "CL을 어떻게 실측했나?",
       "a": "Hg램프로 수증기를 광분해해 OH/H를 만들고, 순수 HO2 또는 HO2+CH3O2 혼합 표준 라디칼을 현장에서 직접 생성. 램프 on/off·CO/N2 전환 조합으로 4개 신호(S1~S4)를 얻어 CL=(S1−S3)/2(S2−S4)로 계산.",
-      "conceptId": null,
+      "conceptId": "m5b",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -1528,7 +1528,7 @@
       "priority": "normal",
       "q": "NO와 CO는 각각 어떤 역할을 하는가?",
       "a": "NO는 라디칼(HO2)을 산화시켜 OH+NO2를 만드는 “증폭 트리거”, CO는 그 OH를 다시 HO2로 되돌려 사슬을 재개시키는 “재생 시약”.",
-      "conceptId": null,
+      "conceptId": "m2",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -1540,7 +1540,7 @@
       "priority": "normal",
       "q": "습도(RH)가 CL에 왜 영향을 주는가?",
       "a": "반응기 벽면에 흡착된 수분이 라디칼의 불균일 흡착·종결 반응을 촉진해 사슬 전파가 조기에 끊기기 때문. RH 50%에서는 CL이 50% 이상 감소.",
-      "conceptId": null,
+      "conceptId": "m2",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -1552,7 +1552,7 @@
       "priority": "core",
       "q": "이 장비의 최종 검출한계와 그 의미는?",
       "a": "0.38 pptv (1σ, 3분 평균). CL은 낮지만 CEAS의 우수한 NO2 감도 덕분에 비교 대상 PERCA 시스템 중 최상위권.",
-      "conceptId": null,
+      "conceptId": "m7",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -1564,7 +1564,7 @@
       "priority": "core",
       "q": "전체 측정 불확도(18.4–25.7%)는 어디서 오는가?",
       "a": "① NO2 측정 오차(6%) ② CL 교정 반복오차(6.7%) ③ HO2/RO2 종분배 가정 불확실성(16–22%) ④ PAN 열분해 간섭(1.3–9.8%). 이 네 가지를 제곱합의 제곱근으로 합산.",
-      "conceptId": null,
+      "conceptId": "m8",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -1576,7 +1576,7 @@
       "priority": "normal",
       "q": "PAN 간섭이 왜 문제가 되는가?",
       "a": "PAN이 열분해되면 NO2와 라디칼을 방출해 반응기 안에서 추가 증폭을 일으켜 RO2*를 과대추정하게 만들 수 있음. F0AM 박스모델로 그 영향을 추정해 불확도에 반영.",
-      "conceptId": null,
+      "conceptId": "m8",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -1588,7 +1588,7 @@
       "priority": "core",
       "q": "관측 지점과 기간은?",
       "a": "중산대 캠퍼스 6층 건물 옥상, 주하이 서쪽 연안(주강 하구), 2024년 10월 26일~11월 15일, 3분 시간분해능으로 15일 이상 유효 데이터.",
-      "conceptId": null,
+      "conceptId": "m4",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -1600,7 +1600,7 @@
       "priority": "normal",
       "q": "낮 시간 RO2*는 어떤 패턴을 보였나?",
       "a": "평균 31.11±18.87 pptv, 13시경 51.3 pptv로 최고. 일몰 후 급감하지만 야간에도 완전히 0이 되지 않고 약 20 pptv 유지.",
-      "conceptId": null,
+      "conceptId": "m6",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -1612,7 +1612,7 @@
       "priority": "normal",
       "q": "야간에도 RO2*가 남아있는 이유는?",
       "a": "NO3 라디칼에 의한 야간 화학(NO3+VOC 산화)이 야간 RO2* 소스일 가능성. 관측된 야간 NO3 생성률(~1.4 ppbv/h)이 문헌의 계절 평균(1.07±0.38)보다 높음.",
-      "conceptId": null,
+      "conceptId": "m6",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -1624,7 +1624,7 @@
       "priority": "normal",
       "q": "RO2*와 NO의 관계가 비선형(산모양)인 이유는?",
       "a": "NO가 적을 땐 HOx-RO2 순환을 촉진해 RO2*가 증가하지만, NO가 약 1 ppbv를 넘으면 과잉 NO가 라디칼을 유기질산염 등 종결 생성물로 전환시켜 사슬이 끊기고 감소.",
-      "conceptId": null,
+      "conceptId": "m6",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -1636,7 +1636,7 @@
       "priority": "normal",
       "q": "이 사이트의 NO 전환점(~1 ppbv)이 다른 연구보다 높은 이유는?",
       "a": "주강삼각주 특유의 높은 VOC 반응성(식생의 생물기원 VOC 등)이 사슬 전파를 더 오래 지탱해주기 때문으로 추정.",
-      "conceptId": null,
+      "conceptId": "m6",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -1648,7 +1648,7 @@
       "priority": "core",
       "q": "P(O3)는 어떻게 계산했나?",
       "a": "P(O3) = k_eff × [RO2*] × [NO] (Eq.5). 측정된 RO2*와 동시 관측된 NO 농도를 반응속도상수와 곱해 산출.",
-      "conceptId": null,
+      "conceptId": "m5",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -1660,7 +1660,7 @@
       "priority": "normal",
       "q": "P(O3)net과 D(O3)는 왜 구분하는가?",
       "a": "오존도 광분해·OH/HO2와 반응해 소실되므로(D(O3)), 순수 생성만 보려면 P(O3)에서 D(O3)를 빼야 함. 이 연구에서 D(O3)는 P(O3)의 약 5%로 작아 P(O3)≈P(O3)net으로 근사.",
-      "conceptId": null,
+      "conceptId": "m5",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -1672,7 +1672,7 @@
       "priority": "core",
       "q": "R(O3)이 의미하는 바는? 부호는?",
       "a": "실측 총 산화제 변화율(d[Ox]/dt)에서 로컬 순생성(P(O3)net)을 뺀 나머지. R(O3)>0=외부 유입(수입), R(O3)<0=로컬 생성분이 빠져나감(수출).",
-      "conceptId": null,
+      "conceptId": "m5",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -1684,7 +1684,7 @@
       "priority": "normal",
       "q": "오염일과 청정일은 어떻게 정의했나?",
       "a": "오염일: 일 최대 O3가 중국 1급 기준(160 µg/m³) 초과(14일). 청정일: 일 최대 시간 O3가 120 µg/m³ 미만(4일).",
-      "conceptId": null,
+      "conceptId": "m4",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -1696,7 +1696,7 @@
       "priority": "normal",
       "q": "오염일과 청정일의 수송 패턴 차이는?",
       "a": "오염일은 정오 무렵 연안 풍계 수렴으로 환기가 약해지며 R(O3)이 음수→0 근처로 상승(수출 약화), P(O3) 피크도 더 높음(~30 vs ~20 ppbv/h). 청정일은 R(O3)이 하루 종일 음수 유지(수출 지속)해 O3 변동이 평탄.",
-      "conceptId": null,
+      "conceptId": "m6",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -1708,7 +1708,7 @@
       "priority": "normal",
       "q": "이 논문의 결론을 한 문장으로?",
       "a": "단일채널 PERCA-CEAS로 휴대성과 고감도(0.38 pptv)를 모두 달성했고, 연안 지역 적용을 통해 오존 오염이 지역 수송보다 로컬 광화학 생성에 더 크게 좌우됨을 정량적으로 보여줌.",
-      "conceptId": null,
+      "conceptId": "m8",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -1720,7 +1720,7 @@
       "priority": "normal",
       "q": "후속 연구로 무엇을 제안할 수 있는가?",
       "a": "① 독립 기법(LIF 등)과 현장 상호비교 ② 다계절·다지점 장기관측 ③ HO2/RO2 종분리 기법 추가 ④ VOC 실측 병행 ⑤ NO3/N2O5 동시관측으로 야간 라디칼원 검증.",
-      "conceptId": null,
+      "conceptId": "m8",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -1732,7 +1732,7 @@
       "priority": "core",
       "q": "최적 NO 농도는?",
       "a": "8 ppm (v/v 기준 CO는 8%)",
-      "conceptId": null,
+      "conceptId": "m4",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -1744,7 +1744,7 @@
       "priority": "normal",
       "q": "증폭구역 RH 상한은?",
       "a": "20% 이하 (대기 습도 약 45%에 해당)",
-      "conceptId": null,
+      "conceptId": "m4",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -1756,7 +1756,7 @@
       "priority": "core",
       "q": "순수 HO2 기준 CL은?",
       "a": "30 ± 2",
-      "conceptId": null,
+      "conceptId": "m4",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -1768,7 +1768,7 @@
       "priority": "normal",
       "q": "HO2:CH3O2=50:50 혼합 기준 CL은?",
       "a": "24 ± 1",
-      "conceptId": null,
+      "conceptId": "m4",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -1780,7 +1780,7 @@
       "priority": "core",
       "q": "RO2* 검출한계(LOD)는?",
       "a": "0.38 pptv (1σ, 3분)",
-      "conceptId": null,
+      "conceptId": "m4",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -1792,7 +1792,7 @@
       "priority": "normal",
       "q": "NO2 검출한계(CEAS)는?",
       "a": "11.4 pptv (3분)",
-      "conceptId": null,
+      "conceptId": "m4",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -1804,7 +1804,7 @@
       "priority": "normal",
       "q": "장비 무게·크기는?",
       "a": "5.8 kg, 40×30×17 cm",
-      "conceptId": null,
+      "conceptId": "m4",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -1816,7 +1816,7 @@
       "priority": "normal",
       "q": "현장관측 기간·장소는?",
       "a": "2024.10.26–11.15, 주하이 연안 (15일 이상)",
-      "conceptId": null,
+      "conceptId": "m4",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -1828,7 +1828,7 @@
       "priority": "normal",
       "q": "낮 RO2* 평균과 피크는?",
       "a": "평균 31.11 pptv, 13시경 51.3 pptv",
-      "conceptId": null,
+      "conceptId": "m4",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -1840,7 +1840,7 @@
       "priority": "normal",
       "q": "낮 P(O3) 평균과 피크는?",
       "a": "평균 14.41 ppbv/h, 일 최대 111 ppbv/h",
-      "conceptId": null,
+      "conceptId": "m4",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -1852,7 +1852,7 @@
       "priority": "normal",
       "q": "오염일 vs 청정일 P(O3) 피크는?",
       "a": "약 30 vs 약 20 ppbv/h (약 50% 차이)",
-      "conceptId": null,
+      "conceptId": "m4",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -1864,7 +1864,7 @@
       "priority": "normal",
       "q": "오염일/청정일 표본 수는?",
       "a": "14일 / 4일",
-      "conceptId": null,
+      "conceptId": "m4",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -1876,7 +1876,7 @@
       "priority": "normal",
       "q": "RO2*-NO 관계의 전환점은?",
       "a": "약 1 ppbv",
-      "conceptId": null,
+      "conceptId": "m6",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -1888,7 +1888,7 @@
       "priority": "normal",
       "q": "이 장비의 총 유량과 체류시간은?",
       "a": "1500 mL/min, 약 3초",
-      "conceptId": null,
+      "conceptId": "m4",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -1900,7 +1900,7 @@
       "priority": "normal",
       "q": "반응식 R1은?",
       "a": "RO2 + NO → RO + NO2 (라디칼 전파①)",
-      "conceptId": null,
+      "conceptId": "m5b",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -1912,7 +1912,7 @@
       "priority": "normal",
       "q": "반응식 R2는?",
       "a": "RO + O2 → HO2 + RCHO (라디칼 전파②)",
-      "conceptId": null,
+      "conceptId": "m5b",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -1924,7 +1924,7 @@
       "priority": "core",
       "q": "반응식 R3은?",
       "a": "HO2 + NO → OH + NO2 (라디칼 전파③, 증폭의 핵심)",
-      "conceptId": null,
+      "conceptId": "m5b",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -1936,7 +1936,7 @@
       "priority": "core",
       "q": "반응식 R4는? (사슬 재순환의 핵심)",
       "a": "OH + CO (+M) → HO2 + CO2 (+M)",
-      "conceptId": null,
+      "conceptId": "m5b",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -1948,7 +1948,7 @@
       "priority": "normal",
       "q": "반응식 R5는? (교정원 생성 시작)",
       "a": "H2O + hν → OH + H (Hg램프 광분해)",
-      "conceptId": null,
+      "conceptId": "m5b",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -1960,7 +1960,7 @@
       "priority": "normal",
       "q": "반응식 R6은?",
       "a": "H + O2 + M → HO2 + M (순수 HO2 교정원의 기반)",
-      "conceptId": null,
+      "conceptId": "m5b",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -1972,7 +1972,7 @@
       "priority": "normal",
       "q": "반응식 R7은?",
       "a": "OH + CH4 + O2 + M → CH3O2 + H2O + M (혼합 라디칼 교정원용)",
-      "conceptId": null,
+      "conceptId": "m5b",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -1984,7 +1984,7 @@
       "priority": "core",
       "q": "RO2*는 무엇의 약자·정의인가?",
       "a": "총 과산화라디칼 = HO2 + ΣRO2",
-      "conceptId": null,
+      "conceptId": "m5b",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -1996,7 +1996,7 @@
       "priority": "core",
       "q": "CL(Chain Length)의 정의는?",
       "a": "화학사슬길이 — 반응기 안에서 라디칼이 평균 몇 번 전파 순환을 도는지, 곧 증폭 배율",
-      "conceptId": null,
+      "conceptId": "m5b",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -2008,7 +2008,7 @@
       "priority": "normal",
       "q": "ΔNO2는 무엇을 뜻하는가?",
       "a": "증폭모드 신호에서 배경모드 신호를 뺀, 순수하게 라디칼 때문에 생긴 NO2 농도",
-      "conceptId": null,
+      "conceptId": "m5b",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -2020,7 +2020,7 @@
       "priority": "normal",
       "q": "S1~S4는 각각 무엇인가?",
       "a": "램프 on/off × CO/N2 공급 여부의 2×2 조합으로 얻는 NO2 신호 4종 (Eq.2에서 CL 계산에 사용)",
-      "conceptId": null,
+      "conceptId": "m5b",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -2032,7 +2032,7 @@
       "priority": "normal",
       "q": "Part(조성비 불확도)는 무엇에서 오는가?",
       "a": "실제 대기 중 HO2 대 CH3O2 비율이 교정 조건(문헌값 가정)과 달라서 생기는 오차",
-      "conceptId": null,
+      "conceptId": "m5b",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -2044,7 +2044,7 @@
       "priority": "normal",
       "q": "PAN은 무엇의 약자이며 왜 문제인가?",
       "a": "과산화아세틸질산염. 열분해 시 NO2와 라디칼을 방출해 측정에 간섭을 일으킴",
-      "conceptId": null,
+      "conceptId": "m5b",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -2056,7 +2056,7 @@
       "priority": "normal",
       "q": "k_eff는 무엇을 근사한 값인가?",
       "a": "RO2*+NO의 여러 반응들을 대표하는 유효반응속도상수 (≈k(NO+HO2))",
-      "conceptId": null,
+      "conceptId": "m5b",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -2068,7 +2068,7 @@
       "priority": "normal",
       "q": "D(O3)는 무엇인가?",
       "a": "오존 손실속도 — 광분해·OH/HO2와의 반응 등으로 오존이 없어지는 속도",
-      "conceptId": null,
+      "conceptId": "m5b",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -2080,7 +2080,7 @@
       "priority": "normal",
       "q": "P(O3)net의 정의는?",
       "a": "P(O3) − D(O3), 생성에서 손실을 뺀 순 오존생성속도",
-      "conceptId": null,
+      "conceptId": "m5b",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -2092,7 +2092,7 @@
       "priority": "normal",
       "q": "Ox(odd oxidants)는 무엇을 합친 값인가?",
       "a": "O3 + NO2 — 둘이 빠르게 평형을 이루기 때문에 합쳐서 다룸",
-      "conceptId": null,
+      "conceptId": "m5b",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -2104,7 +2104,7 @@
       "priority": "normal",
       "q": "R(O3)의 정의와 부호 해석은?",
       "a": "d[Ox]/dt − P(O3)net. 양수=수송으로 오존 유입, 음수=수송으로 오존 배출",
-      "conceptId": null,
+      "conceptId": "m5b",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -2116,7 +2116,7 @@
       "priority": "normal",
       "q": "j(O¹D)는 무엇을 나타내는 상수인가?",
       "a": "자외선이 O3를 O(¹D)+O2로 분해시키는 오존 광분해 속도상수",
-      "conceptId": null,
+      "conceptId": "m5b",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -2128,7 +2128,7 @@
       "priority": "normal",
       "q": "반응식의 (+M)은 무엇을 뜻하는가?",
       "a": "제3체(third body) — 반응의 남는 에너지를 흡수해 생성물을 안정화하는 주변 분자(N2, O2 등), 반응에 소모되지 않음",
-      "conceptId": null,
+      "conceptId": "m5b",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -2140,7 +2140,7 @@
       "priority": "normal",
       "q": "Eq.(1)은 무엇을 구하는 식인가?",
       "a": "[RO2*] = ΔNO2 / CL — 증폭된 NO2를 CL로 나눠 원래 라디칼 농도를 구함",
-      "conceptId": null,
+      "conceptId": "m5",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -2152,7 +2152,7 @@
       "priority": "normal",
       "q": "Eq.(3)은 무엇을 구하는 식인가?",
       "a": "LOD(RO2*) = LOD(NO2) / CL — NO2 검출한계를 CL로 나눈 값",
-      "conceptId": null,
+      "conceptId": "m5",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -2164,7 +2164,7 @@
       "priority": "normal",
       "q": "Eq.(5)는 무엇을 구하는 식인가?",
       "a": "P(O3) = k_eff × [RO2*] × [NO] — 라디칼과 NO가 만나는 속도 = 오존 생성속도",
-      "conceptId": null,
+      "conceptId": "m5",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -2176,7 +2176,7 @@
       "priority": "normal",
       "q": "Eq.(8)은 무엇을 구하는 식인가?",
       "a": "R(O3) = d[Ox]/dt − P(O3)net — 수송 기여도(로컬 순생성분을 뺀 나머지)",
-      "conceptId": null,
+      "conceptId": "m5",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -2188,7 +2188,7 @@
       "priority": "normal",
       "q": "[전문가] 90초 시간차 증폭/배경 전환의 약점은?",
       "a": "그 사이 대기 조성이 바뀌면 배경 차감이 부정확해질 수 있음 — 논문이 정량화하지 않은 single-channel의 근본적 한계로 보임",
-      "conceptId": null,
+      "conceptId": "m9b",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -2200,7 +2200,7 @@
       "priority": "normal",
       "q": "[전문가] CL=30이 유독 낮은 이유의 설명은 충분한가?",
       "a": "반응기 재질·설계·압력 때문이라고 하나 정량 분해는 없음. CEAS 감도로 상쇄된다는 것이 방어 논리",
-      "conceptId": null,
+      "conceptId": "m9b",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -2212,7 +2212,7 @@
       "priority": "normal",
       "q": "[전문가] HO2/CH3O2 종분배 가정(Stone et al. 2010)의 한계는?",
       "a": "주하이라는 특정 지역·계절에 그대로 적용 가능한지 불확실 — 16–22% 불확도로 반영은 되어 있음",
-      "conceptId": null,
+      "conceptId": "m9b",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -2224,7 +2224,7 @@
       "priority": "normal",
       "q": "[전문가] PAN 간섭 보정치의 신뢰성은?",
       "a": "F0AM 모델 시뮬레이션 값이며 실측이 아님 — 현장 조건이 다르면 오차가 커질 수 있음",
-      "conceptId": null,
+      "conceptId": "m9b",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -2236,7 +2236,7 @@
       "priority": "normal",
       "q": "[전문가] 청정일 표본(4일)의 통계적 문제는?",
       "a": "14일 대 4일의 비대칭 — 특정 기상 패턴에 편중되었을 가능성을 배제하기 어려움",
-      "conceptId": null,
+      "conceptId": "m9b",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -2248,7 +2248,7 @@
       "priority": "normal",
       "q": "[전문가] 야간 NO3 가설은 얼마나 확실한가?",
       "a": "논문 자체가 \"possibly due to\"라는 헤지 표현 사용 — 직접 관측 없이 정황 근거로만 추정한 가설 수준",
-      "conceptId": null,
+      "conceptId": "m9b",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -2260,7 +2260,7 @@
       "priority": "normal",
       "q": "[전문가] k_eff 근사(k(NO+HO2)로 대체)의 전제는?",
       "a": "속도상수 차이가 10% 미만이라는 선행연구 근거 — \"대체로 균질한 RO2 혼합물\"이라는 전제가 깔려 있음",
-      "conceptId": null,
+      "conceptId": "m9b",
       "sourceSpan": {
         "page": null,
         "line": null
@@ -2272,7 +2272,7 @@
       "priority": "normal",
       "q": "[전문가] Table 1·2의 타 시스템 비교가 갖는 한계는?",
       "a": "반응기 설계·재질·교정 방식이 시스템마다 달라 \"동일 조건 비교\"라기보다 \"각 시스템 최종 성능의 나열\"에 가까움",
-      "conceptId": null,
+      "conceptId": "m9b",
       "sourceSpan": {
         "page": null,
         "line": null
