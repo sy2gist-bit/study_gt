@@ -72,6 +72,13 @@ foreach ($k in @("eyebrow","title","subtitle","sourceRef","oneLiner")) {
 if ($content.meta.title -match "<[a-zA-Z/]") {
   Add-Err "meta.title 에 HTML 태그가 있습니다. 이 값은 textContent 로 들어가 태그가 글자 그대로 보입니다."
 }
+# textContent 로 들어가는 필드에 HTML 엔티티가 있으면 &amp; 가 그대로 보인다.
+# (innerHTML 필드인 subtitle/oneLiner 에서는 반대로 엔티티가 맞다.)
+foreach ($f in @("title","eyebrow","sourceRef")) {
+  if ($content.meta.$f -match "&(amp|lt|gt|quot|#\d+);") {
+    Add-Err "meta.$f 에 HTML 엔티티가 있습니다('$($Matches[0])'). 이 필드는 textContent 로 들어가 엔티티가 글자 그대로 보입니다 - 일반 문자로 쓰세요."
+  }
+}
 if (-not $content.meta.pills -or @($content.meta.pills).Count -eq 0) { Add-Warn "meta.pills 가 비어 있습니다." }
 
 # ---- 어댑터 ----------------------------------------------------
@@ -179,6 +186,30 @@ foreach ($m in @($content.modules)) {
       }
       if ((Is-Filled $b.svg) -and ($b.svg -match 'fill="#' -or $b.svg -match 'stroke="#')) {
         Add-Warn "모듈 '$($m.id)' diagram 의 svg 에 색이 하드코딩돼 있습니다. 다크 모드에서 안 보일 수 있으니 var(--ink) 같은 CSS 변수를 쓰세요."
+      }
+      if (Is-Filled $b.svg) {
+        # SVG 는 컨테이너 폭(데스크톱 약 1060px)까지 늘어나므로, 화면상 글자 크기는
+        # font-size x (1060 / viewBox 폭) 이다. viewBox 를 좁게 잡으면 글자가 거대해진다.
+        $vb = [regex]::Match($b.svg, 'viewBox="\s*[\d.-]+\s+[\d.-]+\s+([\d.]+)')
+        if (-not $vb.Success) {
+          Add-Warn "모듈 '$($m.id)' diagram 의 svg 에 viewBox 가 없습니다. 화면 폭에 맞춰 늘고 줄게 하려면 viewBox 가 필요합니다."
+        } else {
+          $vbW = [double]$vb.Groups[1].Value
+          # width 는 여는 <svg> 태그에서만 본다 — rect/line 의 width 속성까지 잡으면 전부 오탐이 된다.
+          $openTag = [regex]::Match($b.svg, '<svg\b[^>]*>')
+          if ($openTag.Success -and $openTag.Value -match '\bwidth\s*=\s*"\d') {
+            Add-Warn "모듈 '$($m.id)' diagram 의 <svg> 에 고정 width 가 있습니다. viewBox 만 두는 편이 반응형입니다."
+          }
+          # 기준은 가장 작은 글자다. 제목용 큰 글자 하나가 큰 것은 정상이고,
+          # 본문 글자까지 커졌을 때가 viewBox 를 좁게 잡은 신호다.
+          $sizes = @([regex]::Matches($b.svg, 'font-size="([\d.]+)"') | ForEach-Object { [double]$_.Groups[1].Value })
+          if ($sizes.Count -gt 0 -and $vbW -gt 0) {
+            $minRendered = ($sizes | Measure-Object -Minimum).Minimum * (1060.0 / $vbW)
+            if ($minRendered -gt 26) {
+              Add-Warn ("모듈 '{0}' diagram 은 가장 작은 글자도 화면에서 약 {1}px 로 렌더됩니다(viewBox 폭 {2}). viewBox 폭을 680~720으로 넓히고 본문 글자를 14~17 단위로 쓰면 기존 콘텐츠와 결이 맞습니다." -f $m.id, [math]::Round($minRendered), $vbW)
+            }
+          }
+        }
       }
     }
   }
