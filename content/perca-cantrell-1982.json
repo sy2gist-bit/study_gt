@@ -1,0 +1,625 @@
+{
+  "schemaVersion": "1.0",
+  "adapter": "research-paper",
+  "meta": {
+    "id": "perca-cantrell-1982",
+    "eyebrow": "분석화학 · 대기측정 · 원전 읽기",
+    "title": "화학증폭기의 출발점 — Cantrell & Stedman 1982",
+    "subtitle": "Cantrell &amp; Stedman (1982), <i>Geophys. Res. Lett.</i>, 9(8), 846–849 — “A possible technique for the measurement of atmospheric peroxy radicals”",
+    "sourceRef": "Cantrell & Stedman (1982), Geophys. Res. Lett., 9(8), 846–849",
+    "oneLiner": "라디칼 1개를 <b>NO₂ 수백~수천 개로 불려서</b> 재자는 발상 — 오늘날 PERCA의 모든 것이 이 4쪽짜리 레터에서 시작한다.",
+    "pills": ["4쪽 레터", "카드 30장", "반응식 12개", "발표 10분"],
+    "estimatedMinutes": 110,
+    "targetDate": null
+  },
+
+  "guide": {
+    "headline": "짧은 논문이지만 “왜 이렇게 했나”를 따라가며 읽으세요",
+    "intro": "4쪽밖에 안 되는 1982년 레터입니다. 분량이 적다고 쉬운 게 아니라, <b>식과 반응식이 빽빽해서 그냥 읽으면 그대로 흘러갑니다</b>. 그림으로 구조를 먼저 잡고 → 식의 의미만 붙잡고 → 숫자를 외우는 순서로 가세요. 2026년 PERCA-CEAS 논문을 이미 보셨다면, 이 논문은 그 장비의 <b>원형</b>이라 비교하며 읽으면 훨씬 빨리 붙습니다.",
+    "steps": [
+      {
+        "n": 1,
+        "title": "그림부터 보고 구조 잡기",
+        "minutes": 15,
+        "body": "텍스트는 아직 읽지 마세요. <b>사슬 반응 고리</b>와 <b>장치 블록도</b> 두 그림만 보고 “공기가 들어와서 무엇이 되어 나가는지”를 입으로 설명해보세요. 이 논문은 장치 이야기라, 흐름을 먼저 잡으면 나머지 글이 전부 그 위에 붙습니다.",
+        "links": [
+          { "tab": "study", "anchor": "m2", "label": "→ 사슬 반응 고리 보기" },
+          { "tab": "study", "anchor": "m4", "label": "→ 장치 블록도 보기" }
+        ]
+      },
+      {
+        "n": 2,
+        "title": "원문 압축해 읽기",
+        "minutes": 30,
+        "body": "“원문 읽기” 탭에서 문단마다 영어 원문을 먼저 읽고, 막히면 한국어 번역을 확인하세요. 4쪽이라 한 번은 통독할 만합니다. 식이 나오면 <b>풀려고 하지 말고 “무엇을 무엇으로 구하는 식인지”만</b> 붙잡으세요.",
+        "links": [
+          { "tab": "read", "anchor": "s3", "label": "→ Theory 절로" },
+          { "tab": "study", "anchor": "m3", "label": "→ 식의 의미만 모아보기" }
+        ]
+      },
+      {
+        "n": 3,
+        "title": "가리고 맞히기",
+        "minutes": 20,
+        "body": "반응식 표와 숫자 표를 손으로 가리고, <b>R1~R5를 빈 종이에 써보세요</b>. 그 다음 측정 조건 네 개(CO·NO·반응시간·유량)를 말해보세요. 여기까지 되면 발표에서 가장 자주 받는 질문은 넘긴 겁니다.",
+        "links": [
+          { "tab": "study", "anchor": "m6", "label": "→ 반응식·숫자 표" }
+        ]
+      },
+      {
+        "n": 4,
+        "title": "카드로 반복",
+        "minutes": 30,
+        "body": "카드 30장을 돌리세요. 틀린 카드는 “📖 원문 보기”로 해당 모듈까지 바로 돌아갈 수 있습니다. <b>핵심(core) 7장</b>부터 확실히 잡고 나머지로 넓히세요.",
+        "links": [
+          { "tab": "cards", "anchor": "", "label": "→ 카드 암기 탭 열기" }
+        ]
+      },
+      {
+        "n": 5,
+        "title": "한계까지 말할 수 있는지 점검",
+        "minutes": 15,
+        "body": "이 논문의 가장 정직한 대목은 <b>“농도의 정확도는 주장하지 않는다”</b>는 문장입니다. 1982년에 무엇이 되고 무엇이 안 됐는지를 구분해서 말할 수 있으면 발표의 깊이가 달라집니다. 예상질문으로 점검하세요.",
+        "links": [
+          { "tab": "study", "anchor": "m7", "label": "→ 한계·예상질문" },
+          { "tab": "output", "anchor": "", "label": "→ 발표 리허설 탭 열기" }
+        ]
+      }
+    ],
+    "closingCallout": "이 논문은 “된다”가 아니라 <b>“될 것 같다(a possible technique)”</b>는 제목을 달고 나왔습니다. 교정도 없고 정확도 주장도 없지만, 연속 측정이라는 길을 처음 열었습니다 — 발표에서 이 점을 짚으면 44년 뒤 PERCA-CEAS로 이어지는 선이 자연스럽게 그려집니다."
+  },
+
+  "source": {
+    "assistLabel": "한국어 번역",
+    "assistToggleDefault": "shown",
+    "sections": [
+      {
+        "id": "s1",
+        "navLabel": "초록",
+        "title": "Abstract — 초록",
+        "paragraphs": [
+          {
+            "id": "s1-p1",
+            "tag": "초록",
+            "original": "A system is described whereby ambient free radicals (predominantly HO<sub>2</sub> and RO<sub>2</sub>) are detected by their ability to initiate a chain reaction oxidizing NO and CO. The NO<sub>2</sub> thus produced by this “chemical amplifier” is modulated by substitution of N<sub>2</sub> for CO and detected by a liquid phase luminescence with luminol. A prototype system and results of ambient air sampling are presented.",
+            "assist": "대기 중 자유라디칼(주로 HO₂와 RO₂)을, 그것이 NO와 CO를 산화시키는 사슬 반응을 <b>개시하는 능력</b>으로 검출하는 장치를 설명한다. 이 “화학증폭기”가 만들어낸 NO₂는 CO를 N₂로 바꿔치기하는 방식으로 변조되며, 루미놀을 이용한 액상 발광으로 검출된다. 시제품과 대기 시료 측정 결과를 제시한다.",
+            "guide": "초록 네 문장에 논문 전체가 들어 있습니다 — <b>증폭(사슬 반응) · 변조(CO↔N₂) · 검출(루미놀)</b> 세 단계. 발표 첫 슬라이드를 이 구조로 잡으면 됩니다.",
+            "sourceSpan": { "page": 846, "line": null }
+          }
+        ]
+      },
+      {
+        "id": "s2",
+        "navLabel": "서론",
+        "title": "Introduction — 왜 HO₂를 재려 했나",
+        "paragraphs": [
+          {
+            "id": "s2-p1",
+            "tag": "본문 ①",
+            "original": "The hydroxyl radical, OH, oxidizes hydrocarbons and CO, and plays a role in acid formation. The hydroperoxy radical, HO<sub>2</sub>, competes with ozone in NO oxidation, and is thus a direct cause of ozone buildup in photochemical smog. HO<sub>2</sub> concentrations are predicted to be 2–3 orders of magnitude higher than OH concentrations. Therefore, most of the odd hydrogen radicals in the atmosphere are HO<sub>2</sub>.",
+            "assist": "수산화라디칼 OH는 탄화수소와 CO를 산화시키고 산 생성에도 관여한다. 과산화수소라디칼 HO₂는 NO를 산화시키는 과정에서 오존과 경쟁하며, 따라서 광화학 스모그에서 <b>오존이 쌓이는 직접적 원인</b>이다. HO₂ 농도는 OH보다 2~3자릿수 높을 것으로 예측된다. 그러므로 대기 중 홀수수소(odd hydrogen) 라디칼의 대부분은 HO₂다.",
+            "guide": "“왜 하필 HO₂인가”에 대한 답입니다 — <b>양이 압도적으로 많고(OH의 100~1000배), 오존 생성에 직접 관여</b>하기 때문입니다. 이 두 가지가 측정 동기 전부입니다.",
+            "sourceSpan": { "page": 846, "line": null }
+          },
+          {
+            "id": "s2-p2",
+            "tag": "본문 ②",
+            "original": "Discussed herein is a detection method for HO<sub>2</sub> using a chemical amplifier, which is based on a chain reaction involving oxidation of NO to NO<sub>2</sub> by HO<sub>2</sub> and reformation of HO<sub>2</sub> in the presence of high CO concentrations. HO<sub>2</sub> concentrations representative of ambient levels (∼10<sup>8</sup> cm<sup>−3</sup>) are amplified to measurable NO<sub>2</sub> concentrations (∼10<sup>11</sup> cm<sup>−3</sup>). … We believe the system measures HO<sub>2</sub>, and some organic peroxides (RO<sub>2</sub>), only. Comments from readers interested in this crucial measurement would be most welcome.",
+            "assist": "여기서 논하는 것은 <b>화학증폭기</b>를 이용한 HO₂ 검출법이다. HO₂가 NO를 NO₂로 산화시키고, 높은 CO 농도 아래에서 HO₂가 재생성되는 사슬 반응에 기반한다. 대기 수준을 대표하는 HO₂ 농도(약 10⁸ cm⁻³)가 측정 가능한 NO₂ 농도(약 10¹¹ cm⁻³)까지 증폭된다. … 이 장치는 HO₂와 일부 유기과산화물(RO₂)만을 측정한다고 본다. 이 중요한 측정에 관심 있는 독자들의 의견을 환영한다.",
+            "guide": "<b>10⁸ → 10¹¹</b>, 즉 1000배 증폭이 이 논문의 핵심 수치입니다. 마지막 문장(“의견을 환영한다”)은 학술지 레터에서 드문 표현인데, 저자들 스스로 완성된 기법이 아니라고 보고 있다는 신호입니다.",
+            "sourceSpan": { "page": 846, "line": null }
+          }
+        ]
+      },
+      {
+        "id": "s3",
+        "navLabel": "이론",
+        "title": "Theory — 사슬 반응과 사슬길이",
+        "paragraphs": [
+          {
+            "id": "s3-p1",
+            "tag": "본문 ③",
+            "original": "A partial mechanism for odd hydrogen radical reactions in air containing ppm levels of NO and % levels of CO, is: HO<sub>2</sub> + NO → NO<sub>2</sub> + OH (1); OH + CO —(O<sub>2</sub>, M)→ CO<sub>2</sub> + HO<sub>2</sub> (2). These two reactions constitute a chain reaction which forms NO<sub>2</sub>.",
+            "assist": "ppm 수준의 NO와 % 수준의 CO를 포함한 공기에서 홀수수소 라디칼 반응의 부분 메커니즘은 다음과 같다: HO₂ + NO → NO₂ + OH (1); OH + CO —(O₂, M)→ CO₂ + HO₂ (2). <b>이 두 반응이 NO₂를 만드는 사슬 반응을 구성한다.</b>",
+            "guide": "논문 전체에서 가장 중요한 두 줄입니다. (1)은 HO₂를 OH로 바꾸며 NO₂를 하나 뱉고, (2)는 그 OH를 다시 HO₂로 되돌립니다 — <b>라디칼이 소모되지 않고 돌아오기 때문에</b> 한 분자가 NO₂를 수백 개 만들 수 있습니다.",
+            "sourceSpan": { "page": 846, "line": null }
+          },
+          {
+            "id": "s3-p2",
+            "tag": "본문 ④",
+            "original": "The most important chain terminations for OH and HO<sub>2</sub>, in this system are: OH + NO —M→ HONO (3); HO<sub>2</sub> + HO<sub>2</sub> → H<sub>2</sub>O<sub>2</sub> + O<sub>2</sub> (4). … At HO<sub>2</sub> concentrations thought to be typical of ambient air at midday (∼10<sup>8</sup> cm<sup>−3</sup>) reaction (4) is very slow (HO<sub>2</sub> loss after 100 seconds is about 5%) and HONO formation is the major radical sink.",
+            "assist": "이 계에서 OH와 HO₂의 가장 중요한 사슬 종결 반응은 다음과 같다: OH + NO —M→ HONO (3); HO₂ + HO₂ → H₂O₂ + O₂ (4). … 한낮 대기의 전형적 HO₂ 농도(약 10⁸ cm⁻³)에서는 반응 (4)가 매우 느리고(<b>100초 후 HO₂ 손실이 약 5%</b>), HONO 생성이 주된 라디칼 소멸 경로다.",
+            "guide": "사슬은 영원히 돌지 않습니다. 끊는 주범이 둘인데, 대기 농도에서는 <b>(3) HONO 생성이 지배적</b>이고 (4)는 거의 무시됩니다 — 이 전제가 뒤의 간단한 식 (g)를 가능하게 합니다.",
+            "sourceSpan": { "page": 846, "line": null }
+          },
+          {
+            "id": "s3-p3",
+            "tag": "본문 ⑤",
+            "original": "Figure 1 shows the chain length (Δ[NO<sub>2</sub>]/[HO<sub>2</sub>]<sub>o</sub>) versus NO concentration, from equation (e), for various reaction times at [CO] = 10%. There are optimum NO concentrations for each reaction time shown, and chain lengths in excess of 10<sup>3</sup> are possible.",
+            "assist": "그림 1은 식 (e)로부터 구한 <b>사슬길이</b>(Δ[NO₂]/[HO₂]₀)를 NO 농도에 대해, [CO] = 10% 조건에서 여러 반응시간별로 보여준다. 각 반응시간마다 <b>최적 NO 농도가 존재</b>하며, 10³을 넘는 사슬길이도 가능하다.",
+            "guide": "“NO를 많이 넣을수록 좋다”가 아니라 <b>봉우리(최적값)가 있다</b>는 게 핵심입니다. NO가 너무 많으면 반응 (3)으로 사슬이 더 빨리 끊기기 때문입니다 — 2026년 논문이 NO 8 ppm을 고른 것도 같은 이유입니다.",
+            "sourceSpan": { "page": 847, "line": null }
+          }
+        ]
+      },
+      {
+        "id": "s4",
+        "navLabel": "장치",
+        "title": "System Description — 장치 구성",
+        "paragraphs": [
+          {
+            "id": "s4-p1",
+            "tag": "본문 ⑥",
+            "original": "Figure 2 shows a block diagram of the chemical amplifier and NO<sub>2</sub> detector. Air potentially containing radicals is drawn into the reactor, mixed with NO and CO, and the NO<sub>2</sub> produced is measured in the NO<sub>2</sub> detector. The 3-way solenoid valve substitutes CO with an equal flow of N<sub>2</sub>. With N<sub>2</sub> flowing, a background measurement is taken consisting of ambient NO<sub>2</sub>, NO<sub>2</sub> produced from reaction (5) and the NO<sub>2</sub> detector background signal. With CO on the signal increases if odd hydrogen radicals are present due to the chain reaction. It is this signal increase that is used as a measure of the ambient HO<sub>2</sub> concentration.",
+            "assist": "그림 2는 화학증폭기와 NO₂ 검출기의 블록도다. 라디칼이 있을 수 있는 공기를 반응기로 빨아들여 NO·CO와 섞고, 생성된 NO₂를 검출기에서 측정한다. <b>3방 솔레노이드 밸브가 CO를 같은 유량의 N₂로 바꿔치기한다.</b> N₂가 흐를 때는 배경 측정이 이루어지는데, 이는 대기 중 NO₂ + 반응 (5)로 생긴 NO₂ + 검출기 자체의 배경 신호로 구성된다. CO를 켜면 홀수수소 라디칼이 있을 경우 사슬 반응 때문에 신호가 증가한다. <b>이 신호 증가분이 대기 HO₂ 농도의 척도</b>로 쓰인다.",
+            "guide": "변조(modulation)의 정체입니다. 절대값을 재는 게 아니라 <b>CO를 켰다 껐다 하면서 생기는 차이</b>를 봅니다 — 배경을 같은 장비로 함께 재기 때문에 검출기 드리프트가 상쇄됩니다. 2026년 논문의 “증폭/배경 90초 전환”이 정확히 이 방식입니다.",
+            "sourceSpan": { "page": 847, "line": null }
+          },
+          {
+            "id": "s4-p2",
+            "tag": "본문 ⑦",
+            "original": "The reagent gases, NO and CO, are passed through traps to remove contaminants present. Metal carbonyls (primarily Fe(CO)<sub>5</sub>) are removed from the CO with iodine on activated charcoal. NO<sub>2</sub> is removed from the NO mixture by passing it over FeSO<sub>4</sub>. The NO<sub>2</sub> detector is based on the chemiluminescent surface reaction of NO<sub>2</sub> with a high pH, aqueous luminol solution (Maeda et al., 1980). … In the absence of metal ions, with Na<sub>2</sub>SO<sub>3</sub> to minimize sensitivity to O<sub>3</sub>, no signal is seen for H<sub>2</sub>O<sub>2</sub> vapor and measurements of ppb levels of NO<sub>2</sub> in the presence of ppm levels of NO are possible.",
+            "assist": "시약 기체인 NO와 CO는 불순물 제거를 위해 트랩을 통과시킨다. 금속 카보닐(주로 Fe(CO)₅)은 활성탄에 담지한 요오드로 CO에서 제거한다. NO 혼합물에서는 FeSO₄ 위로 통과시켜 NO₂를 제거한다. NO₂ 검출기는 높은 pH의 수용성 루미놀 용액과 NO₂의 <b>화학발광 표면 반응</b>에 기반한다(Maeda et al., 1980). … 금속 이온이 없고 O₃ 민감도를 줄이기 위해 Na₂SO₃를 넣으면, H₂O₂ 증기에는 신호가 나타나지 않으며 <b>ppm 수준 NO가 있는 상태에서도 ppb 수준 NO₂ 측정이 가능</b>하다.",
+            "guide": "디테일 같지만 발표에서 질문이 들어오는 대목입니다 — <b>“NO를 ppm으로 넣는데 ppb NO₂를 어떻게 재나?”</b>에 대한 답이 여기 있습니다. 시약 자체에 섞여 들어오는 NO₂를 FeSO₄로 미리 걷어내고, 루미놀이 NO에는 반응하지 않기 때문입니다.",
+            "sourceSpan": { "page": 848, "line": null }
+          }
+        ]
+      },
+      {
+        "id": "s5",
+        "navLabel": "결과",
+        "title": "Data and Results — 실제로 재보니",
+        "paragraphs": [
+          {
+            "id": "s5-p1",
+            "tag": "본문 ⑧",
+            "original": "In order to determine if this system would behave as expected when sampling the atmosphere, air was sampled in Ann Arbor in June, 1980. … CO was modulated at 10 minute intervals. … Figure 4 shows results from on the roof of the National Center for Atmospheric Research (NCAR) building in Boulder, Colorado in June, 1980. The modulations in NO<sub>2</sub> concentration were converted to HO<sub>2</sub> concentrations from a computer simulation of the system.",
+            "assist": "대기를 측정할 때 이 장치가 예상대로 거동하는지 확인하기 위해, 1980년 6월 <b>미시간주 앤아버</b>에서 공기를 측정했다. … CO는 10분 간격으로 변조했다. … 그림 4는 1980년 6월 <b>콜로라도주 볼더의 NCAR 건물 옥상</b>에서 얻은 결과다. NO₂ 농도의 변조량은 장치의 컴퓨터 시뮬레이션을 통해 HO₂ 농도로 환산했다.",
+            "guide": "두 번의 현장 측정이 있습니다 — 앤아버(원시 데이터, 그림 3)와 볼더 NCAR(환산 결과, 그림 4). 둘 다 1980년 6월인데 <b>논문은 1982년에 나왔습니다</b>.",
+            "sourceSpan": { "page": 848, "line": null }
+          },
+          {
+            "id": "s5-p2",
+            "tag": "본문 ⑨",
+            "original": "We make no claim as to the accuracy of the concentrations presented, because of lack of instrument calibration, but include this data as evidence that the species being measured, based on trends shown, behaves as would be expected for HO<sub>2</sub> molecules. Almost all of the days show signal increase in early morning, which peaks near solar noon and decays in the afternoon and evening. Thursday was overcast all day and showed no detectable modulation, as would be expected for odd hydrogen radicals which are formed by a variety of photochemical routes.",
+            "assist": "<b>장치 교정이 없었기 때문에 제시된 농도의 정확도는 주장하지 않는다.</b> 다만 이 데이터를, 보여진 경향에 근거해 측정 대상 화학종이 HO₂ 분자에 기대되는 대로 거동한다는 <b>증거</b>로서 포함한다. 거의 모든 날이 이른 아침에 신호가 증가해 태양 남중 무렵 최고에 이르고 오후와 저녁에 감쇠한다. <b>목요일은 하루 종일 흐렸고 검출 가능한 변조가 나타나지 않았는데</b>, 이는 여러 광화학 경로로 생성되는 홀수수소 라디칼에 기대되는 바와 같다.",
+            "guide": "이 논문에서 가장 정직하고 가장 영리한 문단입니다. 절대 농도는 못 믿겠다고 먼저 말한 뒤, <b>“흐린 날엔 신호가 없었다”</b>는 한 가지 사실로 “우리가 재는 게 광화학적으로 생기는 무언가”라는 것을 보입니다 — 교정 없이 할 수 있는 최선의 검증입니다.",
+            "sourceSpan": { "page": 848, "line": null }
+          }
+        ]
+      },
+      {
+        "id": "s6",
+        "navLabel": "결론",
+        "title": "Conclusions — 결론",
+        "paragraphs": [
+          {
+            "id": "s6-p1",
+            "tag": "결론",
+            "original": "The chemical amplifier technique of measurement of ambient peroxy radical concentrations appears to hold promise as the first technique for continuous tropospheric determinations. We believe the principal species which can participate in a chain reaction such as shown, and thus cause modulation in NO<sub>2</sub> concentration, are HO<sub>2</sub> and some RO<sub>2</sub>, and to a small degree, because of their low concentration, OH and RO radicals.",
+            "assist": "대기 과산화라디칼 농도 측정을 위한 화학증폭기 기법은 <b>대류권 연속 측정을 위한 최초의 기법</b>으로서 가능성이 있어 보인다. 여기 제시된 것과 같은 사슬 반응에 참여해 NO₂ 농도 변조를 일으킬 수 있는 주된 화학종은 HO₂와 일부 RO₂이며, 농도가 낮기 때문에 OH와 RO 라디칼은 적은 정도로만 기여한다고 본다.",
+            "guide": "핵심 단어는 <b>“연속(continuous)”</b>입니다. 당시 HO₂ 측정은 성층권에서 산발적으로만 가능했는데, 이 기법은 대류권에서 계속 돌릴 수 있다는 점이 달랐습니다. “appears to hold promise”라는 조심스러운 표현도 함께 기억해두세요.",
+            "sourceSpan": { "page": 848, "line": null }
+          }
+        ]
+      }
+    ]
+  },
+
+  "modules": [
+    {
+      "id": "m1",
+      "category": "bg",
+      "title": "왜 이 논문이 필요했나 — 1982년의 측정 공백",
+      "blocks": [
+        {
+          "type": "prose",
+          "text": "1982년 시점에서 대기 라디칼 측정의 상황을 한 장으로 정리하면 이렇습니다. OH는 여러 기법으로 측정 시도가 있었지만, <b>HO₂ 측정은 성층권에 국한</b>되어 있었습니다."
+        },
+        {
+          "type": "table",
+          "columns": ["화학종", "당시 측정 상황", "논문이 인용한 사례"],
+          "rows": [
+            ["OH", "대류권 측정 시도 있음", "CO 산화 모니터링(Campbell et al., 1979), 레이저유도형광(Davis et al., 1976·1979; Wang et al., 1981)"],
+            ["HO<sub>2</sub>", "<b>성층권에 국한</b>", "Mihelcic et al., 1978; Anderson et al., 1981"],
+            ["RO<sub>2</sub>", "별도 기법 없음", "—"]
+          ],
+          "highlightRows": [1]
+        },
+        {
+          "type": "callout",
+          "tone": "blue",
+          "text": "<b>동기 두 줄.</b> ① HO₂는 OH보다 농도가 2~3자릿수 높아 대기 홀수수소 라디칼의 대부분을 차지한다. ② HO₂는 NO 산화에서 오존과 경쟁하므로 광화학 스모그에서 오존이 쌓이는 직접적 원인이다. 많고, 중요한데, 대류권에서는 잴 방법이 없었습니다."
+        },
+        {
+          "type": "prose",
+          "text": "그래서 이 논문의 제목이 <i>“A <b>possible</b> technique”</i>입니다 — 완성된 기법의 발표가 아니라 <b>제안</b>이라는 뜻이고, 서론 마지막에 “이 중요한 측정에 관심 있는 독자들의 의견을 환영한다”는 문장까지 붙어 있습니다."
+        }
+      ]
+    },
+
+    {
+      "id": "m2",
+      "category": "bg",
+      "title": "화학증폭의 심장 — 두 반응이 만드는 고리",
+      "blocks": [
+        {
+          "type": "prose",
+          "text": "외울 것은 <b>반응 두 개</b>뿐입니다. 이 둘이 서로를 되먹이기 때문에 라디칼 하나가 NO₂를 수백 개 만들어냅니다."
+        },
+        {
+          "type": "diagram",
+          "svg": "<svg viewBox=\"0 0 700 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"HO2와 OH가 서로를 되먹이는 사슬 반응 고리. 반응 1이 HO2를 OH로 바꾸며 NO2를 하나 내놓고, 반응 2가 그 OH를 다시 HO2로 되돌린다.\"><defs><marker id=\"c82a\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M0,0 L10,5 L0,10 z\" fill=\"var(--teal)\"/></marker><marker id=\"c82b\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M0,0 L10,5 L0,10 z\" fill=\"var(--orange)\"/></marker></defs><rect x=\"70\" y=\"126\" width=\"150\" height=\"62\" rx=\"10\" fill=\"var(--blue-soft)\" stroke=\"var(--blue)\" stroke-width=\"2\"/><text x=\"145\" y=\"166\" text-anchor=\"middle\" font-size=\"23\" font-weight=\"700\" fill=\"var(--ink)\">HO₂</text><rect x=\"480\" y=\"126\" width=\"150\" height=\"62\" rx=\"10\" fill=\"var(--blue-soft)\" stroke=\"var(--blue)\" stroke-width=\"2\"/><text x=\"555\" y=\"166\" text-anchor=\"middle\" font-size=\"23\" font-weight=\"700\" fill=\"var(--ink)\">OH</text><path d=\"M220 140 C 320 88, 380 88, 480 140\" fill=\"none\" stroke=\"var(--teal)\" stroke-width=\"2.5\" marker-end=\"url(#c82a)\"/><text x=\"350\" y=\"84\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"600\" fill=\"var(--teal)\">반응 (1)  + NO</text><path d=\"M480 174 C 380 226, 320 226, 220 174\" fill=\"none\" stroke=\"var(--teal)\" stroke-width=\"2.5\" marker-end=\"url(#c82a)\"/><text x=\"350\" y=\"248\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"600\" fill=\"var(--teal)\">반응 (2)  + CO  (O₂, M)</text><text x=\"350\" y=\"270\" text-anchor=\"middle\" font-size=\"14\" fill=\"var(--ink-faint)\">CO₂ 가 함께 나온다</text><path d=\"M350 92 L 350 48\" fill=\"none\" stroke=\"var(--orange)\" stroke-width=\"2.5\" marker-end=\"url(#c82b)\"/><text x=\"350\" y=\"36\" text-anchor=\"middle\" font-size=\"17\" font-weight=\"700\" fill=\"var(--orange)\">NO₂  ← 매 회전 1개</text><text x=\"145\" y=\"212\" text-anchor=\"middle\" font-size=\"14\" fill=\"var(--ink-faint)\">측정 대상</text></svg>",
+          "caption": "그림 A. 반응 (1)이 HO₂를 OH로 바꾸며 NO₂를 하나 뱉고, 반응 (2)가 그 OH를 다시 HO₂로 되돌린다. 라디칼이 소모되지 않고 돌아오기 때문에 한 바퀴마다 NO₂가 하나씩 쌓인다."
+        },
+        {
+          "type": "equation",
+          "num": "반응 (1)·(2)",
+          "expr": "(1)  HO2 + NO  →  NO2 + OH\n(2)  OH + CO  —(O2, M)→  CO2 + HO2",
+          "meaning": "(1)에서 나간 OH가 (2)에서 HO₂로 돌아온다 — 라디칼이 없어지지 않고 순환하므로, NO와 CO를 과량으로 넣어주는 한 NO₂가 계속 쌓인다."
+        },
+        {
+          "type": "callout",
+          "tone": "teal",
+          "text": "<b>증폭비.</b> 대기 수준 HO₂(약 10⁸ cm⁻³)가 측정 가능한 NO₂(약 10¹¹ cm⁻³)로 증폭됩니다 — 약 1000배. “못 재는 것을 잴 수 있는 것으로 바꾼다”는 아이디어 전부가 이 한 줄입니다."
+        },
+        {
+          "type": "prose",
+          "text": "NO와 CO의 역할을 구분해서 말할 수 있어야 합니다. <b>NO는 HO₂를 산화시켜 NO₂를 만들어내는 쪽</b>(신호를 뱉게 하는 역할), <b>CO는 OH를 HO₂로 되돌려 사슬을 다시 잇는 쪽</b>(재장전 역할)입니다."
+        }
+      ]
+    },
+
+    {
+      "id": "m3",
+      "category": "num",
+      "title": "이론 — 사슬길이를 정하는 식들",
+      "blocks": [
+        {
+          "type": "prose",
+          "text": "식을 <b>풀 필요는 없습니다.</b> 각 식이 “무엇을 무엇으로부터 구하는가” 한 문장만 말할 수 있으면 발표에서 충분합니다."
+        },
+        {
+          "type": "equation",
+          "num": "식 (a)",
+          "expr": "Δ[NO2] = k1[NO] ∫0→t [HO2] dt",
+          "meaning": "NO 농도가 일정하다고 보면, 생성된 NO₂는 HO₂가 반응기 안에 머문 시간만큼 쌓인 양이다 — 사슬 반응의 출발점이 되는 정의식."
+        },
+        {
+          "type": "equation",
+          "num": "식 (c)",
+          "expr": "[OH] / [HO2] = k1[NO] / (k2[CO])",
+          "meaning": "반응 (1)과 (2)가 빨라서 OH와 HO₂의 비율이 금방 고정된다. CO를 많이 넣을수록 OH 비율이 낮아진다 — 뒤에서 'OH가 일으키는 부반응이 무시된다'는 논거의 근거."
+        },
+        {
+          "type": "equation",
+          "num": "식 (e)",
+          "expr": "Δ[NO2] = (k1[NO] / 2k4) · { ln([1+α]·exp(β) − α) − β }\n여기서  α = 2k2k4[HO2]o[CO] / (k1k3[NO]²),   β = 2k4[HO2]o t / α",
+          "meaning": "종결 반응 (3)과 (4)를 모두 넣고 푼 일반해. 그림 1의 사슬길이 곡선이 이 식에서 나온다 — 즉 '최적 NO 농도가 존재한다'는 결론의 출처."
+        },
+        {
+          "type": "equation",
+          "num": "식 (g)",
+          "expr": "Δ[NO2] = ( k2[CO][HO2]o / k3[NO] ) · ( 1 − exp(−β) )",
+          "meaning": "대기 농도에서는 반응 (4)가 느려 무시할 수 있으므로 (3)만 남겨 푼 간단한 해. 라디칼 농도가 낮은 한 식 (e)와 정량적으로 같은 값을 준다."
+        },
+        {
+          "type": "callout",
+          "tone": "blue",
+          "text": "<b>(e)와 (g)의 관계를 묻는 질문이 나옵니다.</b> 답: 라디칼 농도가 충분히 낮아 반응 (4)가 (3)에 비해 느린 동안에는 둘이 같은 결과를 준다 — 논문이 명시적으로 적어둔 조건입니다."
+        },
+        {
+          "type": "prose",
+          "text": "<b>다른 소멸 경로를 무시해도 되는 이유</b>도 함께 정리해두면 좋습니다. OH + HO₂는 식 (c)에 의해 높은 [CO]에서 [OH]가 매우 낮아지므로 느리고, 오존과의 반응은 투입한 NO가 반응 (5)로 오존을 빠르게 소모해버리므로 중요하지 않습니다. 유기 비라디칼에서 라디칼이 새로 생기는 경로(반응 11·12)도 측정 시간에 비해 느립니다."
+        },
+        {
+          "type": "prose",
+          "text": "<b>유기 과산화라디칼(RO₂)은 어떻게 되나.</b> 메틸과산화라디칼은 NO-공기 계에서 HO₂를 만드는 반응이 지배적이라(반응 6·7) 사실상 HO₂로 측정됩니다. 그러나 일반 RO₂는 반응 (9)로 RO를 만든 뒤, <b>α-수소가 있으면</b> 반응 (7)처럼 HO₂가 되지만, RO와 CO 사이의 반응(반응 2의 유사체)은 근거가 거의 없어 일부 RO는 결국 아질산에스터(RONO, 반응 10)로 끝납니다."
+        },
+        {
+          "type": "callout",
+          "text": "저자들은 해석해 외에 <b>28개 반응</b>을 포함한 컴퓨터 모델링도 수행했고(속도상수는 Hampson, 1980), 결과가 해석해와 유사했다고 보고합니다."
+        }
+      ]
+    },
+
+    {
+      "id": "m4",
+      "category": "flow",
+      "title": "장치 구성과 변조 방식",
+      "blocks": [
+        {
+          "type": "prose",
+          "text": "장치는 <b>증폭기(반응기)</b>와 <b>검출기(루미놀)</b> 두 덩어리입니다. 공기가 어디로 들어가 무엇과 섞이고 어디서 읽히는지만 따라가면 됩니다."
+        },
+        {
+          "type": "diagram",
+          "svg": "<svg viewBox=\"0 0 700 330\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"화학증폭기 장치 블록도. 공기가 반응기로 들어가 NO와, 3방 밸브로 전환되는 CO 또는 N2와 섞이고, 생성된 NO2를 루미놀 검출기와 광전자증배관으로 읽는다.\"><defs><marker id=\"d82\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M0,0 L10,5 L0,10 z\" fill=\"var(--ink-soft)\"/></marker><marker id=\"d82o\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M0,0 L10,5 L0,10 z\" fill=\"var(--orange)\"/></marker></defs><text x=\"12\" y=\"150\" font-size=\"16\" font-weight=\"600\" fill=\"var(--ink)\">공기</text><path d=\"M62 144 L 116 144\" stroke=\"var(--ink-soft)\" stroke-width=\"2.5\" marker-end=\"url(#d82)\"/><rect x=\"118\" y=\"106\" width=\"150\" height=\"80\" rx=\"10\" fill=\"var(--teal-soft)\" stroke=\"var(--teal)\" stroke-width=\"2\"/><text x=\"193\" y=\"142\" text-anchor=\"middle\" font-size=\"17\" font-weight=\"700\" fill=\"var(--ink)\">반응기</text><text x=\"193\" y=\"166\" text-anchor=\"middle\" font-size=\"14\" fill=\"var(--ink-soft)\">체류 100초</text><rect x=\"102\" y=\"236\" width=\"88\" height=\"44\" rx=\"7\" fill=\"var(--surface-soft)\" stroke=\"var(--line)\" stroke-width=\"1.5\"/><text x=\"146\" y=\"264\" text-anchor=\"middle\" font-size=\"14\" fill=\"var(--ink)\">NO 5ppm</text><path d=\"M146 234 L 146 190\" stroke=\"var(--ink-soft)\" stroke-width=\"2\" marker-end=\"url(#d82)\"/><rect x=\"206\" y=\"236\" width=\"120\" height=\"44\" rx=\"7\" fill=\"var(--orange-soft)\" stroke=\"var(--orange)\" stroke-width=\"1.5\"/><text x=\"266\" y=\"256\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"600\" fill=\"var(--ink)\">3방 밸브</text><text x=\"266\" y=\"274\" text-anchor=\"middle\" font-size=\"13\" fill=\"var(--ink-soft)\">CO 5% ⇄ N₂</text><path d=\"M248 234 L 228 190\" stroke=\"var(--orange)\" stroke-width=\"2\" marker-end=\"url(#d82o)\"/><text x=\"338\" y=\"266\" font-size=\"14\" fill=\"var(--orange)\">10분마다 전환</text><path d=\"M268 144 L 336 144\" stroke=\"var(--ink-soft)\" stroke-width=\"2.5\" marker-end=\"url(#d82)\"/><text x=\"302\" y=\"132\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"600\" fill=\"var(--orange)\">NO₂</text><rect x=\"338\" y=\"106\" width=\"162\" height=\"80\" rx=\"10\" fill=\"var(--blue-soft)\" stroke=\"var(--blue)\" stroke-width=\"2\"/><text x=\"419\" y=\"136\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"700\" fill=\"var(--ink)\">NO₂ 검출기</text><text x=\"419\" y=\"158\" text-anchor=\"middle\" font-size=\"14\" fill=\"var(--ink-soft)\">루미놀 용액</text><text x=\"419\" y=\"176\" text-anchor=\"middle\" font-size=\"14\" fill=\"var(--ink-soft)\">화학발광</text><path d=\"M500 144 L 554 144\" stroke=\"var(--ink-soft)\" stroke-width=\"2.5\" marker-end=\"url(#d82)\"/><text x=\"527\" y=\"132\" text-anchor=\"middle\" font-size=\"13\" fill=\"var(--ink-faint)\">빛</text><rect x=\"556\" y=\"106\" width=\"130\" height=\"80\" rx=\"10\" fill=\"var(--surface-soft)\" stroke=\"var(--line)\" stroke-width=\"2\"/><text x=\"621\" y=\"140\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"var(--ink)\">PM 튜브</text><text x=\"621\" y=\"164\" text-anchor=\"middle\" font-size=\"14\" fill=\"var(--ink-soft)\">→ 기록계</text><text x=\"193\" y=\"72\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"600\" fill=\"var(--teal)\">① 화학적 증폭</text><text x=\"500\" y=\"72\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"600\" fill=\"var(--blue)\">② 광학적 검출</text></svg>",
+          "caption": "그림 B. 공기가 반응기로 들어가 NO·CO와 섞이면 사슬 반응이 돌며 NO₂가 쌓이고, 그 NO₂를 루미놀 화학발광으로 읽는다. 3방 밸브가 CO를 같은 유량의 N₂로 바꿔치기하면 사슬이 멈춰 배경값이 된다. 운전 조건은 그림 2 캡션의 값([CO] = 5%, [NO] = 5 ppm, 반응시간 100초, 총유량 2 L/min)."
+        },
+        {
+          "type": "callout",
+          "tone": "teal",
+          "text": "<b>변조가 이 장치의 핵심 트릭입니다.</b> 절대값을 재지 않고, CO를 켰다 껐다 하며 생기는 <b>신호 차이</b>를 봅니다. N₂가 흐를 때의 배경에는 ① 대기 중 원래 NO₂ ② 반응 (5)로 생긴 NO₂ ③ 검출기 자체 배경이 모두 들어 있어, 빼주면 라디칼 때문에 생긴 몫만 남습니다."
+        },
+        {
+          "type": "termGrid",
+          "items": [
+            { "name": "3방 솔레노이드 밸브", "def": "CO를 같은 유량의 N₂로 바꿔치기해 사슬 반응을 켜고 끄는 장치" },
+            { "name": "활성탄 + 요오드 트랩", "def": "CO 기체에 섞인 금속 카보닐(주로 Fe(CO)₅)을 제거" },
+            { "name": "FeSO₄ 트랩", "def": "NO 기체에 섞여 들어온 NO₂를 제거 — ppm NO 속에서 ppb NO₂를 재기 위한 전제" },
+            { "name": "루미놀 화학발광", "def": "높은 pH 수용액 표면에서 NO₂와 반응해 빛을 내는 검출 방식 (Maeda et al., 1980)" },
+            { "name": "Na₂SO₃ 첨가", "def": "검출기의 O₃ 민감도를 줄이기 위한 것. 금속 이온이 없으면 H₂O₂ 증기에는 신호가 나지 않음" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "m5",
+      "category": "fig",
+      "title": "그림 4개 — 한 줄 해설",
+      "blocks": [
+        {
+          "type": "prose",
+          "text": "발표 중 “이 그림이 무슨 뜻이냐”는 질문에 즉답할 수 있도록 네 그림을 한 문장으로 압축했습니다. 그림 1이 설계의 근거, 그림 3·4가 실제 측정 증거입니다."
+        },
+        {
+          "type": "figureCard",
+          "items": [
+            {
+              "tag": "Fig. 1",
+              "caption": "사슬길이(Δ[NO₂]/[HO₂]₀) 대 NO 농도. 식 (e)로 계산했고 반응시간 1·3·10·30·100초의 다섯 곡선, [CO] = 10% 조건.",
+              "imageUri": null,
+              "takeaway": "NO를 많이 넣을수록 좋은 게 아니라 <b>반응시간마다 최적 NO 농도가 따로 있다</b>. 10³을 넘는 사슬길이도 가능하다."
+            },
+            {
+              "tag": "Fig. 2",
+              "caption": "화학증폭기와 NO₂ 검출기의 블록도. 캡션에 운전 조건이 적혀 있다 — [CO] = 5%, [NO] = 5 ppm, 반응시간 100초, 총유량 2 L/min.",
+              "imageUri": null,
+              "takeaway": "시험에 나올 숫자 네 개가 이 캡션 한 줄에 모여 있다."
+            },
+            {
+              "tag": "Fig. 3",
+              "caption": "1980년 6월 미시간주 앤아버에서 얻은 기록계 원시 출력(위)과 변조 강도(아래), 시각에 대한 그래프. CO는 10분 간격으로 변조.",
+              "imageUri": null,
+              "takeaway": "가공 전의 날것 데이터. 오후로 가며 변조 강도가 <b>감소</b>하는 경향이 보인다."
+            },
+            {
+              "tag": "Fig. 4",
+              "caption": "콜로라도주 볼더 NCAR 옥상, 1980년 6월. 계산된 HO₂ 농도의 하루 변화를 6일치(6/17·18·19·20·21·23) 겹쳐 그린 그래프이며, 날짜마다 그날의 날씨가 범례에 적혀 있다.",
+              "imageUri": null,
+              "takeaway": "<b>흐린 날(목요일 6/19)만 변조가 안 나타난다</b> — 교정 없이 “광화학적으로 생기는 무언가를 재고 있다”를 보이는 핵심 증거."
+            }
+          ]
+        },
+        {
+          "type": "diagram",
+          "svg": "<svg viewBox=\"0 0 700 400\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"그림 1의 재현. 사슬길이 대 NO 농도 곡선이 반응시간마다 서로 다른 위치에서 봉우리를 이룬다. 반응시간이 길수록 봉우리가 높고 더 낮은 NO 쪽에 있다.\"><defs><marker id=\"f82\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"5\" markerHeight=\"5\" orient=\"auto-start-reverse\"><path d=\"M0,0 L10,5 L0,10 z\" fill=\"var(--ink-faint)\"/></marker></defs><line x1=\"104\" y1=\"330\" x2=\"664\" y2=\"330\" stroke=\"var(--ink-faint)\" stroke-width=\"1.5\" marker-end=\"url(#f82)\"/><line x1=\"104\" y1=\"330\" x2=\"104\" y2=\"44\" stroke=\"var(--ink-faint)\" stroke-width=\"1.5\" marker-end=\"url(#f82)\"/><text x=\"380\" y=\"382\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"600\" fill=\"var(--ink-soft)\">[NO],  ppm</text><text x=\"38\" y=\"186\" font-size=\"16\" font-weight=\"600\" fill=\"var(--ink-soft)\" transform=\"rotate(-90 38 186)\">사슬길이</text><text x=\"104\" y=\"354\" text-anchor=\"middle\" font-size=\"14\" fill=\"var(--ink-faint)\">0</text><text x=\"290\" y=\"354\" text-anchor=\"middle\" font-size=\"14\" fill=\"var(--ink-faint)\">1</text><text x=\"477\" y=\"354\" text-anchor=\"middle\" font-size=\"14\" fill=\"var(--ink-faint)\">2</text><text x=\"664\" y=\"354\" text-anchor=\"middle\" font-size=\"14\" fill=\"var(--ink-faint)\">3</text><text x=\"92\" y=\"335\" text-anchor=\"end\" font-size=\"14\" fill=\"var(--ink-faint)\">100</text><text x=\"92\" y=\"222\" text-anchor=\"end\" font-size=\"14\" fill=\"var(--ink-faint)\">300</text><text x=\"92\" y=\"120\" text-anchor=\"end\" font-size=\"14\" fill=\"var(--ink-faint)\">1000</text><text x=\"92\" y=\"56\" text-anchor=\"end\" font-size=\"14\" fill=\"var(--ink-faint)\">3000</text><path d=\"M104 330 C 198 258, 362 234, 477 240 C 562 245, 618 258, 664 274\" fill=\"none\" stroke=\"var(--blue)\" stroke-width=\"2.5\"/><text x=\"590\" y=\"238\" font-size=\"15\" font-weight=\"600\" fill=\"var(--blue)\">1초</text><path d=\"M104 330 C 180 168, 268 136, 348 144 C 452 155, 572 212, 664 258\" fill=\"none\" stroke=\"var(--teal)\" stroke-width=\"2.5\" stroke-dasharray=\"7 4\"/><text x=\"358\" y=\"128\" font-size=\"15\" font-weight=\"600\" fill=\"var(--teal)\">10초</text><path d=\"M104 330 C 154 120, 202 70, 256 68 C 376 62, 544 178, 664 250\" fill=\"none\" stroke=\"var(--orange)\" stroke-width=\"2.5\" stroke-dasharray=\"2 4\"/><text x=\"252\" y=\"52\" font-size=\"15\" font-weight=\"600\" fill=\"var(--orange)\">100초</text><text x=\"330\" y=\"308\" font-size=\"14\" fill=\"var(--ink-faint)\">봉우리 = 그 반응시간의 최적 NO</text></svg>",
+          "caption": "그림 C. 그림 1을 단순화해 다시 그린 것(세 곡선만 표시). 반응시간이 길수록 봉우리가 높아지고 더 낮은 NO 쪽으로 이동한다. 실제 그림 1은 1·3·10·30·100초 다섯 곡선이며 세로축은 100~3000 범위다. <b>곡선의 정확한 값이 아니라 “봉우리가 있다”는 모양을 기억하기 위한 그림</b>이다."
+        },
+        {
+          "type": "callout",
+          "tone": "blue",
+          "text": "그림 1 캡션에는 <b>모델의 한계</b>도 함께 적혀 있습니다 — “벽면 반응과 다른 부수적 반응 경로는 이 모델에서 무시되었다. 라디칼과 비라디칼 종 사이의 여러 반응을 포함한 컴퓨터 시뮬레이션도 매우 유사한 결과를 준다.”"
+        }
+      ]
+    },
+
+    {
+      "id": "m6",
+      "category": "num",
+      "title": "반응식 12개 · 숫자 한눈에",
+      "blocks": [
+        {
+          "type": "prose",
+          "text": "논문에 번호가 붙은 반응식 전부입니다. <b>(1)~(5)까지는 외우고</b>, (6)~(12)는 “유기 라디칼 쪽 이야기”로 묶어서 기억하면 충분합니다."
+        },
+        {
+          "type": "table",
+          "columns": ["번호", "반응식", "역할"],
+          "rows": [
+            ["(1)", "HO<sub>2</sub> + NO → NO<sub>2</sub> + OH", "<b>사슬 전파 ① — NO₂ 생성</b>"],
+            ["(2)", "OH + CO —(O<sub>2</sub>, M)→ CO<sub>2</sub> + HO<sub>2</sub>", "<b>사슬 전파 ② — HO₂ 재생</b>"],
+            ["(3)", "OH + NO —M→ HONO", "<b>사슬 종결 (대기 농도에서 주범)</b>"],
+            ["(4)", "HO<sub>2</sub> + HO<sub>2</sub> → H<sub>2</sub>O<sub>2</sub> + O<sub>2</sub>", "사슬 종결 (대기 농도에선 느림)"],
+            ["(5)", "NO + O<sub>3</sub> → NO<sub>2</sub> + O<sub>2</sub>", "투입한 NO가 오존을 소모 — 오존 간섭이 없는 이유"],
+            ["(6)", "CH<sub>3</sub>O<sub>2</sub> + NO → CH<sub>3</sub>O + NO<sub>2</sub>", "메틸과산화라디칼의 NO 산화"],
+            ["(7)", "CH<sub>3</sub>O + O<sub>2</sub> → HO<sub>2</sub> + CH<sub>2</sub>O", "CH₃O₂가 결국 HO₂로 측정되는 이유"],
+            ["(8)", "CH<sub>3</sub>O<sub>2</sub> + CH<sub>3</sub>O<sub>2</sub> → 2CH<sub>3</sub>O + O<sub>2</sub>", "자기들끼리 반응 — 높은 NO에서는 미미"],
+            ["(9)", "RO<sub>2</sub> + NO → RO + NO<sub>2</sub>", "일반 RO₂ (속도는 CH₃O₂와 다름)"],
+            ["(10)", "RO + NO —M→ RONO", "RO의 종착지 — 일부는 HO₂로 안 돌아온다"],
+            ["(11)", "RH + OH → R + H<sub>2</sub>O", "유기물에서 라디칼 생성 — 측정 시간 대비 느림"],
+            ["(12)", "R + O<sub>2</sub> —M→ RO<sub>2</sub>", "위와 같음"]
+          ],
+          "highlightRows": [0, 1, 2]
+        },
+        {
+          "type": "prose",
+          "text": "질문 받을 확률이 높은 숫자만 모았습니다."
+        },
+        {
+          "type": "table",
+          "columns": ["구분", "항목", "값"],
+          "rows": [
+            ["운전 조건", "CO 농도", "<b>5 %</b> (그림 1 계산은 10 %)"],
+            ["운전 조건", "NO 농도", "<b>5 ppm</b>"],
+            ["운전 조건", "반응(체류) 시간", "<b>100 초</b>"],
+            ["운전 조건", "총 유량", "<b>2 L/min</b>"],
+            ["원리", "대기 HO<sub>2</sub> 농도", "약 10<sup>8</sup> cm<sup>−3</sup>"],
+            ["원리", "증폭 후 NO<sub>2</sub> 농도", "약 10<sup>11</sup> cm<sup>−3</sup>"],
+            ["원리", "가능한 사슬길이", "10<sup>3</sup> 초과 가능"],
+            ["원리", "HO<sub>2</sub> 대 OH 농도비", "2~3 자릿수 높음"],
+            ["원리", "100초 후 HO<sub>2</sub> 손실", "약 5 % (반응 4에 의한)"],
+            ["측정", "CO 변조 주기", "10 분 간격"],
+            ["모델", "포함 반응 수", "28개 (속도상수: Hampson, 1980)"],
+            ["출처", "논문 정보", "Geophys. Res. Lett. 9(8), 846–849 (1982년 8월)"]
+          ],
+          "highlightRows": [0, 1, 2, 3]
+        },
+        {
+          "type": "callout",
+          "text": "<b>“5-5-100-2”</b>로 묶어 외우세요 — CO 5 %, NO 5 ppm, 반응시간 100초, 유량 2 L/min. 그림 2 캡션 한 줄에 다 있습니다."
+        }
+      ]
+    },
+
+    {
+      "id": "m7",
+      "category": "qa",
+      "title": "한계 · 결론 · 예상 질문",
+      "blocks": [
+        {
+          "type": "prose",
+          "text": "<b>저자들이 스스로 인정한 한계</b>부터 정리합니다. 이 논문의 강점은 성능이 아니라 정직함에 있습니다."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<b>교정이 없다.</b> “장치 교정이 없었기 때문에 제시된 농도의 정확도는 주장하지 않는다”고 본문에 명시했습니다.",
+            "<b>검출한계·불확도 수치가 없다.</b> 정량적 성능 지표를 제시하지 않습니다.",
+            "<b>RO₂ 응답을 실측하지 않았다.</b> 유기 라디칼에 대한 거동은 추론과 모델에 의존하며, 알킬 아질산염이나 알킬 과산화물의 광분해로 검증할 수 있다고 제안만 합니다.",
+            "<b>모델이 벽면 반응을 무시한다.</b> 그림 1 캡션이 직접 밝히고 있습니다."
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "blue",
+          "text": "<b>그럼에도 이 논문이 남긴 것.</b> “대류권 연속 측정을 위한 <b>최초의</b> 기법으로서 가능성이 있어 보인다” — 당시 HO₂ 측정은 성층권에서 산발적으로만 가능했습니다. 정확도가 아니라 <b>연속성</b>이 기여입니다."
+        },
+        {
+          "type": "prose",
+          "text": "당시 저자들이 후보로 올린 <b>교정 방법</b>들입니다(모두 “진행 중”으로만 언급): Cl₂-H₂-공기 혼합물 광분해(Cox and Derwent, 1977), 물 광분해(Davis et al., 1976), HONO 광분해(Cox, 1974), 메틸 아질산염(Cox and Roffey, 1977)."
+        },
+        {
+          "type": "qaList",
+          "items": [
+            {
+              "q": "한 문장으로 이 논문은 무엇을 했나요?",
+              "a": "대기 라디칼(주로 HO₂)을 NO·CO와의 사슬 반응으로 증폭해 NO₂로 바꾼 뒤, CO를 N₂로 바꿔치기하는 변조와 루미놀 화학발광으로 검출하는 기법을 제안하고, 시제품으로 실제 대기를 측정해 보였습니다."
+            },
+            {
+              "q": "왜 NO₂를 재나요? HO₂를 직접 재면 안 되나요?",
+              "a": "HO₂는 대기 중 농도가 약 10⁸ cm⁻³로 극히 낮습니다. 사슬 반응으로 약 10¹¹ cm⁻³ 수준의 NO₂로 1000배가량 증폭하면, 당시에 이미 확립돼 있던 NO₂ 검출 기술(루미놀 화학발광)로 측정할 수 있게 됩니다."
+            },
+            {
+              "q": "CO를 N₂로 바꾸는 이유가 무엇인가요?",
+              "a": "CO가 없으면 반응 (2)가 멈춰 사슬이 끊기므로 증폭이 일어나지 않습니다. 그때 읽히는 값이 배경(대기 NO₂ + 반응 5로 생긴 NO₂ + 검출기 배경)이고, CO를 켰을 때와의 <b>차이</b>가 라디칼 때문에 생긴 몫입니다. 유량은 똑같이 유지해 유체 조건이 바뀌지 않게 합니다."
+            },
+            {
+              "q": "NO를 많이 넣을수록 신호가 커지나요?",
+              "a": "아닙니다. NO는 반응 (1)로 사슬을 전파시키는 동시에 반응 (3)(OH + NO → HONO)으로 사슬을 끊기도 합니다. 그래서 그림 1처럼 반응시간마다 최적 NO 농도가 존재하는 봉우리 모양이 나옵니다."
+            },
+            {
+              "q": "대기 중 오존이 간섭하지 않나요?",
+              "a": "투입한 NO가 반응 (5)(NO + O₃ → NO₂ + O₂)로 오존을 빠르게 소모해버리기 때문에 라디칼과 오존의 반응은 중요하지 않습니다. 다만 이 반응으로 생긴 NO₂는 배경에 포함되어 변조로 상쇄됩니다."
+            },
+            {
+              "q": "ppm 수준 NO를 넣으면서 ppb 수준 NO₂를 어떻게 재나요?",
+              "a": "두 가지입니다. ① 시약 NO에 섞여 들어오는 NO₂를 FeSO₄ 트랩으로 미리 제거합니다. ② 루미놀 검출기가 NO에는 반응하지 않아, ppm NO 존재 하에서 ppb NO₂ 측정이 가능합니다(Na₂SO₃로 O₃ 민감도도 낮춤)."
+            },
+            {
+              "q": "교정도 안 했는데 측정이 맞다는 근거가 무엇인가요?",
+              "a": "절대 농도는 주장하지 않고 <b>경향</b>으로 논증합니다. 거의 모든 날 아침에 신호가 올라 태양 남중 부근에서 최고가 되고 오후·저녁에 감쇠했으며, <b>하루 종일 흐렸던 목요일에는 검출 가능한 변조가 전혀 없었습니다</b>. 광화학적으로 생성되는 라디칼에 기대되는 거동과 일치합니다."
+            },
+            {
+              "q": "식 (e)와 식 (g)는 언제 써야 하나요?",
+              "a": "(e)는 종결 반응 (3)·(4)를 모두 넣은 일반해이고, (g)는 (4)를 무시하고 (3)만 남긴 간단한 해입니다. 라디칼 농도가 충분히 낮아 (4)가 (3)에 비해 느린 동안에는 두 식이 정량적으로 같은 결과를 줍니다 — 대기 측정 조건이 여기에 해당합니다."
+            },
+            {
+              "q": "이 장치는 HO₂만 재나요?",
+              "a": "아닙니다. 결론에서 밝히듯 사슬 반응에 참여해 NO₂ 변조를 일으키는 주된 화학종은 <b>HO₂와 일부 RO₂</b>이며, 농도가 낮아 OH와 RO는 적은 정도로만 기여합니다. 메틸과산화라디칼은 반응 (6)·(7)을 거쳐 사실상 HO₂로 측정됩니다."
+            },
+            {
+              "q": "오늘날의 PERCA와 무엇이 다른가요?",
+              "a": "원리(사슬 증폭 + 변조)는 그대로입니다. 이 논문에 없던 것은 <b>교정, 정량적 검출한계, 불확도 평가, 그리고 RO₂ 응답의 실측</b>입니다. 검출기도 루미놀 화학발광에서 이후 더 정밀한 광학 기법으로 옮겨갑니다."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+
+  "cards": [
+    { "id": "c1", "category": "concept", "priority": "core", "q": "화학증폭기(chemical amplifier)의 기본 발상을 한 문장으로?", "a": "라디칼이 소모되지 않고 되돌아오는 사슬 반응을 이용해, 재기 어려운 HO₂ 하나를 재기 쉬운 NO₂ 수백~수천 개로 바꾼 뒤 그 NO₂를 측정한다.", "conceptId": "m2", "sourceSpan": { "page": 846, "line": null } },
+    { "id": "c2", "category": "concept", "priority": "core", "q": "반응 (1)과 (2)가 왜 “사슬”인가?", "a": "(1)에서 HO₂가 OH로 바뀌며 NO₂를 하나 뱉고, (2)에서 그 OH가 다시 HO₂로 돌아오기 때문. 라디칼이 없어지지 않고 순환하므로 NO·CO가 공급되는 한 계속 돈다.", "conceptId": "m2", "sourceSpan": { "page": 846, "line": null } },
+    { "id": "c3", "category": "concept", "priority": "normal", "q": "NO와 CO는 각각 어떤 역할인가?", "a": "NO는 HO₂를 산화시켜 NO₂를 만들어내는 쪽(신호 생성), CO는 OH를 HO₂로 되돌려 사슬을 다시 잇는 쪽(재장전).", "conceptId": "m2", "sourceSpan": { "page": 846, "line": null } },
+    { "id": "c4", "category": "concept", "priority": "core", "q": "CO를 N₂로 바꿔치기하는 변조는 왜 필요한가?", "a": "CO가 없으면 반응 (2)가 멈춰 사슬이 끊겨 증폭이 사라진다. 그때 값이 배경이고, CO를 켰을 때와의 차이가 라디칼 때문에 생긴 몫이다. 유량은 동일하게 유지한다.", "conceptId": "m4", "sourceSpan": { "page": 847, "line": null } },
+    { "id": "c6", "category": "concept", "priority": "normal", "q": "대기 농도 조건에서 사슬을 끊는 주범은 (3)인가 (4)인가?", "a": "(3) OH + NO → HONO. 한낮 대기의 전형적 HO₂ 농도(약 10⁸ cm⁻³)에서는 (4) HO₂+HO₂가 매우 느려(100초 후 손실 약 5%) HONO 생성이 주된 소멸 경로다.", "conceptId": "m3", "sourceSpan": { "page": 846, "line": null } },
+    { "id": "c7", "category": "concept", "priority": "normal", "q": "왜 OH가 아니라 HO₂를 측정 대상으로 삼았나?", "a": "HO₂가 OH보다 농도가 2~3자릿수 높아 대기 홀수수소 라디칼의 대부분을 차지하고, NO 산화에서 오존과 경쟁해 광화학 스모그의 오존 축적에 직접 관여하기 때문.", "conceptId": "m1", "sourceSpan": { "page": 846, "line": null } },
+    { "id": "c8", "category": "concept", "priority": "normal", "q": "대기 중 오존이 간섭하지 않는 이유는?", "a": "투입한 NO가 반응 (5)(NO + O₃ → NO₂ + O₂)로 오존을 빠르게 소모해버리기 때문. 이 반응으로 생긴 NO₂는 배경에 포함돼 변조로 상쇄된다.", "conceptId": "m3", "sourceSpan": { "page": 847, "line": null } },
+    { "id": "c10", "category": "concept", "priority": "normal", "q": "CH₃O₂가 사실상 HO₂로 측정되는 이유는?", "a": "NO-공기 계에서는 HO₂를 만드는 경로가 지배적이기 때문. 반응 (6) CH₃O₂+NO→CH₃O+NO₂ 에 이어 반응 (7) CH₃O+O₂→HO₂+CH₂O 로 이어진다.", "conceptId": "m3", "sourceSpan": { "page": 847, "line": null } },
+
+    { "id": "n1", "category": "number", "priority": "core", "q": "시제품의 운전 조건 네 가지는? (“5-5-100-2”)", "a": "CO 5 %, NO 5 ppm, 반응시간 100초, 총유량 2 L/min. (그림 2 캡션)", "conceptId": "m6", "sourceSpan": { "page": 847, "line": null } },
+    { "id": "n2", "category": "number", "priority": "normal", "q": "증폭 전후 농도는? (이 논문의 핵심 수치)", "a": "대기 수준 HO₂ 약 10⁸ cm⁻³ → 측정 가능한 NO₂ 약 10¹¹ cm⁻³. 약 1000배.", "conceptId": "m6", "sourceSpan": { "page": 846, "line": null } },
+    { "id": "n3", "category": "number", "priority": "normal", "q": "이론적으로 가능한 사슬길이는?", "a": "10³(1000)을 넘는 값도 가능하다. (그림 1, [CO] = 10% 조건)", "conceptId": "m6", "sourceSpan": { "page": 847, "line": null } },
+    { "id": "n4", "category": "number", "priority": "normal", "q": "그림 1의 계산 조건에서 CO 농도는? 운전 조건과 같은가?", "a": "그림 1은 [CO] = 10 %로 계산했고, 실제 시제품 운전은 [CO] = 5 %다 — 서로 다르다.", "conceptId": "m5", "sourceSpan": { "page": 847, "line": null } },
+    { "id": "n6", "category": "number", "priority": "normal", "q": "100초 동안 반응 (4)에 의한 HO₂ 손실은 얼마인가?", "a": "약 5 %. 그래서 대기 농도에서는 (4)를 무시하고 식 (g)를 쓸 수 있다.", "conceptId": "m6", "sourceSpan": { "page": 846, "line": null } },
+
+    { "id": "r1", "category": "term", "priority": "core", "q": "반응 (1)은?", "a": "HO₂ + NO → NO₂ + OH  (사슬 전파 ① — NO₂ 생성)", "conceptId": "m6", "sourceSpan": { "page": 846, "line": null } },
+    { "id": "r2", "category": "term", "priority": "core", "q": "반응 (2)는?", "a": "OH + CO —(O₂, M)→ CO₂ + HO₂  (사슬 전파 ② — HO₂ 재생)", "conceptId": "m6", "sourceSpan": { "page": 846, "line": null } },
+    { "id": "r3", "category": "term", "priority": "normal", "q": "반응 (3)은? 왜 중요한가?", "a": "OH + NO —M→ HONO. 대기 농도에서 사슬을 끊는 주된 종결 반응이다.", "conceptId": "m6", "sourceSpan": { "page": 846, "line": null } },
+    { "id": "r4", "category": "term", "priority": "normal", "q": "반응 (4)는?", "a": "HO₂ + HO₂ → H₂O₂ + O₂. 대기 농도에서는 느려서 무시된다.", "conceptId": "m6", "sourceSpan": { "page": 846, "line": null } },
+    { "id": "r5", "category": "term", "priority": "normal", "q": "반응 (5)는? 어떤 역할인가?", "a": "NO + O₃ → NO₂ + O₂. 투입한 NO가 대기 오존을 소모해, 라디칼-오존 반응을 무시할 수 있게 만든다.", "conceptId": "m6", "sourceSpan": { "page": 847, "line": null } },
+    { "id": "t1", "category": "term", "priority": "normal", "q": "식 (c) [OH]/[HO₂] 는 무엇과 같은가?", "a": "k₁[NO] / (k₂[CO]). 반응 (1)·(2)가 빨라 OH와 HO₂ 비율이 금방 고정되며, CO를 많이 넣을수록 OH 비율이 낮아진다.", "conceptId": "m3", "sourceSpan": { "page": 846, "line": null } },
+    { "id": "t2", "category": "term", "priority": "normal", "q": "식 (g)는 무엇을 구하는 식인가?", "a": "Δ[NO₂] = (k₂[CO][HO₂]₀ / k₃[NO])(1 − exp(−β)). 반응 (4)를 무시하고 (3)만 남긴 간단한 해.", "conceptId": "m3", "sourceSpan": { "page": 847, "line": null } },
+    { "id": "t4", "category": "term", "priority": "normal", "q": "“사슬길이(chain length)”는 이 논문에서 어떻게 정의되나?", "a": "Δ[NO₂] / [HO₂]₀ — 라디칼 하나가 만들어낸 NO₂ 개수. 그림 1의 세로축이다.", "conceptId": "m5", "sourceSpan": { "page": 847, "line": null } },
+    { "id": "t5", "category": "term", "priority": "normal", "q": "NO₂ 검출 원리는 무엇인가?", "a": "높은 pH의 수용성 루미놀 용액과 NO₂의 화학발광 표면 반응(Maeda et al., 1980). Na₂SO₃를 넣어 O₃ 민감도를 낮춘다.", "conceptId": "m4", "sourceSpan": { "page": 848, "line": null } },
+
+    { "id": "f1", "category": "field", "priority": "normal", "q": "현장 측정은 언제 어디서 두 번 이루어졌나?", "a": "둘 다 1980년 6월 — 미시간주 앤아버(그림 3, 원시 데이터)와 콜로라도주 볼더 NCAR 건물 옥상(그림 4, 환산 결과).", "conceptId": "m5", "sourceSpan": { "page": 848, "line": null } },
+    { "id": "f2", "category": "field", "priority": "normal", "q": "그림 4가 보여주는 하루 변화 패턴은?", "a": "거의 모든 날 이른 아침에 신호가 증가해 태양 남중 무렵 최고에 이르고 오후와 저녁에 감쇠한다.", "conceptId": "m5", "sourceSpan": { "page": 848, "line": null } },
+    { "id": "f3", "category": "field", "priority": "core", "q": "목요일(6/19) 데이터가 왜 가장 중요한 증거인가?", "a": "하루 종일 흐렸고 검출 가능한 변조가 전혀 나타나지 않았다. 광화학 경로로 생성되는 라디칼에 기대되는 거동과 일치하므로, 교정 없이도 “광화학적으로 생기는 무언가를 재고 있다”를 보인다.", "conceptId": "m5", "sourceSpan": { "page": 848, "line": null } },
+
+    { "id": "l1", "category": "limit", "priority": "normal", "q": "저자들이 농도의 정확도를 주장하지 않은 이유는?", "a": "장치 교정(calibration)이 없었기 때문. 대신 데이터를 “측정 대상이 HO₂에 기대되는 대로 거동한다”는 경향상의 증거로만 제시했다.", "conceptId": "m7", "sourceSpan": { "page": 848, "line": null } },
+    { "id": "l3", "category": "limit", "priority": "normal", "q": "이 논문의 결론을 한 문장으로?", "a": "화학증폭기 기법은 대류권 연속 측정을 위한 최초의 기법으로서 가능성이 있어 보이며, NO₂ 변조를 일으키는 주된 화학종은 HO₂와 일부 RO₂다.", "conceptId": "m7", "sourceSpan": { "page": 848, "line": null } },
+
+    { "id": "e2", "category": "expert", "priority": "normal", "q": "[전문가] “HO₂를 잰다”는 주장의 가장 약한 고리는?", "a": "RO₂ 응답을 실측하지 않은 점. 유기 라디칼 거동은 반응 (6)~(10)에 대한 추론과 모델에 의존하며, 논문 스스로 알킬 아질산염·알킬 과산화물 광분해로 검증할 수 있다고 제안만 한다.", "conceptId": "m7", "sourceSpan": { "page": 848, "line": null } },
+    { "id": "e3", "category": "expert", "priority": "normal", "q": "[전문가] 반응시간이 길수록 사슬길이가 커지는데, 왜 100초인가?", "a": "<b>논문은 100초를 고른 근거를 밝히지 않습니다.</b> 그림 1에서 반응시간마다 봉우리의 높이와 최적 NO 농도가 달라진다는 것, 그리고 그 모델이 벽면 반응을 무시했다는 것만 적혀 있습니다 — 설계 절충의 근거는 본문에 없습니다.", "conceptId": "m5", "sourceSpan": { "page": 847, "line": null } },
+    { "id": "e4", "category": "expert", "priority": "normal", "q": "[전문가] 이 논문에 없고 오늘날 PERCA에 있는 것은?", "a": "교정 체계, 정량적 검출한계, 불확도 평가, RO₂ 응답의 실측. 원리(사슬 증폭 + CO/N₂ 변조)는 그대로 이어진다.", "conceptId": "m7", "sourceSpan": { "page": 848, "line": null } }
+  ],
+
+  "output": {
+    "mode": "presentation",
+    "title": "10분 발표 리허설",
+    "targetMinutes": 10,
+    "segments": [
+      {
+        "time": "0:00",
+        "title": "도입 — 1982년의 빈칸",
+        "script": "오늘 소개할 논문은 1982년 Geophysical Research Letters에 실린 네 쪽짜리 레터입니다. 당시 대기 화학에는 분명한 빈칸이 있었습니다. 수산화라디칼 OH는 여러 기법으로 대류권 측정 시도가 있었지만, 과산화수소라디칼 HO₂의 측정은 성층권에 국한돼 있었습니다. 그런데 HO₂는 OH보다 농도가 2에서 3자릿수나 높아서 대기 홀수수소 라디칼의 대부분을 차지하고, NO를 산화시키는 과정에서 오존과 경쟁하기 때문에 광화학 스모그에서 오존이 쌓이는 직접적인 원인입니다. 많고, 중요한데, 잴 방법이 없었던 겁니다.",
+        "keywords": ["1982, GRL 9(8), 846–849, 4쪽 레터", "OH는 대류권 측정 시도 있음", "HO₂는 성층권에 국한", "HO₂ = OH의 100~1000배", "오존 축적의 직접 원인"]
+      },
+      {
+        "time": "1:40",
+        "title": "핵심 아이디어 — 화학적 증폭",
+        "script": "저자들의 발상은 이렇습니다. HO₂를 직접 재기 어렵다면, 재기 쉬운 것으로 바꿔서 재자는 겁니다. 반응 두 개를 보시죠. 첫째, HO₂가 NO와 만나 NO₂와 OH가 됩니다. 둘째, 그 OH가 CO와 만나 이산화탄소와 HO₂로 돌아옵니다. 즉 라디칼이 소모되지 않고 제자리로 돌아오는 고리입니다. NO와 CO를 과량으로 넣어주면 이 고리가 계속 돌고, 한 바퀴 돌 때마다 NO₂가 하나씩 쌓입니다. 대기 수준인 세제곱센티미터당 10의 8승 개의 HO₂가, 측정 가능한 10의 11승 개 수준의 NO₂로 바뀝니다. 약 천 배 증폭입니다.",
+        "keywords": ["R1: HO₂ + NO → NO₂ + OH", "R2: OH + CO → CO₂ + HO₂", "라디칼이 소모되지 않고 순환", "10⁸ cm⁻³ → 10¹¹ cm⁻³", "약 1000배 증폭"]
+      },
+      {
+        "time": "3:20",
+        "title": "이론 — 최적 NO가 존재한다",
+        "script": "그런데 사슬이 영원히 돌지는 않습니다. OH가 NO와 만나 HONO가 되면 고리에서 빠집니다. 여기에 역설이 있습니다. NO는 사슬을 전파시키는 동시에 사슬을 끊기도 하는 겁니다. 그래서 NO를 많이 넣을수록 좋은 게 아니라, 반응시간마다 최적 NO 농도가 따로 존재합니다. 그림 1이 바로 그 봉우리들을 보여줍니다. 조건이 맞으면 사슬길이가 천을 넘을 수도 있습니다. 참고로 대기 농도에서는 HO₂끼리 만나는 종결 반응은 백 초 동안 손실이 약 오 퍼센트에 불과해 무시할 수 있고, 그래서 더 간단한 식으로도 같은 답을 얻습니다.",
+        "keywords": ["R3: OH + NO → HONO (종결)", "NO가 전파도 종결도 시킨다", "반응시간마다 최적 NO 존재 (Fig.1)", "사슬길이 10³ 초과 가능", "100초간 R4 손실 약 5%"]
+      },
+      {
+        "time": "5:00",
+        "title": "장치 — 증폭기와 검출기, 그리고 변조",
+        "script": "장치는 두 덩어리입니다. 공기를 반응기로 빨아들여 NO와 CO를 섞어 증폭시키고, 생성된 NO₂를 루미놀 화학발광으로 읽습니다. 여기서 가장 영리한 부분이 변조입니다. 3방 밸브가 CO를 같은 유량의 질소로 바꿔치기합니다. 질소가 흐르면 사슬이 멈추니 그때 값이 배경이고, CO를 켰을 때와의 차이가 라디칼 때문에 생긴 몫입니다. 절대값이 아니라 차이를 보기 때문에 검출기 드리프트가 상쇄됩니다. 운전 조건은 CO 오 퍼센트, NO 오 피피엠, 반응시간 백 초, 총유량 분당 이 리터입니다.",
+        "keywords": ["반응기(증폭) + 루미놀 검출기", "3방 밸브: CO ⇄ N₂, 10분 간격", "배경 = 대기 NO₂ + R5 생성분 + 검출기 배경", "차이만 보므로 드리프트 상쇄", "5% · 5ppm · 100초 · 2 L/min"]
+      },
+      {
+        "time": "6:40",
+        "title": "결과 — 교정 없이 무엇을 보였나",
+        "script": "1980년 6월에 두 곳에서 측정했습니다. 미시간주 앤아버와 콜로라도주 볼더의 NCAR 옥상입니다. 여기서 저자들은 매우 정직합니다. 장치 교정이 없었기 때문에 제시한 농도의 정확도는 주장하지 않는다고 명시합니다. 대신 경향으로 논증합니다. 거의 모든 날 아침에 신호가 올라 정오 무렵 최고가 되고 오후에 감쇠했습니다. 그리고 결정적으로, 하루 종일 흐렸던 목요일에는 검출 가능한 변조가 전혀 없었습니다. 광화학적으로 생성되는 라디칼이라면 당연히 그래야 하는 결과입니다. 교정 없이 할 수 있는 최선의 검증이라고 생각합니다.",
+        "keywords": ["1980년 6월, 앤아버 + 볼더 NCAR", "“정확도는 주장하지 않는다”", "아침 상승 → 남중 최고 → 오후 감쇠", "흐린 목요일: 변조 없음", "경향으로 하는 논증"]
+      },
+      {
+        "time": "8:20",
+        "title": "남긴 것 — 44년 뒤로 이어지는 선",
+        "script": "이 논문의 제목은 단정이 아니라 제안입니다. 가능한 기법이라고 썼고, 서론 끝에는 관심 있는 독자들의 의견을 환영한다고까지 적었습니다. 없는 것도 분명합니다. 교정이 없고, 검출한계나 불확도 수치가 없고, 유기 과산화라디칼에 대한 응답을 실측하지 않았습니다. 그럼에도 남긴 것은 분명합니다. 대류권에서 연속으로 잴 수 있는 최초의 기법이라는 점입니다. 정확도가 아니라 연속성이 기여였습니다. 오늘날 PERCA 장비들은 검출기를 광학 기법으로 바꾸고 교정 체계를 갖췄지만, 사슬 증폭과 변조라는 뼈대는 이 네 쪽에서 한 발짝도 벗어나지 않았습니다.",
+        "keywords": ["제목이 “a possible technique”", "없는 것: 교정·검출한계·RO₂ 실측", "남긴 것: 대류권 연속 측정 최초", "정확도가 아니라 연속성이 기여", "오늘날까지 뼈대는 그대로"]
+      }
+    ]
+  }
+}

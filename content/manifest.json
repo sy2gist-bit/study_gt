@@ -1,4 +1,5 @@
 [
   { "id": "perca-ceas", "adapter": "research-paper" },
+  { "id": "perca-cantrell-1982", "adapter": "research-paper" },
   { "id": "sci-m2-state-change", "adapter": "science-middle" }
 ]
